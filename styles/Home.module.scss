@@ -1,5 +1,7 @@
 .container {
   min-height: 100vh;
+  max-width: 1060px;
+  margin: 0 auto;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -112,6 +114,18 @@
 
 .logo {
   height: 1em;
+}
+
+.flag {
+  margin: 0.5rem;
+  height: 6rem;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.25s ease-out;
+  transform: scale(1);
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
 }
 
 @media (max-width: 600px) {

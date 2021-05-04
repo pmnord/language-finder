@@ -14,3 +14,42 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Begin Custom Utility Classes */
+
+:root {
+  --color-primary  : hsla(140,60,85,1);
+  --color-secondary: hsla(240,60,85,0.8);
+}
+.grid                      { display: grid }
+.grid-autoflow             { grid-auto-flow: column; grid-auto-columns: auto }
+.grid-col-1fr-1fr          { grid-template-columns: 1fr 1fr }
+.grid-col-1fr-auto         { grid-template-columns: 1fr auto }
+.grid-col-auto-1fr         { grid-template-columns: auto 1fr }
+.grid-gap-1                { grid-gap: 1rem }
+.grid-gap-2                { grid-gap: 2rem }
+.grid-justify-self-left    { justify-self: left }
+.grid-justify-self-center  { justify-self: center }
+.grid-justify-self-right   { justify-self: right }
+.grid-align-self-start     { align-self: start }
+.grid-align-self-center    { align-self: center}
+.grid-align-self-end       { align-self: end }
+.align-items-start         { align-items: start }
+.align-items-center        { align-items: center }
+.align-items-end           { align-items: end  }
+.align-items-center        { align-items: center }
+.align-items-end           { align-items: end }
+.align-self-start          { align-self: start }
+.align-self-center         { align-self: center }
+.align-self-end            { align-self: end }
+.align-content-start       { align-content: start }
+.align-content-center      { align-content: center }
+.align-content-end         { align-content: end }
+.padding-1                 { padding: 1rem }
+.padding-1_5               { padding: 1.5rem }
+.padding-2                 { padding: 2rem }
+.shadow-light              { box-shadow: 0 1px 6px rgba(0,0,0,0.1) }
+.background-primary        { background-color: var(--color-primary) }
+.background-secondary      { background-color: var(--color-secondary) }
+.color-primary             { color: var(--color-primary) }
+.color-secondary           { color: var(--color-secondary) }
