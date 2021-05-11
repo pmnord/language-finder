@@ -2,7 +2,9 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
-import styles from '../styles/Home.module.scss';
+// ---------------------------------------------
+// Autosuggest Styles are located in globals.css
+// ---------------------------------------------
 
 const getSuggestions = (value) => {
   if (value === undefined) {
@@ -22,8 +24,6 @@ const getSuggestions = (value) => {
 const getSuggestionValue = (suggestion) => suggestion;
 
 const renderSuggestion = (suggestion) => {
-  // console.log(suggestion);
-  // console.log(countries[suggestion]);
   const country = countries[suggestion];
 
   return (
@@ -36,7 +36,7 @@ const renderSuggestion = (suggestion) => {
       >
         <>
           <img
-            style={{ height: '1rem' }}
+            style={{ height: '1rem', marginRight: '1rem' }}
             src={country.flagSvg}
             alt={country.name}
             title={country.fullName}

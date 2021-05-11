@@ -9,9 +9,7 @@ const CountryPage = (props) => {
 
   return (
     <div style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '3rem' }}>
-      this is the country page for {country}
-      <br />
-      <Link href="/">Go Back</Link>
+      This is the country page for <strong>{country}</strong>
     </div>
   );
 };
