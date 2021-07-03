@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
+// import Link from 'next/link';
 
-const CountryPage = (props) => {
+const CountryPage = () => {
   const router = useRouter();
   const { country } = router.query;
 

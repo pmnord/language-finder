@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { ChangeEvent, useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
 // ---------------------------------------------
@@ -37,7 +37,7 @@ const renderSuggestion = (suggestion) => {
         <>
           <img
             style={{ height: '1rem', marginRight: '1rem' }}
-            src={country.flagSvg}
+            src={`flags/${country.flagSvg}`}
             alt={country.name}
             title={country.fullName}
           />
@@ -52,7 +52,7 @@ const AutoSuggest = () => {
   const [value, setValue] = useState('');
   const [suggestions, setSuggestions] = useState([]);
 
-  const onChange = (event, { newValue }) => {
+  const onChange = (event: ChangeEvent, { newValue }) => {
     setValue(newValue);
   };
 

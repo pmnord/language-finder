@@ -48,11 +48,10 @@
   margin: 0.5rem;
   height: 6rem;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
-  transition: all 0.25s ease-out;
   transform: scale(1);
   &:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.3);
   }
 }
 
