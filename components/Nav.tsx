@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className={styles.nav}>
       <div className='header-container'>
         <Link href='/'>
-          <picture>
+          <picture className={styles.banner}>
             {/* <!-- The browser will use the first compatible source --> */}
             <source type='image/avif' srcSet='header.avif' />
             <source type='image/webp' srcSet='header.webp' />

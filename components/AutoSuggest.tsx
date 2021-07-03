@@ -52,7 +52,7 @@ const AutoSuggest = () => {
   const [value, setValue] = useState('');
   const [suggestions, setSuggestions] = useState([]);
 
-  const onChange = (event: ChangeEvent, { newValue }) => {
+  const onChange = (_event: ChangeEvent, { newValue }) => {
     setValue(newValue);
   };
 
@@ -74,7 +74,7 @@ const AutoSuggest = () => {
       onSuggestionsClearRequested={onSuggestionsClearRequested}
       getSuggestionValue={getSuggestionValue}
       renderSuggestion={renderSuggestion}
-      inputProps={{ placeholder: 'Type a country name', value, onChange }}
+      inputProps={{ placeholder: 'Search by Country Name', value, onChange }}
     />
   );
 };

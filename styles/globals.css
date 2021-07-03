@@ -6,10 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-/* a {
-  color: inherit;
-  text-decoration: none;
-} */
+/* Always render scrollbar to prevent layout shift */
+html { 
+  overflow-y: scroll;
+}
 
 * {
   box-sizing: border-box;
@@ -62,7 +62,7 @@ body {
 }
 
 .react-autosuggest__input {
-  width: 240px;
+  width: 250px;
   height: 30px;
   padding: 10px 20px;
   font-family: Helvetica, sans-serif;
