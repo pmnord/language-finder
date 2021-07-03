@@ -1,14 +1,17 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-// import Link from 'next/link';
+import styles from '../../styles/Country.module.scss';
 
 const CountryPage = () => {
   const router = useRouter();
   const { country } = router.query;
 
   return (
-    <div style={{ textAlign: 'center', fontSize: '1.5rem', marginTop: '3rem' }}>
-      This is the country page for <strong>{country}</strong>
+    <div className={styles.root}>
+      <h1>{country}</h1>
+      <div className={styles.languagesContainer}>
+        <h2>Select your language below</h2>
+      </div>
     </div>
   );
 };
