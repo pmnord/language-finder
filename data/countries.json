@@ -1,6 +1,5 @@
 {
   "Afghanistan": {
-    "id": "1",
     "name": "Afghanistan",
     "fullName": "Afghanistan – Islamic Republic of Afghanistan",
     "continents": [],
@@ -25,7 +24,6 @@
     "flagSvg": "Flag_of_Afghanistan.svg"
   },
   "Albania": {
-    "id": "2",
     "name": "Albania",
     "fullName": "Albania – Republic of Albania",
     "continents": [],
@@ -38,7 +36,6 @@
     "flagSvg": "Flag_of_Albania.svg"
   },
   "Algeria": {
-    "id": "3",
     "name": "Algeria",
     "fullName": "Algeria – People's Democratic Republic of Algeria",
     "continents": [],
@@ -75,7 +72,6 @@
     "flagSvg": "Flag_of_Algeria.svg"
   },
   "Andorra": {
-    "id": "4",
     "name": "Andorra",
     "fullName": "Andorra – Principality of Andorra",
     "continents": [],
@@ -100,7 +96,6 @@
     "flagSvg": "Flag_of_Andorra.svg"
   },
   "Angola": {
-    "id": "5",
     "name": "Angola",
     "fullName": "Angola – Republic of Angola",
     "continents": [],
@@ -145,7 +140,6 @@
     "flagSvg": "Flag_of_Angola.svg"
   },
   "Antigua and Barbuda": {
-    "id": "6",
     "name": "Antigua and Barbuda",
     "fullName": "Antigua and Barbuda",
     "continents": [],
@@ -158,7 +152,6 @@
     "flagSvg": "Flag_of_Antigua_and_Barbuda.svg"
   },
   "Argentina": {
-    "id": "7",
     "name": "Argentina",
     "fullName": "Argentina – Argentine Republic[g]",
     "continents": [],
@@ -175,7 +168,6 @@
     "flagSvg": "Flag_of_Argentina.svg"
   },
   "Armenia": {
-    "id": "8",
     "name": "Armenia",
     "fullName": "Armenia – Republic of Armenia",
     "continents": [],
@@ -192,7 +184,6 @@
     "flagSvg": "Flag_of_Armenia.svg"
   },
   "Australia": {
-    "id": "9",
     "name": "Australia",
     "fullName": "Australia – Commonwealth of Australia",
     "continents": [],
@@ -205,7 +196,6 @@
     "flagSvg": "Flag_of_Australia.svg"
   },
   "Austria": {
-    "id": "10",
     "name": "Austria",
     "fullName": "Austria – Republic of Austria",
     "continents": [],
@@ -218,7 +208,6 @@
     "flagSvg": "Flag_of_Austria.svg"
   },
   "Azerbaijan": {
-    "id": "11",
     "name": "Azerbaijan",
     "fullName": "Azerbaijan – Republic of Azerbaijan",
     "continents": [],
@@ -235,7 +224,6 @@
     "flagSvg": "Flag_of_Azerbaijan.svg"
   },
   "Bahamas": {
-    "id": "12",
     "name": "Bahamas",
     "fullName": "Bahamas, The – Commonwealth of The Bahamas[9]",
     "continents": [],
@@ -248,7 +236,6 @@
     "flagSvg": "Flag_of_the_Bahamas.svg"
   },
   "Bahrain": {
-    "id": "13",
     "name": "Bahrain",
     "fullName": "Bahrain – Kingdom of Bahrain",
     "continents": [],
@@ -261,7 +248,6 @@
     "flagSvg": "Flag_of_Bahrain.svg"
   },
   "Bangladesh": {
-    "id": "14",
     "name": "Bangladesh",
     "fullName": "Bangladesh – People's Republic of Bangladesh",
     "continents": [],
@@ -298,7 +284,6 @@
     "flagSvg": "Flag_of_Bangladesh.svg"
   },
   "Barbados": {
-    "id": "15",
     "name": "Barbados",
     "fullName": "Barbados",
     "continents": [],
@@ -311,7 +296,6 @@
     "flagSvg": "Flag_of_Barbados.svg"
   },
   "Belarus": {
-    "id": "16",
     "name": "Belarus",
     "fullName": "Belarus – Republic of Belarus",
     "continents": [],
@@ -328,7 +312,6 @@
     "flagSvg": "Flag_of_Belarus.svg"
   },
   "Belgium": {
-    "id": "17",
     "name": "Belgium",
     "fullName": "Belgium – Kingdom of Belgium",
     "continents": [],
@@ -349,7 +332,6 @@
     "flagSvg": "Flag_of_Belgium.svg"
   },
   "Belize": {
-    "id": "18",
     "name": "Belize",
     "fullName": "Belize",
     "continents": [],
@@ -362,7 +344,6 @@
     "flagSvg": "Flag_of_Belize.svg"
   },
   "Benin": {
-    "id": "19",
     "name": "Benin",
     "fullName": "Benin – Republic of Benin",
     "continents": [],
@@ -419,7 +400,6 @@
     "flagSvg": "Flag_of_Benin.svg"
   },
   "Bhutan": {
-    "id": "20",
     "name": "Bhutan",
     "fullName": "Bhutan – Kingdom of Bhutan",
     "continents": [],
@@ -436,7 +416,6 @@
     "flagSvg": "Flag_of_Bhutan.svg"
   },
   "Bolivia": {
-    "id": "21",
     "name": "Bolivia",
     "fullName": "Bolivia – Plurinational State of Bolivia",
     "continents": [],
@@ -461,7 +440,6 @@
     "flagSvg": "Flag_of_Bolivia.svg"
   },
   "Bosnia and Herzegovina": {
-    "id": "22",
     "name": "Bosnia and Herzegovina",
     "fullName": "Bosnia and Herzegovina",
     "continents": [],
@@ -478,7 +456,6 @@
     "flagSvg": "Flag_of_Bosnia_and_Herzegovina.svg"
   },
   "Botswana": {
-    "id": "23",
     "name": "Botswana",
     "fullName": "Botswana – Republic of Botswana",
     "continents": [],
@@ -495,7 +472,6 @@
     "flagSvg": "Flag_of_Botswana.svg"
   },
   "Brazil": {
-    "id": "24",
     "name": "Brazil",
     "fullName": "Brazil – Federative Republic of Brazil",
     "continents": [],
@@ -572,7 +548,6 @@
     "flagSvg": "Flag_of_Brazil.svg"
   },
   "Brunei": {
-    "id": "25",
     "name": "Brunei",
     "fullName": "Brunei – Nation of Brunei, the Abode of Peace",
     "continents": [],
@@ -585,7 +560,6 @@
     "flagSvg": "Flag_of_Brunei.svg"
   },
   "Bulgaria": {
-    "id": "26",
     "name": "Bulgaria",
     "fullName": "Bulgaria – Republic of Bulgaria",
     "continents": [],
@@ -598,7 +572,6 @@
     "flagSvg": "Flag_of_Bulgaria.svg"
   },
   "Burkina": {
-    "id": "27",
     "name": "Burkina",
     "fullName": "Burkina Faso",
     "continents": [],
@@ -643,7 +616,6 @@
     "flagSvg": "Flag_of_Burkina_Faso.svg"
   },
   "Burundi": {
-    "id": "28",
     "name": "Burundi",
     "fullName": "Burundi – Republic of Burundi",
     "continents": [],
@@ -664,7 +636,6 @@
     "flagSvg": "Flag_of_Burundi.svg"
   },
   "Cambodia": {
-    "id": "29",
     "name": "Cambodia",
     "fullName": "Cambodia – Kingdom of Cambodia",
     "continents": [],
@@ -681,7 +652,6 @@
     "flagSvg": "Flag_of_Cambodia.svg"
   },
   "Cameroon": {
-    "id": "30",
     "name": "Cameroon",
     "fullName": "Cameroon – Republic of Cameroon",
     "continents": [],
@@ -818,7 +788,6 @@
     "flagSvg": "Flag_of_Cameroon.svg"
   },
   "Canada": {
-    "id": "31",
     "name": "Canada",
     "fullName": "Canada[i]",
     "continents": [],
@@ -875,7 +844,6 @@
     "flagSvg": "Flag_of_Canada.svg"
   },
   "Cape Verde": {
-    "id": "32",
     "name": "Cape Verde",
     "fullName": "Cape Verde – Republic of Cabo Verde[j]",
     "continents": [],
@@ -896,7 +864,6 @@
     "flagSvg": "Flag_of_Cape_Verde.svg"
   },
   "Central African Republic": {
-    "id": "33",
     "name": "Central African Republic",
     "fullName": "Central African Republic",
     "continents": [],
@@ -949,7 +916,6 @@
     "flagSvg": "Flag_of_the_Central_African_Republic.svg"
   },
   "Chad": {
-    "id": "34",
     "name": "Chad",
     "fullName": "Chad – Republic of Chad",
     "continents": [],
@@ -1006,7 +972,6 @@
     "flagSvg": "Flag_of_Chad.svg"
   },
   "Chile": {
-    "id": "35",
     "name": "Chile",
     "fullName": "Chile – Republic of Chile",
     "continents": [],
@@ -1023,7 +988,6 @@
     "flagSvg": "Flag_of_Chile.svg"
   },
   "China": {
-    "id": "36",
     "name": "China",
     "fullName": "China – People's Republic of China[l]",
     "continents": [],
@@ -1180,7 +1144,6 @@
     "flagSvg": "Flag_of_the_People's_Republic_of_China.svg"
   },
   "Colombia": {
-    "id": "37",
     "name": "Colombia",
     "fullName": "Colombia – Republic of Colombia",
     "continents": [],
@@ -1221,7 +1184,6 @@
     "flagSvg": "Flag_of_Colombia.svg"
   },
   "Comoros": {
-    "id": "38",
     "name": "Comoros",
     "fullName": "Comoros – Union of the Comoros",
     "continents": [],
@@ -1246,7 +1208,6 @@
     "flagSvg": "Flag_of_the_Comoros.svg"
   },
   "Democratic Republic of Congo": {
-    "id": "39",
     "name": "Democratic Republic of Congo",
     "fullName": "Congo, Democratic Republic of the[p]",
     "continents": [],
@@ -1263,7 +1224,6 @@
     "flagSvg": "Flag_of_the_Democratic_Republic_of_the_Congo.svg"
   },
   "Republic of Congo": {
-    "id": "40",
     "name": "Republic of Congo",
     "fullName": "Congo, Republic of the[q]",
     "continents": [],
@@ -1300,7 +1260,6 @@
     "flagSvg": "Flag_of_the_Republic_of_the_Congo.svg"
   },
   "Costa Rica": {
-    "id": "41",
     "name": "Costa Rica",
     "fullName": "Costa Rica – Republic of Costa Rica",
     "continents": [],
@@ -1317,7 +1276,6 @@
     "flagSvg": "Flag_of_Costa_Rica.svg"
   },
   "Croatia": {
-    "id": "42",
     "name": "Croatia",
     "fullName": "Croatia – Republic of Croatia",
     "continents": [],
@@ -1330,7 +1288,6 @@
     "flagSvg": "Flag_of_Croatia.svg"
   },
   "Cuba": {
-    "id": "43",
     "name": "Cuba",
     "fullName": "Cuba – Republic of Cuba",
     "continents": [],
@@ -1343,7 +1300,6 @@
     "flagSvg": "Flag_of_Cuba.svg"
   },
   "Cyprus": {
-    "id": "44",
     "name": "Cyprus",
     "fullName": "Cyprus – Republic of Cyprus",
     "continents": [],
@@ -1360,7 +1316,6 @@
     "flagSvg": "Flag_of_Cyprus.svg"
   },
   "Czech Republic": {
-    "id": "45",
     "name": "Czech Republic",
     "fullName": "Czech Republic[r]",
     "continents": [],
@@ -1377,7 +1332,6 @@
     "flagSvg": "Flag_of_the_Czech_Republic.svg"
   },
   "Denmark": {
-    "id": "46",
     "name": "Denmark",
     "fullName": "Denmark – Kingdom of Denmark",
     "continents": [],
@@ -1394,7 +1348,6 @@
     "flagSvg": "Flag_of_Denmark.svg"
   },
   "Djibouti": {
-    "id": "47",
     "name": "Djibouti",
     "fullName": "Djibouti – Republic of Djibouti",
     "continents": [],
@@ -1411,7 +1364,6 @@
     "flagSvg": "Flag_of_Djibouti.svg"
   },
   "Dominica": {
-    "id": "48",
     "name": "Dominica",
     "fullName": "Dominica – Commonwealth of Dominica",
     "continents": [],
@@ -1424,7 +1376,6 @@
     "flagSvg": "Flag_of_Dominica.svg"
   },
   "Dominican Republic": {
-    "id": "49",
     "name": "Dominican Republic",
     "fullName": "Dominican Republic",
     "continents": [],
@@ -1437,7 +1388,6 @@
     "flagSvg": "Flag_of_the_Dominican_Republic.svg"
   },
   "East Timor": {
-    "id": "50",
     "name": "East Timor",
     "fullName": "East Timor – Democratic Republic of Timor-Leste[t]",
     "continents": [],
@@ -1458,7 +1408,6 @@
     "flagSvg": "Flag_of_East_Timor.svg"
   },
   "Ecuador": {
-    "id": "51",
     "name": "Ecuador",
     "fullName": "Ecuador – Republic of Ecuador",
     "continents": [],
@@ -1483,7 +1432,6 @@
     "flagSvg": "Flag_of_Ecuador.svg"
   },
   "Egypt": {
-    "id": "52",
     "name": "Egypt",
     "fullName": "Egypt – Arab Republic of Egypt",
     "continents": [],
@@ -1504,7 +1452,6 @@
     "flagSvg": "Flag_of_Egypt.svg"
   },
   "El Salvador": {
-    "id": "53",
     "name": "El Salvador",
     "fullName": "El Salvador – Republic of El Salvador",
     "continents": [],
@@ -1517,7 +1464,6 @@
     "flagSvg": "Flag_of_El_Salvador.svg"
   },
   "Equatorial Guinea": {
-    "id": "54",
     "name": "Equatorial Guinea",
     "fullName": "Equatorial Guinea – Republic of Equatorial Guinea",
     "continents": [],
@@ -1542,7 +1488,6 @@
     "flagSvg": "Flag_of_Equatorial_Guinea.svg"
   },
   "Eritrea": {
-    "id": "55",
     "name": "Eritrea",
     "fullName": "Eritrea – State of Eritrea",
     "continents": [],
@@ -1559,7 +1504,6 @@
     "flagSvg": "Flag_of_Eritrea.svg"
   },
   "Estonia": {
-    "id": "56",
     "name": "Estonia",
     "fullName": "Estonia – Republic of Estonia",
     "continents": [],
@@ -1572,7 +1516,6 @@
     "flagSvg": "Flag_of_Estonia.svg"
   },
   "Eswatini": {
-    "id": "57",
     "name": "Eswatini",
     "fullName": "Eswatini – Kingdom of Eswatini[u]",
     "continents": [],
@@ -1585,7 +1528,6 @@
     "flagSvg": "Flag_of_Eswatini.svg"
   },
   "Ethiopia": {
-    "id": "58",
     "name": "Ethiopia",
     "fullName": "Ethiopia – Federal Democratic Republic of Ethiopia",
     "continents": [],
@@ -1710,7 +1652,6 @@
     "flagSvg": "Flag_of_Ethiopia.svg"
   },
   "Fiji": {
-    "id": "59",
     "name": "Fiji",
     "fullName": "Fiji – Republic of Fiji",
     "continents": [],
@@ -1731,7 +1672,6 @@
     "flagSvg": "Flag_of_Fiji.svg"
   },
   "Finland": {
-    "id": "60",
     "name": "Finland",
     "fullName": "Finland – Republic of Finland",
     "continents": [],
@@ -1744,7 +1684,6 @@
     "flagSvg": "Flag_of_Finland.svg"
   },
   "France": {
-    "id": "61",
     "name": "France",
     "fullName": "France – French Republic",
     "continents": [],
@@ -1761,7 +1700,6 @@
     "flagSvg": "Flag_of_France.svg"
   },
   "Gabon": {
-    "id": "62",
     "name": "Gabon",
     "fullName": "Gabon – Gabonese Republic",
     "continents": [],
@@ -1786,7 +1724,6 @@
     "flagSvg": "Flag_of_Gabon.svg"
   },
   "The Gambia": {
-    "id": "63",
     "name": "The Gambia",
     "fullName": "Gambia, The – Republic of The Gambia[18]",
     "continents": [],
@@ -1799,7 +1736,6 @@
     "flagSvg": "Flag_of_The_Gambia.svg"
   },
   "Georgia": {
-    "id": "64",
     "name": "Georgia",
     "fullName": "Georgia",
     "continents": [],
@@ -1820,7 +1756,6 @@
     "flagSvg": "Flag_of_Georgia.svg"
   },
   "Germany": {
-    "id": "65",
     "name": "Germany",
     "fullName": "Germany – Federal Republic of Germany",
     "continents": [],
@@ -1833,7 +1768,6 @@
     "flagSvg": "Flag_of_Germany.svg"
   },
   "Ghana": {
-    "id": "66",
     "name": "Ghana",
     "fullName": "Ghana – Republic of Ghana",
     "continents": [],
@@ -1934,7 +1868,6 @@
     "flagSvg": "Flag_of_Ghana.svg"
   },
   "Greece": {
-    "id": "67",
     "name": "Greece",
     "fullName": "Greece – Hellenic Republic",
     "continents": [],
@@ -1947,7 +1880,6 @@
     "flagSvg": "Flag_of_Greece.svg"
   },
   "Grenada": {
-    "id": "68",
     "name": "Grenada",
     "fullName": "Grenada",
     "continents": [],
@@ -1960,7 +1892,6 @@
     "flagSvg": "Flag_of_Grenada.svg"
   },
   "Guatemala": {
-    "id": "69",
     "name": "Guatemala",
     "fullName": "Guatemala – Republic of Guatemala",
     "continents": [],
@@ -2017,7 +1948,6 @@
     "flagSvg": "Flag_of_Guatemala.svg"
   },
   "Guinea": {
-    "id": "70",
     "name": "Guinea",
     "fullName": "Guinea – Republic of Guinea[x]",
     "continents": [],
@@ -2058,7 +1988,6 @@
     "flagSvg": "Flag_of_Guinea.svg"
   },
   "Guinea-Bissau": {
-    "id": "71",
     "name": "Guinea-Bissau",
     "fullName": "Guinea-Bissau – Republic of Guinea-Bissau",
     "continents": [],
@@ -2111,7 +2040,6 @@
     "flagSvg": "Flag_of_Guinea-Bissau.svg"
   },
   "Guyana": {
-    "id": "72",
     "name": "Guyana",
     "fullName": "Guyana – Co-operative Republic of Guyana",
     "continents": [],
@@ -2132,7 +2060,6 @@
     "flagSvg": "Flag_of_Guyana.svg"
   },
   "Haiti": {
-    "id": "73",
     "name": "Haiti",
     "fullName": "Haiti – Republic of Haiti",
     "continents": [],
@@ -2153,7 +2080,6 @@
     "flagSvg": "Flag_of_Haiti.svg"
   },
   "Honduras": {
-    "id": "74",
     "name": "Honduras",
     "fullName": "Honduras – Republic of Honduras",
     "continents": [],
@@ -2166,7 +2092,6 @@
     "flagSvg": "Flag_of_Honduras.svg"
   },
   "Hungary": {
-    "id": "75",
     "name": "Hungary",
     "fullName": "Hungary",
     "continents": [],
@@ -2179,7 +2104,6 @@
     "flagSvg": "Flag_of_Hungary.svg"
   },
   "Iceland": {
-    "id": "76",
     "name": "Iceland",
     "fullName": "Iceland[y]",
     "continents": [],
@@ -2192,7 +2116,6 @@
     "flagSvg": "Flag_of_Iceland.svg"
   },
   "India": {
-    "id": "77",
     "name": "India",
     "fullName": "India – Republic of India",
     "continents": [],
@@ -2545,7 +2468,6 @@
     "flagSvg": "Flag_of_India.svg"
   },
   "Indonesia": {
-    "id": "78",
     "name": "Indonesia",
     "fullName": "Indonesia – Republic of Indonesia",
     "continents": [],
@@ -2722,7 +2644,6 @@
     "flagSvg": "Flag_of_Indonesia.svg"
   },
   "Iran": {
-    "id": "79",
     "name": "Iran",
     "fullName": "Iran – Islamic Republic of Iran",
     "continents": [],
@@ -2751,7 +2672,6 @@
     "flagSvg": "Flag_of_Iran.svg"
   },
   "Iraq": {
-    "id": "80",
     "name": "Iraq",
     "fullName": "Iraq – Republic of Iraq",
     "continents": [],
@@ -2788,7 +2708,6 @@
     "flagSvg": "Flag_of_Iraq.svg"
   },
   "Ireland": {
-    "id": "81",
     "name": "Ireland",
     "fullName": "Ireland[z]",
     "continents": [],
@@ -2805,7 +2724,6 @@
     "flagSvg": "Flag_of_Ireland.svg"
   },
   "Israel": {
-    "id": "82",
     "name": "Israel",
     "fullName": "Israel – State of Israel",
     "continents": [],
@@ -2818,7 +2736,6 @@
     "flagSvg": "Flag_of_Israel.svg"
   },
   "Italy": {
-    "id": "83",
     "name": "Italy",
     "fullName": "Italy – Italian Republic",
     "continents": [],
@@ -2831,7 +2748,6 @@
     "flagSvg": "Flag_of_Italy.svg"
   },
   "Ivory Coast": {
-    "id": "84",
     "name": "Ivory Coast",
     "fullName": "Ivory Coast – Republic of Côte d'Ivoire[aa]",
     "continents": [],
@@ -2876,7 +2792,6 @@
     "flagSvg": "Flag_of_Côte_d'Ivoire.svg"
   },
   "Jamaica": {
-    "id": "85",
     "name": "Jamaica",
     "fullName": "Jamaica",
     "continents": [],
@@ -2889,7 +2804,6 @@
     "flagSvg": "Flag_of_Jamaica.svg"
   },
   "Japan": {
-    "id": "86",
     "name": "Japan",
     "fullName": "Japan",
     "continents": [],
@@ -2906,7 +2820,6 @@
     "flagSvg": "Flag_of_Japan.svg"
   },
   "Jordan": {
-    "id": "87",
     "name": "Jordan",
     "fullName": "Jordan – Hashemite Kingdom of Jordan",
     "continents": [],
@@ -2919,7 +2832,6 @@
     "flagSvg": "Flag_of_Jordan.svg"
   },
   "Kazakhstan": {
-    "id": "88",
     "name": "Kazakhstan",
     "fullName": "Kazakhstan – Republic of Kazakhstan",
     "continents": [],
@@ -2940,7 +2852,6 @@
     "flagSvg": "Flag_of_Kazakhstan.svg"
   },
   "Kenya": {
-    "id": "89",
     "name": "Kenya",
     "fullName": "Kenya – Republic of Kenya",
     "continents": [],
@@ -3061,7 +2972,6 @@
     "flagSvg": "Flag_of_Kenya.svg"
   },
   "Kiribati": {
-    "id": "90",
     "name": "Kiribati",
     "fullName": "Kiribati – Republic of Kiribati",
     "continents": [],
@@ -3077,21 +2987,59 @@
     ],
     "flagSvg": "Flag_of_Kiribati.svg"
   },
-  "South Korea": {
-    "id": "92",
-    "name": "South Korea",
-    "fullName": "Korea, South – Republic of Korea",
+  "Korea, North": {
+    "name": "Korea, North",
+    "fullName": "Korea, North – Democratic People's Republic of Korea",
     "continents": [],
     "languages": [
       {
         "language": "Korean",
         "hyperlink": "https://mylanguage.net.au/watch_online/kkn00/JESUS/1_24000-jf6112-0-0"
+      },
+      {
+        "language": "Korean, Hamgyŏng",
+        "hyperlink": "https://mylanguage.net.au/watch_online/kkn00/JESUS/1_7350-jf6112-0-0"
+      }
+    ],
+    "flagSvg": "Flag_of_North_Korea.svg"
+  },
+  "Korea, South": {
+    "name": "Korea, South",
+    "fullName": "Korea, South – Republic of Korea",
+    "continents": [],
+    "languages": [
+      {
+        "language": "Korean",
+        "hyperlink": "https://mylanguage.net.au/watch_online/kkn00/JESUS/1_3804-jf6112-0-0"
+      },
+      {
+        "language": "Korean Sign Language",
+        "hyperlink": "https://mylanguage.net.au/watch_online/kkn00/JESUS/1_7355-jf-0-0"
       }
     ],
     "flagSvg": "Flag_of_South_Korea.svg"
   },
+  "Kosovo": {
+    "name": "Kosovo",
+    "fullName": "Republic of Kosovo",
+    "continents": [],
+    "languages": [
+      {
+        "language": "Albanian, Kosovar",
+        "hyperlink": "https://mylanguage.net.au/watch_online/aln00/JESUS/1_20528-jf6112-0-0"
+      },
+      {
+        "language": "Croatian",
+        "hyperlink": "https://mylanguage.net.au/watch_online/hrv00/JESUS/1_1109-jf6112-0-0"
+      },
+      {
+        "language": "Serbian",
+        "hyperlink": "https://mylanguage.net.au/watch_online/sdd00/JESUS/1_5541-jf6112-0-0"
+      }
+    ],
+    "flagSvg": "Flag_of_Kosovo.svg"
+  },
   "Kuwait": {
-    "id": "93",
     "name": "Kuwait",
     "fullName": "Kuwait – State of Kuwait",
     "continents": [],
@@ -3104,7 +3052,6 @@
     "flagSvg": "Flag_of_Kuwait.svg"
   },
   "Kyrgyzstan": {
-    "id": "94",
     "name": "Kyrgyzstan",
     "fullName": "Kyrgyzstan – Kyrgyz Republic",
     "continents": [],
@@ -3125,7 +3072,6 @@
     "flagSvg": "Flag_of_Kyrgyzstan.svg"
   },
   "Laos": {
-    "id": "95",
     "name": "Laos",
     "fullName": "Laos – Lao People's Democratic Republic",
     "continents": [],
@@ -3146,7 +3092,6 @@
     "flagSvg": "Flag_of_Laos.svg"
   },
   "Latvia": {
-    "id": "96",
     "name": "Latvia",
     "fullName": "Latvia – Republic of Latvia",
     "continents": [],
@@ -3159,7 +3104,6 @@
     "flagSvg": "Flag_of_Latvia.svg"
   },
   "Lebanon": {
-    "id": "97",
     "name": "Lebanon",
     "fullName": "Lebanon – Lebanese Republic",
     "continents": [],
@@ -3172,7 +3116,6 @@
     "flagSvg": "Flag_of_Lebanon.svg"
   },
   "Lesotho": {
-    "id": "98",
     "name": "Lesotho",
     "fullName": "Lesotho – Kingdom of Lesotho",
     "continents": [],
@@ -3189,7 +3132,6 @@
     "flagSvg": "Flag_of_Lesotho.svg"
   },
   "Liberia": {
-    "id": "99",
     "name": "Liberia",
     "fullName": "Liberia – Republic of Liberia",
     "continents": [],
@@ -3246,7 +3188,6 @@
     "flagSvg": "Flag_of_Liberia.svg"
   },
   "Libya": {
-    "id": "100",
     "name": "Libya",
     "fullName": "Libya – State of Libya",
     "continents": [],
@@ -3263,7 +3204,6 @@
     "flagSvg": "Flag_of_Libya.svg"
   },
   "Liechtenstein": {
-    "id": "101",
     "name": "Liechtenstein",
     "fullName": "Liechtenstein – Principality of Liechtenstein",
     "continents": [],
@@ -3276,7 +3216,6 @@
     "flagSvg": "Flag_of_Liechtenstein.svg"
   },
   "Lithuania": {
-    "id": "102",
     "name": "Lithuania",
     "fullName": "Lithuania – Republic of Lithuania",
     "continents": [],
@@ -3289,7 +3228,6 @@
     "flagSvg": "Flag_of_Lithuania.svg"
   },
   "Luxembourg": {
-    "id": "103",
     "name": "Luxembourg",
     "fullName": "Luxembourg – Grand Duchy of Luxembourg",
     "continents": [],
@@ -3306,7 +3244,6 @@
     "flagSvg": "Flag_of_Luxembourg.svg"
   },
   "Madagascar": {
-    "id": "104",
     "name": "Madagascar",
     "fullName": "Madagascar – Republic of Madagascar",
     "continents": [],
@@ -3343,7 +3280,6 @@
     "flagSvg": "Flag_of_Madagascar.svg"
   },
   "Malawi": {
-    "id": "105",
     "name": "Malawi",
     "fullName": "Malawi – Republic of Malawi",
     "continents": [],
@@ -3376,7 +3312,6 @@
     "flagSvg": "Flag_of_Malawi.svg"
   },
   "Malaysia": {
-    "id": "106",
     "name": "Malaysia",
     "fullName": "Malaysia",
     "continents": [],
@@ -3397,7 +3332,6 @@
     "flagSvg": "Flag_of_Malaysia.svg"
   },
   "Maldives": {
-    "id": "107",
     "name": "Maldives",
     "fullName": "Maldives – Republic of Maldives",
     "continents": [],
@@ -3410,7 +3344,6 @@
     "flagSvg": "Flag_of_Maldives.svg"
   },
   "Mali": {
-    "id": "108",
     "name": "Mali",
     "fullName": "Mali – Republic of Mali",
     "continents": [],
@@ -3475,7 +3408,6 @@
     "flagSvg": "Flag_of_Mali.svg"
   },
   "Malta": {
-    "id": "109",
     "name": "Malta",
     "fullName": "Malta – Republic of Malta",
     "continents": [],
@@ -3492,7 +3424,6 @@
     "flagSvg": "Flag_of_Malta.svg"
   },
   "Marshall Islands": {
-    "id": "110",
     "name": "Marshall Islands",
     "fullName": "Marshall Islands – Republic of the Marshall Islands",
     "continents": [],
@@ -3509,7 +3440,6 @@
     "flagSvg": "Flag_of_the_Marshall_Islands.svg"
   },
   "Mauritania": {
-    "id": "111",
     "name": "Mauritania",
     "fullName": "Mauritania – Islamic Republic of Mauritania",
     "continents": [],
@@ -3526,7 +3456,6 @@
     "flagSvg": "Flag_of_Mauritania.svg"
   },
   "Mauritius": {
-    "id": "112",
     "name": "Mauritius",
     "fullName": "Mauritius – Republic of Mauritius",
     "continents": [],
@@ -3539,7 +3468,6 @@
     "flagSvg": "Flag_of_Mauritius.svg"
   },
   "Mexico": {
-    "id": "113",
     "name": "Mexico",
     "fullName": "Mexico – United Mexican States",
     "continents": [],
@@ -3804,7 +3732,6 @@
     "flagSvg": "Flag_of_Mexico.svg"
   },
   "Micronesia": {
-    "id": "114",
     "name": "Micronesia",
     "fullName": "Micronesia – Federated States of Micronesia",
     "continents": [],
@@ -3821,7 +3748,6 @@
     "flagSvg": "Flag_of_the_Federated_States_of_Micronesia.svg"
   },
   "Moldova": {
-    "id": "115",
     "name": "Moldova",
     "fullName": "Moldova – Republic of Moldova",
     "continents": [],
@@ -3842,7 +3768,6 @@
     "flagSvg": "Flag_of_Moldova.svg"
   },
   "Monaco": {
-    "id": "116",
     "name": "Monaco",
     "fullName": "Monaco – Principality of Monaco",
     "continents": [],
@@ -3855,7 +3780,6 @@
     "flagSvg": "Flag_of_Monaco.svg"
   },
   "Mongolia": {
-    "id": "117",
     "name": "Mongolia",
     "fullName": "Mongolia",
     "continents": [],
@@ -3868,7 +3792,6 @@
     "flagSvg": "Flag_of_Mongolia.svg"
   },
   "Montenegro": {
-    "id": "118",
     "name": "Montenegro",
     "fullName": "Montenegro",
     "continents": [],
@@ -3885,7 +3808,6 @@
     "flagSvg": "Flag_of_Montenegro.svg"
   },
   "Morocco": {
-    "id": "119",
     "name": "Morocco",
     "fullName": "Morocco – Kingdom of Morocco",
     "continents": [],
@@ -3918,7 +3840,6 @@
     "flagSvg": "Flag_of_Morocco.svg"
   },
   "Mozambique": {
-    "id": "120",
     "name": "Mozambique",
     "fullName": "Mozambique – Republic of Mozambique",
     "continents": [],
@@ -3979,7 +3900,6 @@
     "flagSvg": "Flag_of_Mozambique.svg"
   },
   "Myanmar": {
-    "id": "121",
     "name": "Myanmar",
     "fullName": "Myanmar – Republic of the Union of Myanmar[ab]",
     "continents": [],
@@ -4080,7 +4000,6 @@
     "flagSvg": "Flag_of_Myanmar.svg"
   },
   "Namibia": {
-    "id": "122",
     "name": "Namibia",
     "fullName": "Namibia – Republic of Namibia",
     "continents": [],
@@ -4109,7 +4028,6 @@
     "flagSvg": "Flag_of_Namibia.svg"
   },
   "Nauru": {
-    "id": "123",
     "name": "Nauru",
     "fullName": "Nauru – Republic of Nauru",
     "continents": [],
@@ -4126,7 +4044,6 @@
     "flagSvg": "Flag_of_Nauru.svg"
   },
   "Nepal": {
-    "id": "124",
     "name": "Nepal",
     "fullName": "Nepal – Federal Democratic Republic of Nepal",
     "continents": [],
@@ -4199,7 +4116,6 @@
     "flagSvg": "Flag_of_Nepal.svg"
   },
   "Netherlands": {
-    "id": "125",
     "name": "Netherlands",
     "fullName": "Netherlands – Kingdom of the Netherlands",
     "continents": [],
@@ -4212,7 +4128,6 @@
     "flagSvg": "Flag_of_the_Netherlands.svg"
   },
   "New Zealand": {
-    "id": "126",
     "name": "New Zealand",
     "fullName": "New Zealand",
     "continents": [],
@@ -4233,7 +4148,6 @@
     "flagSvg": "Flag_of_New_Zealand.svg"
   },
   "Nicaragua": {
-    "id": "127",
     "name": "Nicaragua",
     "fullName": "Nicaragua – Republic of Nicaragua",
     "continents": [],
@@ -4254,7 +4168,6 @@
     "flagSvg": "Flag_of_Nicaragua.svg"
   },
   "Niger": {
-    "id": "128",
     "name": "Niger",
     "fullName": "Niger – Republic of Niger",
     "continents": [],
@@ -4283,7 +4196,6 @@
     "flagSvg": "Flag_of_Niger.svg"
   },
   "Nigeria": {
-    "id": "129",
     "name": "Nigeria",
     "fullName": "Nigeria – Federal Republic of Nigeria",
     "continents": [],
@@ -4640,7 +4552,6 @@
     "flagSvg": "Flag_of_Nigeria.svg"
   },
   "Macedonia": {
-    "id": "130",
     "name": "Macedonia",
     "fullName": "North Macedonia – Republic of North Macedonia[ad]",
     "continents": [],
@@ -4653,7 +4564,6 @@
     "flagSvg": "Flag_of_North_Macedonia.svg"
   },
   "Norway": {
-    "id": "131",
     "name": "Norway",
     "fullName": "Norway – Kingdom of Norway",
     "continents": [],
@@ -4666,7 +4576,6 @@
     "flagSvg": "Flag_of_Norway.svg"
   },
   "Oman": {
-    "id": "132",
     "name": "Oman",
     "fullName": "Oman – Sultanate of Oman",
     "continents": [],
@@ -4679,7 +4588,6 @@
     "flagSvg": "Flag_of_Oman.svg"
   },
   "Pakistan": {
-    "id": "133",
     "name": "Pakistan",
     "fullName": "Pakistan – Islamic Republic of Pakistan",
     "continents": [],
@@ -4732,7 +4640,6 @@
     "flagSvg": "Flag_of_Pakistan.svg"
   },
   "Palau": {
-    "id": "134",
     "name": "Palau",
     "fullName": "Palau – Republic of Palau",
     "continents": [],
@@ -4749,7 +4656,6 @@
     "flagSvg": "Flag_of_Palau.svg"
   },
   "Palestine": {
-    "id": "135",
     "name": "Palestine",
     "fullName": "Palestine – State of Palestine",
     "continents": [],
@@ -4766,7 +4672,6 @@
     "flagSvg": "Flag_of_Palestine.svg"
   },
   "Panama": {
-    "id": "136",
     "name": "Panama",
     "fullName": "Panama – Republic of Panama",
     "continents": [],
@@ -4795,7 +4700,6 @@
     "flagSvg": "Flag_of_Panama.svg"
   },
   "Papua New Guinea": {
-    "id": "137",
     "name": "Papua New Guinea",
     "fullName": "Papua New Guinea – Independent State of Papua New Guinea",
     "continents": [],
@@ -4924,7 +4828,6 @@
     "flagSvg": "Flag_of_Papua_New_Guinea.svg"
   },
   "Paraguay": {
-    "id": "138",
     "name": "Paraguay",
     "fullName": "Paraguay – Republic of Paraguay",
     "continents": [],
@@ -4941,7 +4844,6 @@
     "flagSvg": "Flag_of_Paraguay.svg"
   },
   "Peru": {
-    "id": "139",
     "name": "Peru",
     "fullName": "Peru – Republic of Peru",
     "continents": [],
@@ -4978,7 +4880,6 @@
     "flagSvg": "Flag_of_Peru.svg"
   },
   "Philippines": {
-    "id": "140",
     "name": "Philippines",
     "fullName": "Philippines – Republic of the Philippines",
     "continents": [],
@@ -5147,7 +5048,6 @@
     "flagSvg": "Flag_of_the_Philippines.svg"
   },
   "Poland": {
-    "id": "141",
     "name": "Poland",
     "fullName": "Poland – Republic of Poland",
     "continents": [],
@@ -5168,7 +5068,6 @@
     "flagSvg": "Flag_of_Poland.svg"
   },
   "Portugal": {
-    "id": "142",
     "name": "Portugal",
     "fullName": "Portugal – Portuguese Republic",
     "continents": [],
@@ -5181,7 +5080,6 @@
     "flagSvg": "Flag_of_Portugal.svg"
   },
   "Qatar": {
-    "id": "143",
     "name": "Qatar",
     "fullName": "Qatar – State of Qatar",
     "continents": [],
@@ -5194,7 +5092,6 @@
     "flagSvg": "Flag_of_Qatar.svg"
   },
   "Romania": {
-    "id": "144",
     "name": "Romania",
     "fullName": "Romania",
     "continents": [],
@@ -5223,7 +5120,6 @@
     "flagSvg": "Flag_of_Romania.svg"
   },
   "Russia": {
-    "id": "145",
     "name": "Russia",
     "fullName": "Russia – Russian Federation",
     "continents": [],
@@ -5344,7 +5240,6 @@
     "flagSvg": "Flag_of_Russia.svg"
   },
   "Rwanda": {
-    "id": "146",
     "name": "Rwanda",
     "fullName": "Rwanda – Republic of Rwanda",
     "continents": [],
@@ -5365,7 +5260,6 @@
     "flagSvg": "Flag_of_Rwanda.svg"
   },
   "Saint Kitts and Nevis": {
-    "id": "147",
     "name": "Saint Kitts and Nevis",
     "fullName": "Saint Kitts and Nevis – Federation of Saint Christopher and Nevis",
     "continents": [],
@@ -5378,7 +5272,6 @@
     "flagSvg": "Flag_of_Saint_Kitts_and_Nevis.svg"
   },
   "Saint Lucia": {
-    "id": "148",
     "name": "Saint Lucia",
     "fullName": "Saint Lucia",
     "continents": [],
@@ -5391,7 +5284,6 @@
     "flagSvg": "Flag_of_Saint_Lucia.svg"
   },
   "Saint Vincent and the Grenadines": {
-    "id": "149",
     "name": "Saint Vincent and the Grenadines",
     "fullName": "Saint Vincent and the Grenadines",
     "continents": [],
@@ -5404,7 +5296,6 @@
     "flagSvg": "Flag_of_Saint_Vincent_and_the_Grenadines.svg"
   },
   "Samoa": {
-    "id": "150",
     "name": "Samoa",
     "fullName": "Samoa – Independent State of Samoa",
     "continents": [],
@@ -5421,7 +5312,6 @@
     "flagSvg": "Flag_of_Samoa.svg"
   },
   "San Marino": {
-    "id": "151",
     "name": "San Marino",
     "fullName": "San Marino – Republic of San Marino",
     "continents": [],
@@ -5434,7 +5324,6 @@
     "flagSvg": "Flag_of_San_Marino.svg"
   },
   "São Tomé and Príncipe": {
-    "id": "152",
     "name": "São Tomé and Príncipe",
     "fullName": "São Tomé and Príncipe – Democratic Republic of São Tomé and Príncipe",
     "continents": [],
@@ -5451,7 +5340,6 @@
     "flagSvg": "Flag_of_Sao_Tome_and_Principe.svg"
   },
   "Saudi Arabia": {
-    "id": "153",
     "name": "Saudi Arabia",
     "fullName": "Saudi Arabia – Kingdom of Saudi Arabia",
     "continents": [],
@@ -5464,7 +5352,6 @@
     "flagSvg": "Flag_of_Saudi_Arabia.svg"
   },
   "Senegal": {
-    "id": "154",
     "name": "Senegal",
     "fullName": "Senegal – Republic of Senegal",
     "continents": [],
@@ -5513,7 +5400,6 @@
     "flagSvg": "Flag_of_Senegal.svg"
   },
   "Serbia": {
-    "id": "155",
     "name": "Serbia",
     "fullName": "Serbia – Republic of Serbia",
     "continents": [],
@@ -5534,7 +5420,6 @@
     "flagSvg": "Flag_of_Serbia.svg"
   },
   "Seychelles": {
-    "id": "156",
     "name": "Seychelles",
     "fullName": "Seychelles – Republic of Seychelles",
     "continents": [],
@@ -5555,7 +5440,6 @@
     "flagSvg": "Flag_of_Seychelles.svg"
   },
   "Sierra Leone": {
-    "id": "157",
     "name": "Sierra Leone",
     "fullName": "Sierra Leone – Republic of Sierra Leone",
     "continents": [],
@@ -5600,7 +5484,6 @@
     "flagSvg": "Flag_of_Sierra_Leone.svg"
   },
   "Singapore": {
-    "id": "158",
     "name": "Singapore",
     "fullName": "Singapore – Republic of Singapore",
     "continents": [],
@@ -5621,7 +5504,6 @@
     "flagSvg": "Flag_of_Singapore.svg"
   },
   "Slovakia": {
-    "id": "159",
     "name": "Slovakia",
     "fullName": "Slovakia – Slovak Republic",
     "continents": [],
@@ -5634,7 +5516,6 @@
     "flagSvg": "Flag_of_Slovakia.svg"
   },
   "Slovenia": {
-    "id": "160",
     "name": "Slovenia",
     "fullName": "Slovenia – Republic of Slovenia",
     "continents": [],
@@ -5647,7 +5528,6 @@
     "flagSvg": "Flag_of_Slovenia.svg"
   },
   "Solomon Islands": {
-    "id": "161",
     "name": "Solomon Islands",
     "fullName": "Solomon Islands",
     "continents": [],
@@ -5664,7 +5544,6 @@
     "flagSvg": "Flag_of_the_Solomon_Islands.svg"
   },
   "Somalia": {
-    "id": "162",
     "name": "Somalia",
     "fullName": "Somalia – Federal Republic of Somalia",
     "continents": [],
@@ -5685,7 +5564,6 @@
     "flagSvg": "Flag_of_Somalia.svg"
   },
   "South Africa": {
-    "id": "163",
     "name": "South Africa",
     "fullName": "South Africa – Republic of South Africa",
     "continents": [],
@@ -5738,7 +5616,6 @@
     "flagSvg": "Flag_of_South_Africa.svg"
   },
   "South Sudan": {
-    "id": "164",
     "name": "South Sudan",
     "fullName": "South Sudan – Republic of South Sudan",
     "continents": [],
@@ -5791,7 +5668,6 @@
     "flagSvg": "Flag_of_South_Sudan.svg"
   },
   "Spain": {
-    "id": "165",
     "name": "Spain",
     "fullName": "Spain – Kingdom of Spain",
     "continents": [],
@@ -5820,7 +5696,6 @@
     "flagSvg": "Flag_of_Spain.svg"
   },
   "Sri Lanka": {
-    "id": "166",
     "name": "Sri Lanka",
     "fullName": "Sri Lanka – Democratic Socialist Republic of Sri Lanka[af]",
     "continents": [],
@@ -5837,7 +5712,6 @@
     "flagSvg": "Flag_of_Sri_Lanka.svg"
   },
   "Sudan": {
-    "id": "167",
     "name": "Sudan",
     "fullName": "Sudan – Republic of the Sudan",
     "continents": [],
@@ -5874,7 +5748,6 @@
     "flagSvg": "Flag_of_Sudan.svg"
   },
   "Suriname": {
-    "id": "168",
     "name": "Suriname",
     "fullName": "Suriname – Republic of Suriname",
     "continents": [],
@@ -5907,7 +5780,6 @@
     "flagSvg": "Flag_of_Suriname.svg"
   },
   "Sweden": {
-    "id": "169",
     "name": "Sweden",
     "fullName": "Sweden – Kingdom of Sweden",
     "continents": [],
@@ -5920,7 +5792,6 @@
     "flagSvg": "Flag_of_Sweden.svg"
   },
   "Switzerland": {
-    "id": "170",
     "name": "Switzerland",
     "fullName": "Switzerland – Swiss Confederation",
     "continents": [],
@@ -5941,7 +5812,6 @@
     "flagSvg": "Flag_of_Switzerland.svg"
   },
   "Syria": {
-    "id": "171",
     "name": "Syria",
     "fullName": "Syria – Syrian Arab Republic",
     "continents": [],
@@ -5962,7 +5832,6 @@
     "flagSvg": "Flag_of_Syria.svg"
   },
   "Taiwan": {
-    "id": "172",
     "name": "Taiwan",
     "fullName": "Taiwan – Republic of China[l]",
     "continents": [],
@@ -5987,7 +5856,6 @@
     "flagSvg": "Flag_of_the_Republic_of_China.svg"
   },
   "Tajikistan": {
-    "id": "173",
     "name": "Tajikistan",
     "fullName": "Tajikistan – Republic of Tajikistan",
     "continents": [],
@@ -6000,7 +5868,6 @@
     "flagSvg": "Flag_of_Tajikistan.svg"
   },
   "Tanzania": {
-    "id": "174",
     "name": "Tanzania",
     "fullName": "Tanzania – United Republic of Tanzania",
     "continents": [],
@@ -6093,7 +5960,6 @@
     "flagSvg": "Flag_of_Tanzania.svg"
   },
   "Thailand": {
-    "id": "175",
     "name": "Thailand",
     "fullName": "Thailand – Kingdom of Thailand",
     "continents": [],
@@ -6130,7 +5996,6 @@
     "flagSvg": "Flag_of_Thailand.svg"
   },
   "Togo": {
-    "id": "176",
     "name": "Togo",
     "fullName": "Togo – Togolese Republic",
     "continents": [],
@@ -6199,7 +6064,6 @@
     "flagSvg": "Flag_of_Togo.svg"
   },
   "Tonga": {
-    "id": "177",
     "name": "Tonga",
     "fullName": "Tonga – Kingdom of Tonga",
     "continents": [],
@@ -6216,7 +6080,6 @@
     "flagSvg": "Flag_of_Tonga.svg"
   },
   "Trinidad and Tobago": {
-    "id": "178",
     "name": "Trinidad and Tobago",
     "fullName": "Trinidad and Tobago – Republic of Trinidad and Tobago",
     "continents": [],
@@ -6233,7 +6096,6 @@
     "flagSvg": "Flag_of_Trinidad_and_Tobago.svg"
   },
   "Tunisia": {
-    "id": "179",
     "name": "Tunisia",
     "fullName": "Tunisia – Republic of Tunisia",
     "continents": [],
@@ -6254,7 +6116,6 @@
     "flagSvg": "Flag_of_Tunisia.svg"
   },
   "Turkey": {
-    "id": "180",
     "name": "Turkey",
     "fullName": "Turkey – Republic of Turkey",
     "continents": [],
@@ -6287,7 +6148,6 @@
     "flagSvg": "Flag_of_Turkey.svg"
   },
   "Turkmenistan": {
-    "id": "181",
     "name": "Turkmenistan",
     "fullName": "Turkmenistan",
     "continents": [],
@@ -6300,7 +6160,6 @@
     "flagSvg": "Flag_of_Turkmenistan.svg"
   },
   "Tuvalu": {
-    "id": "182",
     "name": "Tuvalu",
     "fullName": "Tuvalu",
     "continents": [],
@@ -6313,7 +6172,6 @@
     "flagSvg": "Flag_of_Tuvalu.svg"
   },
   "Uganda": {
-    "id": "183",
     "name": "Uganda",
     "fullName": "Uganda – Republic of Uganda",
     "continents": [],
@@ -6390,7 +6248,6 @@
     "flagSvg": "Flag_of_Uganda.svg"
   },
   "Ukraine": {
-    "id": "184",
     "name": "Ukraine",
     "fullName": "Ukraine",
     "continents": [],
@@ -6407,7 +6264,6 @@
     "flagSvg": "Flag_of_Ukraine.svg"
   },
   "United Arab Emirates": {
-    "id": "185",
     "name": "United Arab Emirates",
     "fullName": "United Arab Emirates",
     "continents": [],
@@ -6420,7 +6276,6 @@
     "flagSvg": "Flag_of_the_United_Arab_Emirates.svg"
   },
   "United Kingdom": {
-    "id": "186",
     "name": "United Kingdom",
     "fullName": "United Kingdom – United Kingdom of Great Britain and Northern Ireland",
     "continents": [],
@@ -6445,7 +6300,6 @@
     "flagSvg": "Flag_of_the_United_Kingdom.svg"
   },
   "United States": {
-    "id": "187",
     "name": "United States",
     "fullName": "United States – United States of America",
     "continents": [],
@@ -6478,7 +6332,6 @@
     "flagSvg": "Flag_of_the_United_States.svg"
   },
   "Uruguay": {
-    "id": "188",
     "name": "Uruguay",
     "fullName": "Uruguay – Oriental Republic of Uruguay",
     "continents": [],
@@ -6491,7 +6344,6 @@
     "flagSvg": "Flag_of_Uruguay.svg"
   },
   "Uzbekistan": {
-    "id": "189",
     "name": "Uzbekistan",
     "fullName": "Uzbekistan – Republic of Uzbekistan",
     "continents": [],
@@ -6520,7 +6372,6 @@
     "flagSvg": "Flag_of_Uzbekistan.svg"
   },
   "Vanuatu": {
-    "id": "190",
     "name": "Vanuatu",
     "fullName": "Vanuatu – Republic of Vanuatu",
     "continents": [],
@@ -6549,7 +6400,6 @@
     "flagSvg": "Flag_of_Vanuatu.svg"
   },
   "Venezuela": {
-    "id": "191",
     "name": "Venezuela",
     "fullName": "Venezuela – Bolivarian Republic of Venezuela",
     "continents": [],
@@ -6586,7 +6436,6 @@
     "flagSvg": "Flag_of_Venezuela.svg"
   },
   "Vietnam": {
-    "id": "192",
     "name": "Vietnam",
     "fullName": "Vietnam – Socialist Republic of Vietnam",
     "continents": [],
@@ -6639,7 +6488,6 @@
     "flagSvg": "Flag_of_Vietnam.svg"
   },
   "Yemen": {
-    "id": "193",
     "name": "Yemen",
     "fullName": "Yemen – Republic of Yemen",
     "continents": [],
@@ -6656,7 +6504,6 @@
     "flagSvg": "Flag_of_Yemen.svg"
   },
   "Zambia": {
-    "id": "194",
     "name": "Zambia",
     "fullName": "Zambia – Republic of Zambia",
     "continents": [],
@@ -6713,7 +6560,6 @@
     "flagSvg": "Flag_of_Zambia.svg"
   },
   "Zimbabwe": {
-    "id": "195",
     "name": "Zimbabwe",
     "fullName": "Zimbabwe – Republic of Zimbabwe",
     "continents": [],

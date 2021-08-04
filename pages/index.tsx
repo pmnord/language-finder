@@ -35,7 +35,7 @@ export default function Home() {
           {Object.keys(countries).map((countryName) => {
             const country = countries[countryName];
             return (
-              <div className={styles.countryContainer} key={country.id}>
+              <div className={styles.countryContainer} key={country.name}>
                 <Link href={`/c/${encodeURIComponent(countryName)}`}>
                   <a>
                     <img
