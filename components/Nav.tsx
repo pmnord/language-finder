@@ -1,18 +1,21 @@
 import Link from 'next/link';
 import React from 'react';
 import styles from '../styles/Nav.module.scss';
+import Image from 'next/image';
 
-const Nav = () => {
+const Nav = (): JSX.Element => {
   return (
     <nav className={styles.nav}>
-      <div className='header-container'>
+      <div className={styles.bannerContainer}>
         <Link href='/'>
-          <picture className={styles.banner}>
-            {/* <!-- The browser will use the first compatible source --> */}
-            <source type='image/avif' srcSet='header.avif' />
-            <source type='image/webp' srcSet='header.webp' />
-            <img src='header.jpg' alt='Learn More About Jesus Christ' />
-          </picture>
+          <a>
+            <Image
+              height='170'
+              width='1060'
+              src='/header.jpg'
+              alt='Learn More About Jesus Christ'
+            />
+          </a>
         </Link>
       </div>
     </nav>

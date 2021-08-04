@@ -5,11 +5,12 @@
   margin-top: 2rem;
 }
 
-.banner {
+.bannerContainer {
   &:hover {
     cursor: pointer;
   }
   img {
     width: 100%;
+    border-radius: 5px;
   }
 }

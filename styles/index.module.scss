@@ -50,14 +50,28 @@
   margin-top: 3rem;
 }
 
-.flag {
-  margin: 0.5rem;
-  height: 6rem;
-  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
-  transform: scale(1);
-  &:hover {
-    cursor: pointer;
-    box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.3);
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+
+  .flag {
+    margin: 0.5rem;
+    margin-bottom: 0.1rem;
+    height: 6rem;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 2px 12px 6px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .flagLabel {
+    font-size: 0.8rem;
+    color: #000000cc;
+    font-weight: 700;
   }
 }
 

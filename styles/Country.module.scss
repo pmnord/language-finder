@@ -12,4 +12,29 @@
 
 .languagesContainer {
   background-color: #f8f8f8;
+  padding: 0.5rem 0;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      font-size: 1.6rem;
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    * + * {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.backLinkContainer {
+  margin: 1rem 0;
 }

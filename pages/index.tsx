@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>
-          Watch the film <em>JESUS</em> in your language
+          Watch The Film <em>JESUS</em> In Your Language
         </h1>
 
         <CommonLanguagesBanner />
@@ -35,15 +35,18 @@ export default function Home() {
           {Object.keys(countries).map((countryName) => {
             const country = countries[countryName];
             return (
-              <div key={country.id}>
+              <div className={styles.countryContainer} key={country.id}>
                 <Link href={`/c/${encodeURIComponent(countryName)}`}>
-                  <img
-                    className={styles.flag}
-                    src={`flags/${country.flagSvg}`}
-                    alt={countryName}
-                    title={country.fullName}
-                  />
+                  <a>
+                    <img
+                      className={styles.flag}
+                      src={`flags/${country.flagSvg}`}
+                      alt={countryName}
+                      title={country.fullName}
+                    />
+                  </a>
                 </Link>
+                <span className={styles.flagLabel}>{country.name}</span>
               </div>
             );
           })}
