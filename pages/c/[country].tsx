@@ -30,7 +30,7 @@ const CountryPage = (): JSX.Element => {
   const country: Country = countries[countryName];
 
   if (country === undefined) return null;
-
+  console.log(country);
   return (
     <div className={styles.root}>
       <Head>
@@ -38,6 +38,12 @@ const CountryPage = (): JSX.Element => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <img
+        className={styles.flag}
+        src={`/flags/${country.flagSvg}`}
+        alt={country.fullName}
+        title={country.fullName}
+      />
       <h1>{country.name}</h1>
       <div className={styles.languagesContainer}>
         <h2>Select your language below</h2>

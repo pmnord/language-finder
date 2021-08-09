@@ -58,16 +58,17 @@ html {
 
 .react-autosuggest__container {
   position: relative;
-  margin-bottom: 1rem;
+  margin: 3rem 0;
 }
 
 .react-autosuggest__input {
-  width: 250px;
-  height: 30px;
+  /* width: 350px; */
+  width: 16.1rem;
+  height: 40px;
   padding: 10px 20px;
   font-family: Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.2rem;
   border: 1px solid #aaa;
   border-radius: 4px;
 }

@@ -20,40 +20,39 @@ export default function Home() {
         </h1>
 
         <CommonLanguagesBanner />
-        <span>&nbsp;</span>
-        <span>&nbsp;</span>
 
         <AutoSuggest />
 
-        <div
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-          }}
-        >
+        <div className={styles.flagsContainer}>
           {Object.keys(countries).map((countryName) => {
             const country = countries[countryName];
             return (
-              <div className={styles.countryContainer} key={country.name}>
-                <Link href={`/c/${encodeURIComponent(countryName)}`}>
-                  <a>
+              <Link
+                key={country.name}
+                href={`/c/${encodeURIComponent(countryName)}`}
+              >
+                <a className={styles.countryLink}>
+                  <div className={styles.countryContainer}>
                     <img
                       className={styles.flag}
-                      src={`flags/${country.flagSvg}`}
+                      src={`/flags/${country.flagSvg}`}
                       alt={countryName}
                       title={country.fullName}
                     />
-                  </a>
-                </Link>
-                <span className={styles.flagLabel}>{country.name}</span>
-              </div>
+                    <span className={styles.flagLabel}>{country.name}</span>
+                  </div>
+                </a>
+              </Link>
             );
           })}
         </div>
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>
+        <Link href='/'>
+          <a>Back to the Top</a>
+        </Link>
+      </footer>
     </div>
   );
 }
