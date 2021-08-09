@@ -2,9 +2,14 @@ import { useRouter } from 'next/router';
 import React, { ChangeEvent, useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
+import languages from '../data/all-languages.json';
+import Link from 'next/link';
 // ---------------------------------------------
 // Autosuggest Styles are located in globals.css
 // ---------------------------------------------
+
+const COUNTRY_NAMES = Object.keys(countries);
+const LANGUAGE_NAMES = Object.keys(languages);
 
 const getSuggestions = (value) => {
   if (value === undefined) {
@@ -13,37 +18,64 @@ const getSuggestions = (value) => {
   const inputValue = value.trim().toLowerCase();
   const inputLength = inputValue.length;
 
-  return inputLength === 0
-    ? []
-    : Object.keys(countries).filter(
-        (countryName) =>
-          countryName.toLowerCase().slice(0, inputLength) === inputValue
-      );
+  const matches = [];
+
+  COUNTRY_NAMES.filter(
+    (name) => name.toLowerCase().slice(0, inputLength) === inputValue
+  ).forEach((name) => {
+    matches.push(countries[name]);
+  });
+
+  LANGUAGE_NAMES.filter(
+    (name) => name.toLowerCase().slice(0, inputLength) === inputValue
+  ).forEach((name) => {
+    matches.push(languages[name]);
+  });
+
+  return matches;
 };
 
 const getSuggestionValue = (suggestion) => suggestion;
 
 const renderSuggestion = (suggestion) => {
-  const country = countries[suggestion];
-
-  return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-      }}
-    >
-      <>
-        <img
-          style={{ height: '1rem', marginRight: '1rem' }}
-          src={`flags/${country.flagSvg}`}
-          alt={country.name}
-          title={country.fullName}
-        />
-        <p>{country.name}</p>
-      </>
-    </div>
-  );
+  if (suggestion.type === 'country') {
+    return (
+      <div>
+        <label>Country</label>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
+          <img
+            style={{
+              height: '1rem',
+              marginRight: '1rem',
+              boxShadow: '0 2px 6px 0 rgba(0, 0, 0, 0.3)',
+            }}
+            src={`flags/${suggestion.flagSvg}`}
+            alt={suggestion.name}
+            title={suggestion.fullName}
+          />
+          <p>{suggestion.name}</p>
+        </div>
+      </div>
+    );
+  } else if (suggestion.type === 'language') {
+    return (
+      <Link href={suggestion.hyperlink}>
+        <a>
+          <div>
+            <label>Language</label>
+            <p>{suggestion.name}</p>
+          </div>
+        </a>
+      </Link>
+    );
+  } else {
+    return null;
+  }
 };
 
 const AutoSuggest = () => {
@@ -52,7 +84,11 @@ const AutoSuggest = () => {
   const router = useRouter();
 
   const onChange = (_event: ChangeEvent, { newValue }) => {
-    setValue(newValue);
+    if (typeof newValue === 'string') {
+      setValue(newValue);
+    } else if (typeof newValue === 'object') {
+      setValue(newValue.name);
+    }
   };
 
   // Autosuggest will call this function every time you need to update suggestions.
@@ -66,19 +102,14 @@ const AutoSuggest = () => {
     setSuggestions([]);
   };
 
-  function handleSuggestionSelected(
-    _event,
-    { suggestion, suggestionValue, suggestionIndex, sectionIndex, method }
-  ) {
-    console.log(
-      suggestion,
-      suggestionValue,
-      suggestionIndex,
-      sectionIndex,
-      method
-    );
+  function handleSuggestionSelected(_event: any, { suggestionValue }: any) {
+    setValue(suggestionValue.name);
 
-    router.push(`/c/${encodeURIComponent(suggestionValue)}`);
+    if (suggestionValue.type === 'country') {
+      return router.push(`/c/${encodeURIComponent(suggestionValue.name)}`);
+    } else if (suggestionValue.type === 'language') {
+      return router.push(suggestionValue.hyperlink);
+    }
   }
 
   return (

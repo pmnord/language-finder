@@ -30,7 +30,7 @@ const CountryPage = (): JSX.Element => {
   const country: Country = countries[countryName];
 
   if (country === undefined) return null;
-  console.log(country);
+
   return (
     <div className={styles.root}>
       <Head>

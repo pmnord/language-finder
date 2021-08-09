@@ -1,6 +1,7 @@
 {
   "Afghanistan": {
     "name": "Afghanistan",
+    "type": "country",
     "fullName": "Afghanistan – Islamic Republic of Afghanistan",
     "continents": [],
     "languages": [
@@ -25,6 +26,7 @@
   },
   "Albania": {
     "name": "Albania",
+    "type": "country",
     "fullName": "Albania – Republic of Albania",
     "continents": [],
     "languages": [
@@ -37,6 +39,7 @@
   },
   "Algeria": {
     "name": "Algeria",
+    "type": "country",
     "fullName": "Algeria – People's Democratic Republic of Algeria",
     "continents": [],
     "languages": [
@@ -73,6 +76,7 @@
   },
   "Andorra": {
     "name": "Andorra",
+    "type": "country",
     "fullName": "Andorra – Principality of Andorra",
     "continents": [],
     "languages": [
@@ -97,6 +101,7 @@
   },
   "Angola": {
     "name": "Angola",
+    "type": "country",
     "fullName": "Angola – Republic of Angola",
     "continents": [],
     "languages": [
@@ -141,6 +146,7 @@
   },
   "Antigua and Barbuda": {
     "name": "Antigua and Barbuda",
+    "type": "country",
     "fullName": "Antigua and Barbuda",
     "continents": [],
     "languages": [
@@ -153,6 +159,7 @@
   },
   "Argentina": {
     "name": "Argentina",
+    "type": "country",
     "fullName": "Argentina – Argentine Republic[g]",
     "continents": [],
     "languages": [
@@ -169,6 +176,7 @@
   },
   "Armenia": {
     "name": "Armenia",
+    "type": "country",
     "fullName": "Armenia – Republic of Armenia",
     "continents": [],
     "languages": [
@@ -185,6 +193,7 @@
   },
   "Australia": {
     "name": "Australia",
+    "type": "country",
     "fullName": "Australia – Commonwealth of Australia",
     "continents": [],
     "languages": [
@@ -197,6 +206,7 @@
   },
   "Austria": {
     "name": "Austria",
+    "type": "country",
     "fullName": "Austria – Republic of Austria",
     "continents": [],
     "languages": [
@@ -209,6 +219,7 @@
   },
   "Azerbaijan": {
     "name": "Azerbaijan",
+    "type": "country",
     "fullName": "Azerbaijan – Republic of Azerbaijan",
     "continents": [],
     "languages": [
@@ -225,6 +236,7 @@
   },
   "Bahamas": {
     "name": "Bahamas",
+    "type": "country",
     "fullName": "Bahamas, The – Commonwealth of The Bahamas[9]",
     "continents": [],
     "languages": [
@@ -237,6 +249,7 @@
   },
   "Bahrain": {
     "name": "Bahrain",
+    "type": "country",
     "fullName": "Bahrain – Kingdom of Bahrain",
     "continents": [],
     "languages": [
@@ -249,6 +262,7 @@
   },
   "Bangladesh": {
     "name": "Bangladesh",
+    "type": "country",
     "fullName": "Bangladesh – People's Republic of Bangladesh",
     "continents": [],
     "languages": [
@@ -285,6 +299,7 @@
   },
   "Barbados": {
     "name": "Barbados",
+    "type": "country",
     "fullName": "Barbados",
     "continents": [],
     "languages": [
@@ -297,6 +312,7 @@
   },
   "Belarus": {
     "name": "Belarus",
+    "type": "country",
     "fullName": "Belarus – Republic of Belarus",
     "continents": [],
     "languages": [
@@ -313,6 +329,7 @@
   },
   "Belgium": {
     "name": "Belgium",
+    "type": "country",
     "fullName": "Belgium – Kingdom of Belgium",
     "continents": [],
     "languages": [
@@ -333,6 +350,7 @@
   },
   "Belize": {
     "name": "Belize",
+    "type": "country",
     "fullName": "Belize",
     "continents": [],
     "languages": [
@@ -345,6 +363,7 @@
   },
   "Benin": {
     "name": "Benin",
+    "type": "country",
     "fullName": "Benin – Republic of Benin",
     "continents": [],
     "languages": [
@@ -401,6 +420,7 @@
   },
   "Bhutan": {
     "name": "Bhutan",
+    "type": "country",
     "fullName": "Bhutan – Kingdom of Bhutan",
     "continents": [],
     "languages": [
@@ -417,6 +437,7 @@
   },
   "Bolivia": {
     "name": "Bolivia",
+    "type": "country",
     "fullName": "Bolivia – Plurinational State of Bolivia",
     "continents": [],
     "languages": [
@@ -441,6 +462,7 @@
   },
   "Bosnia and Herzegovina": {
     "name": "Bosnia and Herzegovina",
+    "type": "country",
     "fullName": "Bosnia and Herzegovina",
     "continents": [],
     "languages": [
@@ -457,6 +479,7 @@
   },
   "Botswana": {
     "name": "Botswana",
+    "type": "country",
     "fullName": "Botswana – Republic of Botswana",
     "continents": [],
     "languages": [
@@ -473,6 +496,7 @@
   },
   "Brazil": {
     "name": "Brazil",
+    "type": "country",
     "fullName": "Brazil – Federative Republic of Brazil",
     "continents": [],
     "languages": [
@@ -549,6 +573,7 @@
   },
   "Brunei": {
     "name": "Brunei",
+    "type": "country",
     "fullName": "Brunei – Nation of Brunei, the Abode of Peace",
     "continents": [],
     "languages": [
@@ -561,6 +586,7 @@
   },
   "Bulgaria": {
     "name": "Bulgaria",
+    "type": "country",
     "fullName": "Bulgaria – Republic of Bulgaria",
     "continents": [],
     "languages": [
@@ -573,6 +599,7 @@
   },
   "Burkina": {
     "name": "Burkina",
+    "type": "country",
     "fullName": "Burkina Faso",
     "continents": [],
     "languages": [
@@ -617,6 +644,7 @@
   },
   "Burundi": {
     "name": "Burundi",
+    "type": "country",
     "fullName": "Burundi – Republic of Burundi",
     "continents": [],
     "languages": [
@@ -637,6 +665,7 @@
   },
   "Cambodia": {
     "name": "Cambodia",
+    "type": "country",
     "fullName": "Cambodia – Kingdom of Cambodia",
     "continents": [],
     "languages": [
@@ -653,6 +682,7 @@
   },
   "Cameroon": {
     "name": "Cameroon",
+    "type": "country",
     "fullName": "Cameroon – Republic of Cameroon",
     "continents": [],
     "languages": [
@@ -789,6 +819,7 @@
   },
   "Canada": {
     "name": "Canada",
+    "type": "country",
     "fullName": "Canada[i]",
     "continents": [],
     "languages": [
@@ -845,6 +876,7 @@
   },
   "Cape Verde": {
     "name": "Cape Verde",
+    "type": "country",
     "fullName": "Cape Verde – Republic of Cabo Verde[j]",
     "continents": [],
     "languages": [
@@ -865,6 +897,7 @@
   },
   "Central African Republic": {
     "name": "Central African Republic",
+    "type": "country",
     "fullName": "Central African Republic",
     "continents": [],
     "languages": [
@@ -917,6 +950,7 @@
   },
   "Chad": {
     "name": "Chad",
+    "type": "country",
     "fullName": "Chad – Republic of Chad",
     "continents": [],
     "languages": [
@@ -973,6 +1007,7 @@
   },
   "Chile": {
     "name": "Chile",
+    "type": "country",
     "fullName": "Chile – Republic of Chile",
     "continents": [],
     "languages": [
@@ -989,6 +1024,7 @@
   },
   "China": {
     "name": "China",
+    "type": "country",
     "fullName": "China – People's Republic of China[l]",
     "continents": [],
     "languages": [
@@ -1145,6 +1181,7 @@
   },
   "Colombia": {
     "name": "Colombia",
+    "type": "country",
     "fullName": "Colombia – Republic of Colombia",
     "continents": [],
     "languages": [
@@ -1185,6 +1222,7 @@
   },
   "Comoros": {
     "name": "Comoros",
+    "type": "country",
     "fullName": "Comoros – Union of the Comoros",
     "continents": [],
     "languages": [
@@ -1209,6 +1247,7 @@
   },
   "Democratic Republic of Congo": {
     "name": "Democratic Republic of Congo",
+    "type": "country",
     "fullName": "Congo, Democratic Republic of the[p]",
     "continents": [],
     "languages": [
@@ -1225,6 +1264,7 @@
   },
   "Republic of Congo": {
     "name": "Republic of Congo",
+    "type": "country",
     "fullName": "Congo, Republic of the[q]",
     "continents": [],
     "languages": [
@@ -1261,6 +1301,7 @@
   },
   "Costa Rica": {
     "name": "Costa Rica",
+    "type": "country",
     "fullName": "Costa Rica – Republic of Costa Rica",
     "continents": [],
     "languages": [
@@ -1277,6 +1318,7 @@
   },
   "Croatia": {
     "name": "Croatia",
+    "type": "country",
     "fullName": "Croatia – Republic of Croatia",
     "continents": [],
     "languages": [
@@ -1289,6 +1331,7 @@
   },
   "Cuba": {
     "name": "Cuba",
+    "type": "country",
     "fullName": "Cuba – Republic of Cuba",
     "continents": [],
     "languages": [
@@ -1301,6 +1344,7 @@
   },
   "Cyprus": {
     "name": "Cyprus",
+    "type": "country",
     "fullName": "Cyprus – Republic of Cyprus",
     "continents": [],
     "languages": [
@@ -1317,6 +1361,7 @@
   },
   "Czech Republic": {
     "name": "Czech Republic",
+    "type": "country",
     "fullName": "Czech Republic[r]",
     "continents": [],
     "languages": [
@@ -1333,6 +1378,7 @@
   },
   "Denmark": {
     "name": "Denmark",
+    "type": "country",
     "fullName": "Denmark – Kingdom of Denmark",
     "continents": [],
     "languages": [
@@ -1349,6 +1395,7 @@
   },
   "Djibouti": {
     "name": "Djibouti",
+    "type": "country",
     "fullName": "Djibouti – Republic of Djibouti",
     "continents": [],
     "languages": [
@@ -1365,6 +1412,7 @@
   },
   "Dominica": {
     "name": "Dominica",
+    "type": "country",
     "fullName": "Dominica – Commonwealth of Dominica",
     "continents": [],
     "languages": [
@@ -1377,6 +1425,7 @@
   },
   "Dominican Republic": {
     "name": "Dominican Republic",
+    "type": "country",
     "fullName": "Dominican Republic",
     "continents": [],
     "languages": [
@@ -1389,6 +1438,7 @@
   },
   "East Timor": {
     "name": "East Timor",
+    "type": "country",
     "fullName": "East Timor – Democratic Republic of Timor-Leste[t]",
     "continents": [],
     "languages": [
@@ -1409,6 +1459,7 @@
   },
   "Ecuador": {
     "name": "Ecuador",
+    "type": "country",
     "fullName": "Ecuador – Republic of Ecuador",
     "continents": [],
     "languages": [
@@ -1433,6 +1484,7 @@
   },
   "Egypt": {
     "name": "Egypt",
+    "type": "country",
     "fullName": "Egypt – Arab Republic of Egypt",
     "continents": [],
     "languages": [
@@ -1453,6 +1505,7 @@
   },
   "El Salvador": {
     "name": "El Salvador",
+    "type": "country",
     "fullName": "El Salvador – Republic of El Salvador",
     "continents": [],
     "languages": [
@@ -1465,6 +1518,7 @@
   },
   "Equatorial Guinea": {
     "name": "Equatorial Guinea",
+    "type": "country",
     "fullName": "Equatorial Guinea – Republic of Equatorial Guinea",
     "continents": [],
     "languages": [
@@ -1489,6 +1543,7 @@
   },
   "Eritrea": {
     "name": "Eritrea",
+    "type": "country",
     "fullName": "Eritrea – State of Eritrea",
     "continents": [],
     "languages": [
@@ -1505,6 +1560,7 @@
   },
   "Estonia": {
     "name": "Estonia",
+    "type": "country",
     "fullName": "Estonia – Republic of Estonia",
     "continents": [],
     "languages": [
@@ -1517,6 +1573,7 @@
   },
   "Eswatini": {
     "name": "Eswatini",
+    "type": "country",
     "fullName": "Eswatini – Kingdom of Eswatini[u]",
     "continents": [],
     "languages": [
@@ -1529,6 +1586,7 @@
   },
   "Ethiopia": {
     "name": "Ethiopia",
+    "type": "country",
     "fullName": "Ethiopia – Federal Democratic Republic of Ethiopia",
     "continents": [],
     "languages": [
@@ -1653,6 +1711,7 @@
   },
   "Fiji": {
     "name": "Fiji",
+    "type": "country",
     "fullName": "Fiji – Republic of Fiji",
     "continents": [],
     "languages": [
@@ -1673,6 +1732,7 @@
   },
   "Finland": {
     "name": "Finland",
+    "type": "country",
     "fullName": "Finland – Republic of Finland",
     "continents": [],
     "languages": [
@@ -1685,6 +1745,7 @@
   },
   "France": {
     "name": "France",
+    "type": "country",
     "fullName": "France – French Republic",
     "continents": [],
     "languages": [
@@ -1701,6 +1762,7 @@
   },
   "Gabon": {
     "name": "Gabon",
+    "type": "country",
     "fullName": "Gabon – Gabonese Republic",
     "continents": [],
     "languages": [
@@ -1725,6 +1787,7 @@
   },
   "The Gambia": {
     "name": "The Gambia",
+    "type": "country",
     "fullName": "Gambia, The – Republic of The Gambia[18]",
     "continents": [],
     "languages": [
@@ -1737,6 +1800,7 @@
   },
   "Georgia": {
     "name": "Georgia",
+    "type": "country",
     "fullName": "Georgia",
     "continents": [],
     "languages": [
@@ -1757,6 +1821,7 @@
   },
   "Germany": {
     "name": "Germany",
+    "type": "country",
     "fullName": "Germany – Federal Republic of Germany",
     "continents": [],
     "languages": [
@@ -1769,6 +1834,7 @@
   },
   "Ghana": {
     "name": "Ghana",
+    "type": "country",
     "fullName": "Ghana – Republic of Ghana",
     "continents": [],
     "languages": [
@@ -1869,6 +1935,7 @@
   },
   "Greece": {
     "name": "Greece",
+    "type": "country",
     "fullName": "Greece – Hellenic Republic",
     "continents": [],
     "languages": [
@@ -1881,6 +1948,7 @@
   },
   "Grenada": {
     "name": "Grenada",
+    "type": "country",
     "fullName": "Grenada",
     "continents": [],
     "languages": [
@@ -1893,6 +1961,7 @@
   },
   "Guatemala": {
     "name": "Guatemala",
+    "type": "country",
     "fullName": "Guatemala – Republic of Guatemala",
     "continents": [],
     "languages": [
@@ -1949,6 +2018,7 @@
   },
   "Guinea": {
     "name": "Guinea",
+    "type": "country",
     "fullName": "Guinea – Republic of Guinea[x]",
     "continents": [],
     "languages": [
@@ -1989,6 +2059,7 @@
   },
   "Guinea-Bissau": {
     "name": "Guinea-Bissau",
+    "type": "country",
     "fullName": "Guinea-Bissau – Republic of Guinea-Bissau",
     "continents": [],
     "languages": [
@@ -2041,6 +2112,7 @@
   },
   "Guyana": {
     "name": "Guyana",
+    "type": "country",
     "fullName": "Guyana – Co-operative Republic of Guyana",
     "continents": [],
     "languages": [
@@ -2061,6 +2133,7 @@
   },
   "Haiti": {
     "name": "Haiti",
+    "type": "country",
     "fullName": "Haiti – Republic of Haiti",
     "continents": [],
     "languages": [
@@ -2081,6 +2154,7 @@
   },
   "Honduras": {
     "name": "Honduras",
+    "type": "country",
     "fullName": "Honduras – Republic of Honduras",
     "continents": [],
     "languages": [
@@ -2093,6 +2167,7 @@
   },
   "Hungary": {
     "name": "Hungary",
+    "type": "country",
     "fullName": "Hungary",
     "continents": [],
     "languages": [
@@ -2105,6 +2180,7 @@
   },
   "Iceland": {
     "name": "Iceland",
+    "type": "country",
     "fullName": "Iceland[y]",
     "continents": [],
     "languages": [
@@ -2117,6 +2193,7 @@
   },
   "India": {
     "name": "India",
+    "type": "country",
     "fullName": "India – Republic of India",
     "continents": [],
     "languages": [
@@ -2469,6 +2546,7 @@
   },
   "Indonesia": {
     "name": "Indonesia",
+    "type": "country",
     "fullName": "Indonesia – Republic of Indonesia",
     "continents": [],
     "languages": [
@@ -2645,6 +2723,7 @@
   },
   "Iran": {
     "name": "Iran",
+    "type": "country",
     "fullName": "Iran – Islamic Republic of Iran",
     "continents": [],
     "languages": [
@@ -2673,6 +2752,7 @@
   },
   "Iraq": {
     "name": "Iraq",
+    "type": "country",
     "fullName": "Iraq – Republic of Iraq",
     "continents": [],
     "languages": [
@@ -2709,6 +2789,7 @@
   },
   "Ireland": {
     "name": "Ireland",
+    "type": "country",
     "fullName": "Ireland[z]",
     "continents": [],
     "languages": [
@@ -2725,6 +2806,7 @@
   },
   "Israel": {
     "name": "Israel",
+    "type": "country",
     "fullName": "Israel – State of Israel",
     "continents": [],
     "languages": [
@@ -2737,6 +2819,7 @@
   },
   "Italy": {
     "name": "Italy",
+    "type": "country",
     "fullName": "Italy – Italian Republic",
     "continents": [],
     "languages": [
@@ -2749,6 +2832,7 @@
   },
   "Ivory Coast": {
     "name": "Ivory Coast",
+    "type": "country",
     "fullName": "Ivory Coast – Republic of Côte d'Ivoire[aa]",
     "continents": [],
     "languages": [
@@ -2793,6 +2877,7 @@
   },
   "Jamaica": {
     "name": "Jamaica",
+    "type": "country",
     "fullName": "Jamaica",
     "continents": [],
     "languages": [
@@ -2805,6 +2890,7 @@
   },
   "Japan": {
     "name": "Japan",
+    "type": "country",
     "fullName": "Japan",
     "continents": [],
     "languages": [
@@ -2821,6 +2907,7 @@
   },
   "Jordan": {
     "name": "Jordan",
+    "type": "country",
     "fullName": "Jordan – Hashemite Kingdom of Jordan",
     "continents": [],
     "languages": [
@@ -2833,6 +2920,7 @@
   },
   "Kazakhstan": {
     "name": "Kazakhstan",
+    "type": "country",
     "fullName": "Kazakhstan – Republic of Kazakhstan",
     "continents": [],
     "languages": [
@@ -2853,6 +2941,7 @@
   },
   "Kenya": {
     "name": "Kenya",
+    "type": "country",
     "fullName": "Kenya – Republic of Kenya",
     "continents": [],
     "languages": [
@@ -2973,6 +3062,7 @@
   },
   "Kiribati": {
     "name": "Kiribati",
+    "type": "country",
     "fullName": "Kiribati – Republic of Kiribati",
     "continents": [],
     "languages": [
@@ -2989,6 +3079,7 @@
   },
   "Korea, North": {
     "name": "Korea, North",
+    "type": "country",
     "fullName": "Korea, North – Democratic People's Republic of Korea",
     "continents": [],
     "languages": [
@@ -3005,6 +3096,7 @@
   },
   "Korea, South": {
     "name": "Korea, South",
+    "type": "country",
     "fullName": "Korea, South – Republic of Korea",
     "continents": [],
     "languages": [
@@ -3021,6 +3113,7 @@
   },
   "Kosovo": {
     "name": "Kosovo",
+    "type": "country",
     "fullName": "Republic of Kosovo",
     "continents": [],
     "languages": [
@@ -3041,6 +3134,7 @@
   },
   "Kuwait": {
     "name": "Kuwait",
+    "type": "country",
     "fullName": "Kuwait – State of Kuwait",
     "continents": [],
     "languages": [
@@ -3053,6 +3147,7 @@
   },
   "Kyrgyzstan": {
     "name": "Kyrgyzstan",
+    "type": "country",
     "fullName": "Kyrgyzstan – Kyrgyz Republic",
     "continents": [],
     "languages": [
@@ -3073,6 +3168,7 @@
   },
   "Laos": {
     "name": "Laos",
+    "type": "country",
     "fullName": "Laos – Lao People's Democratic Republic",
     "continents": [],
     "languages": [
@@ -3093,6 +3189,7 @@
   },
   "Latvia": {
     "name": "Latvia",
+    "type": "country",
     "fullName": "Latvia – Republic of Latvia",
     "continents": [],
     "languages": [
@@ -3105,6 +3202,7 @@
   },
   "Lebanon": {
     "name": "Lebanon",
+    "type": "country",
     "fullName": "Lebanon – Lebanese Republic",
     "continents": [],
     "languages": [
@@ -3117,6 +3215,7 @@
   },
   "Lesotho": {
     "name": "Lesotho",
+    "type": "country",
     "fullName": "Lesotho – Kingdom of Lesotho",
     "continents": [],
     "languages": [
@@ -3133,6 +3232,7 @@
   },
   "Liberia": {
     "name": "Liberia",
+    "type": "country",
     "fullName": "Liberia – Republic of Liberia",
     "continents": [],
     "languages": [
@@ -3189,6 +3289,7 @@
   },
   "Libya": {
     "name": "Libya",
+    "type": "country",
     "fullName": "Libya – State of Libya",
     "continents": [],
     "languages": [
@@ -3205,6 +3306,7 @@
   },
   "Liechtenstein": {
     "name": "Liechtenstein",
+    "type": "country",
     "fullName": "Liechtenstein – Principality of Liechtenstein",
     "continents": [],
     "languages": [
@@ -3217,6 +3319,7 @@
   },
   "Lithuania": {
     "name": "Lithuania",
+    "type": "country",
     "fullName": "Lithuania – Republic of Lithuania",
     "continents": [],
     "languages": [
@@ -3229,6 +3332,7 @@
   },
   "Luxembourg": {
     "name": "Luxembourg",
+    "type": "country",
     "fullName": "Luxembourg – Grand Duchy of Luxembourg",
     "continents": [],
     "languages": [
@@ -3245,6 +3349,7 @@
   },
   "Madagascar": {
     "name": "Madagascar",
+    "type": "country",
     "fullName": "Madagascar – Republic of Madagascar",
     "continents": [],
     "languages": [
@@ -3281,6 +3386,7 @@
   },
   "Malawi": {
     "name": "Malawi",
+    "type": "country",
     "fullName": "Malawi – Republic of Malawi",
     "continents": [],
     "languages": [
@@ -3313,6 +3419,7 @@
   },
   "Malaysia": {
     "name": "Malaysia",
+    "type": "country",
     "fullName": "Malaysia",
     "continents": [],
     "languages": [
@@ -3333,6 +3440,7 @@
   },
   "Maldives": {
     "name": "Maldives",
+    "type": "country",
     "fullName": "Maldives – Republic of Maldives",
     "continents": [],
     "languages": [
@@ -3345,6 +3453,7 @@
   },
   "Mali": {
     "name": "Mali",
+    "type": "country",
     "fullName": "Mali – Republic of Mali",
     "continents": [],
     "languages": [
@@ -3409,6 +3518,7 @@
   },
   "Malta": {
     "name": "Malta",
+    "type": "country",
     "fullName": "Malta – Republic of Malta",
     "continents": [],
     "languages": [
@@ -3425,6 +3535,7 @@
   },
   "Marshall Islands": {
     "name": "Marshall Islands",
+    "type": "country",
     "fullName": "Marshall Islands – Republic of the Marshall Islands",
     "continents": [],
     "languages": [
@@ -3441,6 +3552,7 @@
   },
   "Mauritania": {
     "name": "Mauritania",
+    "type": "country",
     "fullName": "Mauritania – Islamic Republic of Mauritania",
     "continents": [],
     "languages": [
@@ -3457,6 +3569,7 @@
   },
   "Mauritius": {
     "name": "Mauritius",
+    "type": "country",
     "fullName": "Mauritius – Republic of Mauritius",
     "continents": [],
     "languages": [
@@ -3469,6 +3582,7 @@
   },
   "Mexico": {
     "name": "Mexico",
+    "type": "country",
     "fullName": "Mexico – United Mexican States",
     "continents": [],
     "languages": [
@@ -3733,6 +3847,7 @@
   },
   "Micronesia": {
     "name": "Micronesia",
+    "type": "country",
     "fullName": "Micronesia – Federated States of Micronesia",
     "continents": [],
     "languages": [
@@ -3749,6 +3864,7 @@
   },
   "Moldova": {
     "name": "Moldova",
+    "type": "country",
     "fullName": "Moldova – Republic of Moldova",
     "continents": [],
     "languages": [
@@ -3769,6 +3885,7 @@
   },
   "Monaco": {
     "name": "Monaco",
+    "type": "country",
     "fullName": "Monaco – Principality of Monaco",
     "continents": [],
     "languages": [
@@ -3781,6 +3898,7 @@
   },
   "Mongolia": {
     "name": "Mongolia",
+    "type": "country",
     "fullName": "Mongolia",
     "continents": [],
     "languages": [
@@ -3793,6 +3911,7 @@
   },
   "Montenegro": {
     "name": "Montenegro",
+    "type": "country",
     "fullName": "Montenegro",
     "continents": [],
     "languages": [
@@ -3809,6 +3928,7 @@
   },
   "Morocco": {
     "name": "Morocco",
+    "type": "country",
     "fullName": "Morocco – Kingdom of Morocco",
     "continents": [],
     "languages": [
@@ -3841,6 +3961,7 @@
   },
   "Mozambique": {
     "name": "Mozambique",
+    "type": "country",
     "fullName": "Mozambique – Republic of Mozambique",
     "continents": [],
     "languages": [
@@ -3901,6 +4022,7 @@
   },
   "Myanmar": {
     "name": "Myanmar",
+    "type": "country",
     "fullName": "Myanmar – Republic of the Union of Myanmar[ab]",
     "continents": [],
     "languages": [
@@ -4001,6 +4123,7 @@
   },
   "Namibia": {
     "name": "Namibia",
+    "type": "country",
     "fullName": "Namibia – Republic of Namibia",
     "continents": [],
     "languages": [
@@ -4029,6 +4152,7 @@
   },
   "Nauru": {
     "name": "Nauru",
+    "type": "country",
     "fullName": "Nauru – Republic of Nauru",
     "continents": [],
     "languages": [
@@ -4045,6 +4169,7 @@
   },
   "Nepal": {
     "name": "Nepal",
+    "type": "country",
     "fullName": "Nepal – Federal Democratic Republic of Nepal",
     "continents": [],
     "languages": [
@@ -4117,6 +4242,7 @@
   },
   "Netherlands": {
     "name": "Netherlands",
+    "type": "country",
     "fullName": "Netherlands – Kingdom of the Netherlands",
     "continents": [],
     "languages": [
@@ -4129,6 +4255,7 @@
   },
   "New Zealand": {
     "name": "New Zealand",
+    "type": "country",
     "fullName": "New Zealand",
     "continents": [],
     "languages": [
@@ -4149,6 +4276,7 @@
   },
   "Nicaragua": {
     "name": "Nicaragua",
+    "type": "country",
     "fullName": "Nicaragua – Republic of Nicaragua",
     "continents": [],
     "languages": [
@@ -4169,6 +4297,7 @@
   },
   "Niger": {
     "name": "Niger",
+    "type": "country",
     "fullName": "Niger – Republic of Niger",
     "continents": [],
     "languages": [
@@ -4197,6 +4326,7 @@
   },
   "Nigeria": {
     "name": "Nigeria",
+    "type": "country",
     "fullName": "Nigeria – Federal Republic of Nigeria",
     "continents": [],
     "languages": [
@@ -4553,6 +4683,7 @@
   },
   "Macedonia": {
     "name": "Macedonia",
+    "type": "country",
     "fullName": "North Macedonia – Republic of North Macedonia[ad]",
     "continents": [],
     "languages": [
@@ -4565,6 +4696,7 @@
   },
   "Norway": {
     "name": "Norway",
+    "type": "country",
     "fullName": "Norway – Kingdom of Norway",
     "continents": [],
     "languages": [
@@ -4577,6 +4709,7 @@
   },
   "Oman": {
     "name": "Oman",
+    "type": "country",
     "fullName": "Oman – Sultanate of Oman",
     "continents": [],
     "languages": [
@@ -4589,6 +4722,7 @@
   },
   "Pakistan": {
     "name": "Pakistan",
+    "type": "country",
     "fullName": "Pakistan – Islamic Republic of Pakistan",
     "continents": [],
     "languages": [
@@ -4641,6 +4775,7 @@
   },
   "Palau": {
     "name": "Palau",
+    "type": "country",
     "fullName": "Palau – Republic of Palau",
     "continents": [],
     "languages": [
@@ -4657,6 +4792,7 @@
   },
   "Palestine": {
     "name": "Palestine",
+    "type": "country",
     "fullName": "Palestine – State of Palestine",
     "continents": [],
     "languages": [
@@ -4673,6 +4809,7 @@
   },
   "Panama": {
     "name": "Panama",
+    "type": "country",
     "fullName": "Panama – Republic of Panama",
     "continents": [],
     "languages": [
@@ -4701,6 +4838,7 @@
   },
   "Papua New Guinea": {
     "name": "Papua New Guinea",
+    "type": "country",
     "fullName": "Papua New Guinea – Independent State of Papua New Guinea",
     "continents": [],
     "languages": [
@@ -4829,6 +4967,7 @@
   },
   "Paraguay": {
     "name": "Paraguay",
+    "type": "country",
     "fullName": "Paraguay – Republic of Paraguay",
     "continents": [],
     "languages": [
@@ -4845,6 +4984,7 @@
   },
   "Peru": {
     "name": "Peru",
+    "type": "country",
     "fullName": "Peru – Republic of Peru",
     "continents": [],
     "languages": [
@@ -4881,6 +5021,7 @@
   },
   "Philippines": {
     "name": "Philippines",
+    "type": "country",
     "fullName": "Philippines – Republic of the Philippines",
     "continents": [],
     "languages": [
@@ -5049,6 +5190,7 @@
   },
   "Poland": {
     "name": "Poland",
+    "type": "country",
     "fullName": "Poland – Republic of Poland",
     "continents": [],
     "languages": [
@@ -5069,6 +5211,7 @@
   },
   "Portugal": {
     "name": "Portugal",
+    "type": "country",
     "fullName": "Portugal – Portuguese Republic",
     "continents": [],
     "languages": [
@@ -5081,6 +5224,7 @@
   },
   "Qatar": {
     "name": "Qatar",
+    "type": "country",
     "fullName": "Qatar – State of Qatar",
     "continents": [],
     "languages": [
@@ -5093,6 +5237,7 @@
   },
   "Romania": {
     "name": "Romania",
+    "type": "country",
     "fullName": "Romania",
     "continents": [],
     "languages": [
@@ -5121,6 +5266,7 @@
   },
   "Russia": {
     "name": "Russia",
+    "type": "country",
     "fullName": "Russia – Russian Federation",
     "continents": [],
     "languages": [
@@ -5241,6 +5387,7 @@
   },
   "Rwanda": {
     "name": "Rwanda",
+    "type": "country",
     "fullName": "Rwanda – Republic of Rwanda",
     "continents": [],
     "languages": [
@@ -5261,6 +5408,7 @@
   },
   "Saint Kitts and Nevis": {
     "name": "Saint Kitts and Nevis",
+    "type": "country",
     "fullName": "Saint Kitts and Nevis – Federation of Saint Christopher and Nevis",
     "continents": [],
     "languages": [
@@ -5273,6 +5421,7 @@
   },
   "Saint Lucia": {
     "name": "Saint Lucia",
+    "type": "country",
     "fullName": "Saint Lucia",
     "continents": [],
     "languages": [
@@ -5285,6 +5434,7 @@
   },
   "Saint Vincent and the Grenadines": {
     "name": "Saint Vincent and the Grenadines",
+    "type": "country",
     "fullName": "Saint Vincent and the Grenadines",
     "continents": [],
     "languages": [
@@ -5297,6 +5447,7 @@
   },
   "Samoa": {
     "name": "Samoa",
+    "type": "country",
     "fullName": "Samoa – Independent State of Samoa",
     "continents": [],
     "languages": [
@@ -5313,6 +5464,7 @@
   },
   "San Marino": {
     "name": "San Marino",
+    "type": "country",
     "fullName": "San Marino – Republic of San Marino",
     "continents": [],
     "languages": [
@@ -5325,6 +5477,7 @@
   },
   "São Tomé and Príncipe": {
     "name": "São Tomé and Príncipe",
+    "type": "country",
     "fullName": "São Tomé and Príncipe – Democratic Republic of São Tomé and Príncipe",
     "continents": [],
     "languages": [
@@ -5341,6 +5494,7 @@
   },
   "Saudi Arabia": {
     "name": "Saudi Arabia",
+    "type": "country",
     "fullName": "Saudi Arabia – Kingdom of Saudi Arabia",
     "continents": [],
     "languages": [
@@ -5353,6 +5507,7 @@
   },
   "Senegal": {
     "name": "Senegal",
+    "type": "country",
     "fullName": "Senegal – Republic of Senegal",
     "continents": [],
     "languages": [
@@ -5401,6 +5556,7 @@
   },
   "Serbia": {
     "name": "Serbia",
+    "type": "country",
     "fullName": "Serbia – Republic of Serbia",
     "continents": [],
     "languages": [
@@ -5421,6 +5577,7 @@
   },
   "Seychelles": {
     "name": "Seychelles",
+    "type": "country",
     "fullName": "Seychelles – Republic of Seychelles",
     "continents": [],
     "languages": [
@@ -5441,6 +5598,7 @@
   },
   "Sierra Leone": {
     "name": "Sierra Leone",
+    "type": "country",
     "fullName": "Sierra Leone – Republic of Sierra Leone",
     "continents": [],
     "languages": [
@@ -5485,6 +5643,7 @@
   },
   "Singapore": {
     "name": "Singapore",
+    "type": "country",
     "fullName": "Singapore – Republic of Singapore",
     "continents": [],
     "languages": [
@@ -5505,6 +5664,7 @@
   },
   "Slovakia": {
     "name": "Slovakia",
+    "type": "country",
     "fullName": "Slovakia – Slovak Republic",
     "continents": [],
     "languages": [
@@ -5517,6 +5677,7 @@
   },
   "Slovenia": {
     "name": "Slovenia",
+    "type": "country",
     "fullName": "Slovenia – Republic of Slovenia",
     "continents": [],
     "languages": [
@@ -5529,6 +5690,7 @@
   },
   "Solomon Islands": {
     "name": "Solomon Islands",
+    "type": "country",
     "fullName": "Solomon Islands",
     "continents": [],
     "languages": [
@@ -5545,6 +5707,7 @@
   },
   "Somalia": {
     "name": "Somalia",
+    "type": "country",
     "fullName": "Somalia – Federal Republic of Somalia",
     "continents": [],
     "languages": [
@@ -5565,6 +5728,7 @@
   },
   "South Africa": {
     "name": "South Africa",
+    "type": "country",
     "fullName": "South Africa – Republic of South Africa",
     "continents": [],
     "languages": [
@@ -5617,6 +5781,7 @@
   },
   "South Sudan": {
     "name": "South Sudan",
+    "type": "country",
     "fullName": "South Sudan – Republic of South Sudan",
     "continents": [],
     "languages": [
@@ -5669,6 +5834,7 @@
   },
   "Spain": {
     "name": "Spain",
+    "type": "country",
     "fullName": "Spain – Kingdom of Spain",
     "continents": [],
     "languages": [
@@ -5697,6 +5863,7 @@
   },
   "Sri Lanka": {
     "name": "Sri Lanka",
+    "type": "country",
     "fullName": "Sri Lanka – Democratic Socialist Republic of Sri Lanka[af]",
     "continents": [],
     "languages": [
@@ -5713,6 +5880,7 @@
   },
   "Sudan": {
     "name": "Sudan",
+    "type": "country",
     "fullName": "Sudan – Republic of the Sudan",
     "continents": [],
     "languages": [
@@ -5749,6 +5917,7 @@
   },
   "Suriname": {
     "name": "Suriname",
+    "type": "country",
     "fullName": "Suriname – Republic of Suriname",
     "continents": [],
     "languages": [
@@ -5781,6 +5950,7 @@
   },
   "Sweden": {
     "name": "Sweden",
+    "type": "country",
     "fullName": "Sweden – Kingdom of Sweden",
     "continents": [],
     "languages": [
@@ -5793,6 +5963,7 @@
   },
   "Switzerland": {
     "name": "Switzerland",
+    "type": "country",
     "fullName": "Switzerland – Swiss Confederation",
     "continents": [],
     "languages": [
@@ -5813,6 +5984,7 @@
   },
   "Syria": {
     "name": "Syria",
+    "type": "country",
     "fullName": "Syria – Syrian Arab Republic",
     "continents": [],
     "languages": [
@@ -5833,6 +6005,7 @@
   },
   "Taiwan": {
     "name": "Taiwan",
+    "type": "country",
     "fullName": "Taiwan – Republic of China[l]",
     "continents": [],
     "languages": [
@@ -5857,6 +6030,7 @@
   },
   "Tajikistan": {
     "name": "Tajikistan",
+    "type": "country",
     "fullName": "Tajikistan – Republic of Tajikistan",
     "continents": [],
     "languages": [
@@ -5869,6 +6043,7 @@
   },
   "Tanzania": {
     "name": "Tanzania",
+    "type": "country",
     "fullName": "Tanzania – United Republic of Tanzania",
     "continents": [],
     "languages": [
@@ -5961,6 +6136,7 @@
   },
   "Thailand": {
     "name": "Thailand",
+    "type": "country",
     "fullName": "Thailand – Kingdom of Thailand",
     "continents": [],
     "languages": [
@@ -5997,6 +6173,7 @@
   },
   "Togo": {
     "name": "Togo",
+    "type": "country",
     "fullName": "Togo – Togolese Republic",
     "continents": [],
     "languages": [
@@ -6065,6 +6242,7 @@
   },
   "Tonga": {
     "name": "Tonga",
+    "type": "country",
     "fullName": "Tonga – Kingdom of Tonga",
     "continents": [],
     "languages": [
@@ -6081,6 +6259,7 @@
   },
   "Trinidad and Tobago": {
     "name": "Trinidad and Tobago",
+    "type": "country",
     "fullName": "Trinidad and Tobago – Republic of Trinidad and Tobago",
     "continents": [],
     "languages": [
@@ -6097,6 +6276,7 @@
   },
   "Tunisia": {
     "name": "Tunisia",
+    "type": "country",
     "fullName": "Tunisia – Republic of Tunisia",
     "continents": [],
     "languages": [
@@ -6117,6 +6297,7 @@
   },
   "Turkey": {
     "name": "Turkey",
+    "type": "country",
     "fullName": "Turkey – Republic of Turkey",
     "continents": [],
     "languages": [
@@ -6149,6 +6330,7 @@
   },
   "Turkmenistan": {
     "name": "Turkmenistan",
+    "type": "country",
     "fullName": "Turkmenistan",
     "continents": [],
     "languages": [
@@ -6161,6 +6343,7 @@
   },
   "Tuvalu": {
     "name": "Tuvalu",
+    "type": "country",
     "fullName": "Tuvalu",
     "continents": [],
     "languages": [
@@ -6173,6 +6356,7 @@
   },
   "Uganda": {
     "name": "Uganda",
+    "type": "country",
     "fullName": "Uganda – Republic of Uganda",
     "continents": [],
     "languages": [
@@ -6249,6 +6433,7 @@
   },
   "Ukraine": {
     "name": "Ukraine",
+    "type": "country",
     "fullName": "Ukraine",
     "continents": [],
     "languages": [
@@ -6265,6 +6450,7 @@
   },
   "United Arab Emirates": {
     "name": "United Arab Emirates",
+    "type": "country",
     "fullName": "United Arab Emirates",
     "continents": [],
     "languages": [
@@ -6277,6 +6463,7 @@
   },
   "United Kingdom": {
     "name": "United Kingdom",
+    "type": "country",
     "fullName": "United Kingdom – United Kingdom of Great Britain and Northern Ireland",
     "continents": [],
     "languages": [
@@ -6301,6 +6488,7 @@
   },
   "United States": {
     "name": "United States",
+    "type": "country",
     "fullName": "United States – United States of America",
     "continents": [],
     "languages": [
@@ -6333,6 +6521,7 @@
   },
   "Uruguay": {
     "name": "Uruguay",
+    "type": "country",
     "fullName": "Uruguay – Oriental Republic of Uruguay",
     "continents": [],
     "languages": [
@@ -6345,6 +6534,7 @@
   },
   "Uzbekistan": {
     "name": "Uzbekistan",
+    "type": "country",
     "fullName": "Uzbekistan – Republic of Uzbekistan",
     "continents": [],
     "languages": [
@@ -6373,6 +6563,7 @@
   },
   "Vanuatu": {
     "name": "Vanuatu",
+    "type": "country",
     "fullName": "Vanuatu – Republic of Vanuatu",
     "continents": [],
     "languages": [
@@ -6401,6 +6592,7 @@
   },
   "Venezuela": {
     "name": "Venezuela",
+    "type": "country",
     "fullName": "Venezuela – Bolivarian Republic of Venezuela",
     "continents": [],
     "languages": [
@@ -6437,6 +6629,7 @@
   },
   "Vietnam": {
     "name": "Vietnam",
+    "type": "country",
     "fullName": "Vietnam – Socialist Republic of Vietnam",
     "continents": [],
     "languages": [
@@ -6489,6 +6682,7 @@
   },
   "Yemen": {
     "name": "Yemen",
+    "type": "country",
     "fullName": "Yemen – Republic of Yemen",
     "continents": [],
     "languages": [
@@ -6505,6 +6699,7 @@
   },
   "Zambia": {
     "name": "Zambia",
+    "type": "country",
     "fullName": "Zambia – Republic of Zambia",
     "continents": [],
     "languages": [
@@ -6561,6 +6756,7 @@
   },
   "Zimbabwe": {
     "name": "Zimbabwe",
+    "type": "country",
     "fullName": "Zimbabwe – Republic of Zimbabwe",
     "continents": [],
     "languages": [
