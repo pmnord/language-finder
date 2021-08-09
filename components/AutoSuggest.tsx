@@ -3,7 +3,7 @@ import React, { ChangeEvent, useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
 import languages from '../data/all-languages.json';
-import Link from 'next/link';
+import Suggestion from './Suggestion';
 // ---------------------------------------------
 // Autosuggest Styles are located in globals.css
 // ---------------------------------------------
@@ -38,44 +38,7 @@ const getSuggestions = (value) => {
 const getSuggestionValue = (suggestion) => suggestion;
 
 const renderSuggestion = (suggestion) => {
-  if (suggestion.type === 'country') {
-    return (
-      <div>
-        <label>Country</label>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-          }}
-        >
-          <img
-            style={{
-              height: '1rem',
-              marginRight: '1rem',
-              boxShadow: '0 2px 6px 0 rgba(0, 0, 0, 0.3)',
-            }}
-            src={`flags/${suggestion.flagSvg}`}
-            alt={suggestion.name}
-            title={suggestion.fullName}
-          />
-          <p>{suggestion.name}</p>
-        </div>
-      </div>
-    );
-  } else if (suggestion.type === 'language') {
-    return (
-      <Link href={suggestion.hyperlink}>
-        <a>
-          <div>
-            <label>Language</label>
-            <p>{suggestion.name}</p>
-          </div>
-        </a>
-      </Link>
-    );
-  } else {
-    return null;
-  }
+  return <Suggestion suggestion={suggestion} />;
 };
 
 const AutoSuggest = () => {
@@ -120,7 +83,11 @@ const AutoSuggest = () => {
       onSuggestionSelected={handleSuggestionSelected}
       getSuggestionValue={getSuggestionValue}
       renderSuggestion={renderSuggestion}
-      inputProps={{ placeholder: 'Search by Country Name', value, onChange }}
+      inputProps={{
+        placeholder: 'Search by Country or Language',
+        value,
+        onChange,
+      }}
     />
   );
 };
