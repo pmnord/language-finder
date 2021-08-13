@@ -6,7 +6,7 @@ const countries = require('./countries.json');
 /*                             Call Functions Here                            */
 /* -------------------------------------------------------------------------- */
 
-extractAllLanguagesFromCountries();
+// extractAllLanguagesFromCountries();
 
 /* -------------------------------------------------------------------------- */
 /*                           End Call Functions Area                          */
@@ -25,7 +25,7 @@ function reduceLanguagesIntoCountry() {
   }, {});
 
   fs.writeFileSync(
-    './data/relationships-8-4-reduced.json',
+    `./data/relationships-reduced-${Date.now()}.json`,
     JSON.stringify(reducedRel)
   );
 }

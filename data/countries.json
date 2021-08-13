@@ -7,10 +7,12 @@
     "languages": [
       {
         "language": "Dari",
+        "script": "دری",
         "hyperlink": "https://mylanguage.net.au/watch_online/prs00/JESUS/1_53400-jf6112-0-0"
       },
       {
         "language": "Hazaragi",
+        "script": "هزارگی",
         "hyperlink": "https://mylanguage.net.au/watch_online/haz00/JESUS/1_450-jf6112-0-0"
       },
       {
@@ -597,8 +599,8 @@
     ],
     "flagSvg": "Flag_of_Bulgaria.svg"
   },
-  "Burkina": {
-    "name": "Burkina",
+  "Burkina Faso": {
+    "name": "Burkina Faso",
     "type": "country",
     "fullName": "Burkina Faso",
     "continents": [],
@@ -894,6 +896,14 @@
       }
     ],
     "flagSvg": "Flag_of_Cape_Verde.svg"
+  },
+  "Caribbean Netherlands": {
+    "name": "Caribbean Netherlands",
+    "type": "country",
+    "fullName": "Caribbean Netherlands",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Flag_of_the_Netherlands.svg"
   },
   "Central African Republic": {
     "name": "Central African Republic",
@@ -1760,6 +1770,22 @@
     ],
     "flagSvg": "Flag_of_France.svg"
   },
+  "French Guiana": {
+    "name": "French Guiana",
+    "type": "country",
+    "fullName": "French Guiana",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Coat_of_arms_of_French_Guyana.svg"
+  },
+  "French Polynesia": {
+    "name": "French Polynesia",
+    "type": "country",
+    "fullName": "French Polynesia",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Flag_of_French_Polynesia.svg"
+  },
   "Gabon": {
     "name": "Gabon",
     "type": "country",
@@ -1946,6 +1972,14 @@
     ],
     "flagSvg": "Flag_of_Greece.svg"
   },
+  "Greenland": {
+    "name": "Greenland",
+    "type": "country",
+    "fullName": "Greenland",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Flag_of_Greenland.svg"
+  },
   "Grenada": {
     "name": "Grenada",
     "type": "country",
@@ -1958,6 +1992,22 @@
       }
     ],
     "flagSvg": "Flag_of_Grenada.svg"
+  },
+  "Guadeloupe": {
+    "name": "Guadeloupe",
+    "type": "country",
+    "fullName": "Guadeloupe",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Flag_of_France.svg"
+  },
+  "Guam": {
+    "name": "Guam",
+    "type": "country",
+    "fullName": "Guam",
+    "continents": [],
+    "languages": [],
+    "flagSvg": "Flag_of_Guam.svg"
   },
   "Guatemala": {
     "name": "Guatemala",
