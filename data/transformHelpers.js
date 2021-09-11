@@ -2,16 +2,6 @@ const fs = require('fs');
 const languageArrays = require('./country-lang-relationships.json');
 const countries = require('./countries.json');
 
-/* -------------------------------------------------------------------------- */
-/*                             Call Functions Here                            */
-/* -------------------------------------------------------------------------- */
-
-extractAllLanguagesFromCountries();
-
-/* -------------------------------------------------------------------------- */
-/*                           End Call Functions Area                          */
-/* -------------------------------------------------------------------------- */
-
 function reduceLanguagesIntoCountry() {
   const reducedRel = rel.reduce((acc, cur) => {
     if (!acc[cur.country]) acc[cur.country] = [];
