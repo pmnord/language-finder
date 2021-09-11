@@ -901,14 +901,6 @@
     ],
     "flagSvg": "Flag_of_Cape_Verde.svg"
   },
-  "Caribbean Netherlands": {
-    "name": "Caribbean Netherlands",
-    "type": "country",
-    "fullName": "Caribbean Netherlands",
-    "continents": [],
-    "languages": [],
-    "flagSvg": "Flag_of_the_Netherlands.svg"
-  },
   "Central African Republic": {
     "name": "Central African Republic",
     "type": "country",
@@ -1954,22 +1946,6 @@
     ],
     "flagSvg": "Flag_of_France.svg"
   },
-  "French Guiana": {
-    "name": "French Guiana",
-    "type": "country",
-    "fullName": "French Guiana",
-    "continents": [],
-    "languages": [],
-    "flagSvg": "Coat_of_arms_of_French_Guyana.svg"
-  },
-  "French Polynesia": {
-    "name": "French Polynesia",
-    "type": "country",
-    "fullName": "French Polynesia",
-    "continents": [],
-    "languages": [],
-    "flagSvg": "Flag_of_French_Polynesia.svg"
-  },
   "Gabon": {
     "name": "Gabon",
     "type": "country",
@@ -2161,7 +2137,12 @@
     "type": "country",
     "fullName": "Greenland",
     "continents": [],
-    "languages": [],
+    "languages": [
+      {
+        "language": "Kalaallisut (Greenlandic)",
+        "hyperlink": "https://mylanguage.net.au/watch_online/esg00/JESUS/1_21199-jf6112-0-0"
+      }
+    ],
     "flagSvg": "Flag_of_Greenland.svg"
   },
   "Grenada": {
@@ -2176,22 +2157,6 @@
       }
     ],
     "flagSvg": "Flag_of_Grenada.svg"
-  },
-  "Guadeloupe": {
-    "name": "Guadeloupe",
-    "type": "country",
-    "fullName": "Guadeloupe",
-    "continents": [],
-    "languages": [],
-    "flagSvg": "Flag_of_France.svg"
-  },
-  "Guam": {
-    "name": "Guam",
-    "type": "country",
-    "fullName": "Guam",
-    "continents": [],
-    "languages": [],
-    "flagSvg": "Flag_of_Guam.svg"
   },
   "Guatemala": {
     "name": "Guatemala",

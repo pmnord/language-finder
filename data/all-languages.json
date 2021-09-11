@@ -1624,6 +1624,11 @@
     "hyperlink": "https://mylanguage.net.au/watch_online/wlx00/JESUS/1_5276-jf6112-0-0",
     "type": "language"
   },
+  "Kalaallisut (Greenlandic)": {
+    "name": "Kalaallisut (Greenlandic)",
+    "hyperlink": "https://mylanguage.net.au/watch_online/esg00/JESUS/1_21199-jf6112-0-0",
+    "type": "language"
+  },
   "Achi, Rabinal": {
     "name": "Achi, Rabinal",
     "hyperlink": "https://mylanguage.net.au/watch_online/acr00/JESUS/1_5441-jf6112-0-0",
@@ -5522,6 +5527,16 @@
   "Ndebele, Northern": {
     "name": "Ndebele, Northern",
     "hyperlink": "https://mylanguage.net.au/watch_online/ndf00/JESUS/1_20851-jf6112-0-0",
+    "type": "language"
+  },
+  "Lesser Antillean Creole French": {
+    "name": "Lesser Antillean Creole French",
+    "hyperlink": "https://mylanguage.net.au/watch_online/dom00/JESUS/1_4472-jf6112-0-0",
+    "type": "language"
+  },
+  "Chamorro": {
+    "name": "Chamorro",
+    "hyperlink": "https://mylanguage.net.au/watch_online/cjd00/JESUS/1_5379-jf6112-0-0",
     "type": "language"
   }
 }
