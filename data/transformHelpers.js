@@ -15,7 +15,7 @@ function reduceLanguagesIntoCountry() {
   }, {});
 
   fs.writeFileSync(
-    './data/relationships-8-4-reduced.json',
+    `./data/relationships-reduced-${Date.now()}.json`,
     JSON.stringify(reducedRel)
   );
 }
