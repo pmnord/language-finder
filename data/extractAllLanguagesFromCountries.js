@@ -12,6 +12,16 @@ const otherLanguages = [
     hyperlink:
       'https://mylanguage.net.au/watch_online/cjd00/JESUS/1_5379-jf6112-0-0',
   },
+  {
+    language: 'Wayampi, Oiapoque',
+    hyperlink:
+      'https://mylanguage.net.au/watch_online/Way99/JESUS/1_1795-jf6112-0-0',
+  },
+  {
+    language: 'Papiamentu',
+    hyperlink:
+      'https://mylanguage.net.au/watch_online/pae00/JESUS/1_9131-jf6112-0-0',
+  },
 ];
 
 function extractAllLanguagesFromCountries() {
