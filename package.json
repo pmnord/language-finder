@@ -18,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@types/react": "^17.0.3",
+    "csv": "^5.5.3",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
