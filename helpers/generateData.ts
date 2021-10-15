@@ -4,6 +4,7 @@ const CSVToJSON = require('csvtojson');
 
 interface Language {
   language: string;
+  name: string;
   script: string;
   type: 'language';
   hyperlink: string;
@@ -22,21 +23,25 @@ interface Country {
 const additionalLanguages = [
   {
     language: 'Lesser Antillean Creole French',
+    script: '',
     hyperlink:
       'https://mylanguage.net.au/watch_online/dom00/JESUS/1_4472-jf6112-0-0',
   },
   {
     language: 'Chamorro',
+    script: '',
     hyperlink:
       'https://mylanguage.net.au/watch_online/cjd00/JESUS/1_5379-jf6112-0-0',
   },
   {
     language: 'Wayampi, Oiapoque',
+    script: '',
     hyperlink:
       'https://mylanguage.net.au/watch_online/Way99/JESUS/1_1795-jf6112-0-0',
   },
   {
     language: 'Papiamentu',
+    script: '',
     hyperlink:
       'https://mylanguage.net.au/watch_online/pae00/JESUS/1_9131-jf6112-0-0',
   },
@@ -69,6 +74,7 @@ const additionalLanguages = [
       entries.forEach(({ country, language, hyperlink, script }) => {
         const newLangEntry: Language = {
           language,
+          name: language,
           script,
           type: 'language',
           hyperlink,
@@ -77,7 +83,6 @@ const additionalLanguages = [
         if (countries[country]) {
           countries[country].languages.push(newLangEntry);
         } else {
-          // TODO loop through every country and check if the country name is in aliases
           for (const countryEntry of countriesArray) {
             if (countryEntry.aliases.includes(country)) {
               countries[countryEntry.name] &&
@@ -92,63 +97,24 @@ const additionalLanguages = [
         } else if (!languages[language]) {
           languages[language] = newLangEntry;
         }
-
-        fs.writeFileSync('./test-lang.json', JSON.stringify(languages));
-        fs.writeFileSync('./test-country.json', JSON.stringify(countries));
-        fs.writeFileSync('./test-top.json', JSON.stringify(top));
       });
+
+      //include additional languages manually
+      for (const lang of additionalLanguages) {
+        if (!languages[lang.language]) {
+          const newLangEntry: Language = {
+            language: lang.language,
+            name: lang.language,
+            script: lang.script,
+            type: 'language',
+            hyperlink: lang.hyperlink,
+          };
+          languages[lang.language] = newLangEntry;
+        }
+      }
+
+      fs.writeFileSync('./data/languages.json', JSON.stringify(languages));
+      fs.writeFileSync('./data/countries.json', JSON.stringify(countries));
+      fs.writeFileSync('./data/top.json', JSON.stringify(top));
     });
 })();
-
-// function reduceLanguagesIntoCountry() {
-//   const reducedRel = rel.reduce((acc, cur) => {
-//     if (!acc[cur.country]) acc[cur.country] = [];
-
-//     acc[cur.country].push({
-//       language: cur.language,
-//       hyperlink: cur.hyperlink,
-//     });
-
-//     return acc;
-//   }, {});
-
-//   fs.writeFileSync(
-//     `./data/relationships-reduced-${Date.now()}.json`,
-//     JSON.stringify(reducedRel)
-//   );
-// }
-
-// function setLanguageArrayInCountry() {
-//   Object.keys(countries).forEach((key) => {
-//     const country = countries[key];
-//     country.languages = languageArrays[key];
-//   });
-//   fs.writeFileSync('./data/new-countries.json', JSON.stringify(countries));
-// }
-
-// function extractAllLanguagesFromCountries() {
-//   const allLanguages = {};
-
-//   Object.keys(countries).forEach((key) => {
-//     const country = countries[key];
-//     country.languages.forEach(({ language, hyperlink }) => {
-//       if (!allLanguages[language]) {
-//         allLanguages[language] = {
-//           name: language,
-//           hyperlink,
-//           type: 'language',
-//         };
-//       }
-//     });
-//   });
-
-//   for (language of additionalLanguages) {
-//     allLanguages[language.language] = {
-//       name: language.language,
-//       hyperlink: language.hyperlink,
-//       type: 'language',
-//     };
-//   }
-
-//   fs.writeFileSync('./data/all-languages.json', JSON.stringify(allLanguages));
-// }

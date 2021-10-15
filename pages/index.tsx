@@ -26,6 +26,9 @@ export default function Home() {
         <div className={styles.flagsContainer}>
           {Object.keys(countries).map((countryName) => {
             const country = countries[countryName];
+
+            if (country.languages.length === 0) return null;
+
             return (
               <Link
                 key={country.name}
