@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 7777",
     "build": "next build",
+    "dev": "next dev -p 7777",
+    "generate": "ts-node ./helpers/generateData.ts",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.1.3",
+    "csvtojson": "^2.0.10",
+    "next": "^11.1.2",
     "react": "17.0.2",
     "react-autosuggest": "^10.1.0",
     "react-dom": "17.0.2",
@@ -18,13 +20,13 @@
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@types/react": "^17.0.3",
-    "csv": "^5.5.3",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "ts-node": "^10.3.0",
     "typescript": "^4.2.3"
   }
 }

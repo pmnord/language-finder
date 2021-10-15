@@ -1,5 +1,5 @@
 import styles from '../styles/CommonLanguages.module.scss';
-import commonLanguages from '../data/common-languages.json';
+import commonLanguages from '../data/top.json';
 import Link from 'next/link';
 
 export default function CommonLanguagesBanner(): JSX.Element {

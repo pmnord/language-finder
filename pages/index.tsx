@@ -50,7 +50,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <Link href='/'>
-          <a>Back to the Top</a>
+          <a>Back to the Top ↑</a>
         </Link>
       </footer>
     </div>

@@ -1,0 +1,1775 @@
+{
+  "Afghanistan": {
+    "name": "Afghanistan",
+    "fullName": "Afghanistan – Islamic Republic of Afghanistan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Afghanistan.svg"
+  },
+  "Albania": {
+    "name": "Albania",
+    "fullName": "Albania – Republic of Albania",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Albania.svg"
+  },
+  "Algeria": {
+    "name": "Algeria",
+    "fullName": "Algeria – People's Democratic Republic of Algeria",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Algeria.svg"
+  },
+  "Andorra": {
+    "name": "Andorra",
+    "fullName": "Andorra – Principality of Andorra",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Andorra.svg"
+  },
+  "Angola": {
+    "name": "Angola",
+    "fullName": "Angola – Republic of Angola",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Angola.svg"
+  },
+  "Antigua and Barbuda": {
+    "name": "Antigua and Barbuda",
+    "fullName": "Antigua and Barbuda",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Antigua_and_Barbuda.svg"
+  },
+  "Argentina": {
+    "name": "Argentina",
+    "fullName": "Argentina – Argentine Republic[g]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Argentina.svg"
+  },
+  "Armenia": {
+    "name": "Armenia",
+    "fullName": "Armenia – Republic of Armenia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Armenia.svg"
+  },
+  "Australia": {
+    "name": "Australia",
+    "fullName": "Australia – Commonwealth of Australia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Australia.svg"
+  },
+  "Austria": {
+    "name": "Austria",
+    "fullName": "Austria – Republic of Austria",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Austria.svg"
+  },
+  "Azerbaijan": {
+    "name": "Azerbaijan",
+    "fullName": "Azerbaijan – Republic of Azerbaijan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Azerbaijan.svg"
+  },
+  "Bahamas": {
+    "name": "Bahamas",
+    "fullName": "Bahamas, The – Commonwealth of The Bahamas[9]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Bahamas.svg"
+  },
+  "Bahrain": {
+    "name": "Bahrain",
+    "fullName": "Bahrain – Kingdom of Bahrain",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bahrain.svg"
+  },
+  "Bangladesh": {
+    "name": "Bangladesh",
+    "fullName": "Bangladesh – People's Republic of Bangladesh",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bangladesh.svg"
+  },
+  "Barbados": {
+    "name": "Barbados",
+    "fullName": "Barbados",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Barbados.svg"
+  },
+  "Belarus": {
+    "name": "Belarus",
+    "fullName": "Belarus – Republic of Belarus",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Belarus.svg"
+  },
+  "Belgium": {
+    "name": "Belgium",
+    "fullName": "Belgium – Kingdom of Belgium",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Belgium.svg"
+  },
+  "Belize": {
+    "name": "Belize",
+    "fullName": "Belize",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Belize.svg"
+  },
+  "Benin": {
+    "name": "Benin",
+    "fullName": "Benin – Republic of Benin",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Benin.svg"
+  },
+  "Bhutan": {
+    "name": "Bhutan",
+    "fullName": "Bhutan – Kingdom of Bhutan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bhutan.svg"
+  },
+  "Bolivia": {
+    "name": "Bolivia",
+    "fullName": "Bolivia – Plurinational State of Bolivia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bolivia.svg"
+  },
+  "Bosnia and Herzegovina": {
+    "name": "Bosnia and Herzegovina",
+    "fullName": "Bosnia and Herzegovina",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bosnia_and_Herzegovina.svg"
+  },
+  "Botswana": {
+    "name": "Botswana",
+    "fullName": "Botswana – Republic of Botswana",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Botswana.svg"
+  },
+  "Brazil": {
+    "name": "Brazil",
+    "fullName": "Brazil – Federative Republic of Brazil",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Brazil.svg"
+  },
+  "Brunei": {
+    "name": "Brunei",
+    "fullName": "Brunei – Nation of Brunei, the Abode of Peace",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Brunei.svg"
+  },
+  "Bulgaria": {
+    "name": "Bulgaria",
+    "fullName": "Bulgaria – Republic of Bulgaria",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Bulgaria.svg"
+  },
+  "Burkina Faso": {
+    "name": "Burkina Faso",
+    "fullName": "Burkina Faso",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Burkina_Faso.svg"
+  },
+  "Burundi": {
+    "name": "Burundi",
+    "fullName": "Burundi – Republic of Burundi",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Burundi.svg"
+  },
+  "Cambodia": {
+    "name": "Cambodia",
+    "fullName": "Cambodia – Kingdom of Cambodia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Cambodia.svg"
+  },
+  "Cameroon": {
+    "name": "Cameroon",
+    "fullName": "Cameroon – Republic of Cameroon",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Cameroon.svg"
+  },
+  "Canada": {
+    "name": "Canada",
+    "fullName": "Canada[i]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Canada.svg"
+  },
+  "Cape Verde": {
+    "name": "Cape Verde",
+    "fullName": "Cape Verde – Republic of Cabo Verde[j]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Cape_Verde.svg"
+  },
+  "Central African Republic": {
+    "name": "Central African Republic",
+    "fullName": "Central African Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Central_African_Republic.svg"
+  },
+  "Chad": {
+    "name": "Chad",
+    "fullName": "Chad – Republic of Chad",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Chad.svg"
+  },
+  "Chile": {
+    "name": "Chile",
+    "fullName": "Chile – Republic of Chile",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Chile.svg"
+  },
+  "China": {
+    "name": "China",
+    "fullName": "China – People's Republic of China[l]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_People's_Republic_of_China.svg"
+  },
+  "Colombia": {
+    "name": "Colombia",
+    "fullName": "Colombia – Republic of Colombia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Colombia.svg"
+  },
+  "Comoros": {
+    "name": "Comoros",
+    "fullName": "Comoros – Union of the Comoros",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Comoros.svg"
+  },
+  "Democratic Republic of Congo": {
+    "name": "Democratic Republic of Congo",
+    "fullName": "Congo, Democratic Republic of the[p]",
+    "aliases": ["DRCongo"],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Democratic_Republic_of_the_Congo.svg"
+  },
+  "Republic of Congo": {
+    "name": "Republic of Congo",
+    "fullName": "Congo, Republic of the[q]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Republic_of_the_Congo.svg"
+  },
+  "Costa Rica": {
+    "name": "Costa Rica",
+    "fullName": "Costa Rica – Republic of Costa Rica",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Costa_Rica.svg"
+  },
+  "Croatia": {
+    "name": "Croatia",
+    "fullName": "Croatia – Republic of Croatia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Croatia.svg"
+  },
+  "Cuba": {
+    "name": "Cuba",
+    "fullName": "Cuba – Republic of Cuba",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Cuba.svg"
+  },
+  "Cyprus": {
+    "name": "Cyprus",
+    "fullName": "Cyprus – Republic of Cyprus",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Cyprus.svg"
+  },
+  "Czech Republic": {
+    "name": "Czech Republic",
+    "fullName": "Czech Republic[r]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Czech_Republic.svg"
+  },
+  "Denmark": {
+    "name": "Denmark",
+    "fullName": "Denmark – Kingdom of Denmark",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Denmark.svg"
+  },
+  "Djibouti": {
+    "name": "Djibouti",
+    "fullName": "Djibouti – Republic of Djibouti",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Djibouti.svg"
+  },
+  "Dominica": {
+    "name": "Dominica",
+    "fullName": "Dominica – Commonwealth of Dominica",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Dominica.svg"
+  },
+  "Dominican Republic": {
+    "name": "Dominican Republic",
+    "fullName": "Dominican Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Dominican_Republic.svg"
+  },
+  "East Timor": {
+    "name": "East Timor",
+    "fullName": "East Timor – Democratic Republic of Timor-Leste[t]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_East_Timor.svg"
+  },
+  "Ecuador": {
+    "name": "Ecuador",
+    "fullName": "Ecuador – Republic of Ecuador",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Ecuador.svg"
+  },
+  "Egypt": {
+    "name": "Egypt",
+    "fullName": "Egypt – Arab Republic of Egypt",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Egypt.svg"
+  },
+  "El Salvador": {
+    "name": "El Salvador",
+    "fullName": "El Salvador – Republic of El Salvador",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_El_Salvador.svg"
+  },
+  "Equatorial Guinea": {
+    "name": "Equatorial Guinea",
+    "fullName": "Equatorial Guinea – Republic of Equatorial Guinea",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Equatorial_Guinea.svg"
+  },
+  "Eritrea": {
+    "name": "Eritrea",
+    "fullName": "Eritrea – State of Eritrea",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Eritrea.svg"
+  },
+  "Estonia": {
+    "name": "Estonia",
+    "fullName": "Estonia – Republic of Estonia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Estonia.svg"
+  },
+  "Eswatini": {
+    "name": "Eswatini",
+    "fullName": "Eswatini – Kingdom of Eswatini[u]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Eswatini.svg"
+  },
+  "Ethiopia": {
+    "name": "Ethiopia",
+    "fullName": "Ethiopia – Federal Democratic Republic of Ethiopia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Ethiopia.svg"
+  },
+  "Fiji": {
+    "name": "Fiji",
+    "fullName": "Fiji – Republic of Fiji",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Fiji.svg"
+  },
+  "Finland": {
+    "name": "Finland",
+    "fullName": "Finland – Republic of Finland",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Finland.svg"
+  },
+  "France": {
+    "name": "France",
+    "fullName": "France – French Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_France.svg"
+  },
+  "Gabon": {
+    "name": "Gabon",
+    "fullName": "Gabon – Gabonese Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Gabon.svg"
+  },
+  "The Gambia": {
+    "name": "The Gambia",
+    "fullName": "Gambia, The – Republic of The Gambia[18]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_The_Gambia.svg"
+  },
+  "Georgia": {
+    "name": "Georgia",
+    "fullName": "Georgia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Georgia.svg"
+  },
+  "Germany": {
+    "name": "Germany",
+    "fullName": "Germany – Federal Republic of Germany",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Germany.svg"
+  },
+  "Ghana": {
+    "name": "Ghana",
+    "fullName": "Ghana – Republic of Ghana",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Ghana.svg"
+  },
+  "Greece": {
+    "name": "Greece",
+    "fullName": "Greece – Hellenic Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Greece.svg"
+  },
+  "Greenland": {
+    "name": "Greenland",
+    "fullName": "Greenland",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Greenland.svg"
+  },
+  "Grenada": {
+    "name": "Grenada",
+    "fullName": "Grenada",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Grenada.svg"
+  },
+  "Guatemala": {
+    "name": "Guatemala",
+    "fullName": "Guatemala – Republic of Guatemala",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Guatemala.svg"
+  },
+  "Guinea": {
+    "name": "Guinea",
+    "fullName": "Guinea – Republic of Guinea[x]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Guinea.svg"
+  },
+  "Guinea-Bissau": {
+    "name": "Guinea-Bissau",
+    "fullName": "Guinea-Bissau – Republic of Guinea-Bissau",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Guinea-Bissau.svg"
+  },
+  "Guyana": {
+    "name": "Guyana",
+    "fullName": "Guyana – Co-operative Republic of Guyana",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Guyana.svg"
+  },
+  "Haiti": {
+    "name": "Haiti",
+    "fullName": "Haiti – Republic of Haiti",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Haiti.svg"
+  },
+  "Honduras": {
+    "name": "Honduras",
+    "fullName": "Honduras – Republic of Honduras",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Honduras.svg"
+  },
+  "Hungary": {
+    "name": "Hungary",
+    "fullName": "Hungary",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Hungary.svg"
+  },
+  "Iceland": {
+    "name": "Iceland",
+    "fullName": "Iceland[y]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Iceland.svg"
+  },
+  "India": {
+    "name": "India",
+    "fullName": "India – Republic of India",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_India.svg"
+  },
+  "Indonesia": {
+    "name": "Indonesia",
+    "fullName": "Indonesia – Republic of Indonesia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Indonesia.svg"
+  },
+  "Iran": {
+    "name": "Iran",
+    "fullName": "Iran – Islamic Republic of Iran",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Iran.svg"
+  },
+  "Iraq": {
+    "name": "Iraq",
+    "fullName": "Iraq – Republic of Iraq",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Iraq.svg"
+  },
+  "Ireland": {
+    "name": "Ireland",
+    "fullName": "Ireland[z]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Ireland.svg"
+  },
+  "Israel": {
+    "name": "Israel",
+    "fullName": "Israel – State of Israel",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Israel.svg"
+  },
+  "Italy": {
+    "name": "Italy",
+    "fullName": "Italy – Italian Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Italy.svg"
+  },
+  "Ivory Coast": {
+    "name": "Ivory Coast",
+    "fullName": "Ivory Coast – Republic of Côte d'Ivoire[aa]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Côte_d'Ivoire.svg"
+  },
+  "Jamaica": {
+    "name": "Jamaica",
+    "fullName": "Jamaica",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Jamaica.svg"
+  },
+  "Japan": {
+    "name": "Japan",
+    "fullName": "Japan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Japan.svg"
+  },
+  "Jordan": {
+    "name": "Jordan",
+    "fullName": "Jordan – Hashemite Kingdom of Jordan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Jordan.svg"
+  },
+  "Kazakhstan": {
+    "name": "Kazakhstan",
+    "fullName": "Kazakhstan – Republic of Kazakhstan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kazakhstan.svg"
+  },
+  "Kenya": {
+    "name": "Kenya",
+    "fullName": "Kenya – Republic of Kenya",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kenya.svg"
+  },
+  "Kiribati": {
+    "name": "Kiribati",
+    "fullName": "Kiribati – Republic of Kiribati",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kiribati.svg"
+  },
+  "Korea, North": {
+    "name": "Korea, North",
+    "fullName": "Korea, North – Democratic People's Republic of Korea",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_North_Korea.svg"
+  },
+  "Korea, South": {
+    "name": "Korea, South",
+    "fullName": "Korea, South – Republic of Korea",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_South_Korea.svg"
+  },
+  "Kosovo": {
+    "name": "Kosovo",
+    "fullName": "Republic of Kosovo",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kosovo.svg"
+  },
+  "Kuwait": {
+    "name": "Kuwait",
+    "fullName": "Kuwait – State of Kuwait",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kuwait.svg"
+  },
+  "Kyrgyzstan": {
+    "name": "Kyrgyzstan",
+    "fullName": "Kyrgyzstan – Kyrgyz Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Kyrgyzstan.svg"
+  },
+  "Laos": {
+    "name": "Laos",
+    "fullName": "Laos – Lao People's Democratic Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Laos.svg"
+  },
+  "Latvia": {
+    "name": "Latvia",
+    "fullName": "Latvia – Republic of Latvia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Latvia.svg"
+  },
+  "Lebanon": {
+    "name": "Lebanon",
+    "fullName": "Lebanon – Lebanese Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Lebanon.svg"
+  },
+  "Lesotho": {
+    "name": "Lesotho",
+    "fullName": "Lesotho – Kingdom of Lesotho",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Lesotho.svg"
+  },
+  "Liberia": {
+    "name": "Liberia",
+    "fullName": "Liberia – Republic of Liberia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Liberia.svg"
+  },
+  "Libya": {
+    "name": "Libya",
+    "fullName": "Libya – State of Libya",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Libya.svg"
+  },
+  "Liechtenstein": {
+    "name": "Liechtenstein",
+    "fullName": "Liechtenstein – Principality of Liechtenstein",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Liechtenstein.svg"
+  },
+  "Lithuania": {
+    "name": "Lithuania",
+    "fullName": "Lithuania – Republic of Lithuania",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Lithuania.svg"
+  },
+  "Luxembourg": {
+    "name": "Luxembourg",
+    "fullName": "Luxembourg – Grand Duchy of Luxembourg",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Luxembourg.svg"
+  },
+  "Madagascar": {
+    "name": "Madagascar",
+    "fullName": "Madagascar – Republic of Madagascar",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Madagascar.svg"
+  },
+  "Malawi": {
+    "name": "Malawi",
+    "fullName": "Malawi – Republic of Malawi",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Malawi.svg"
+  },
+  "Malaysia": {
+    "name": "Malaysia",
+    "fullName": "Malaysia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Malaysia.svg"
+  },
+  "Maldives": {
+    "name": "Maldives",
+    "fullName": "Maldives – Republic of Maldives",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Maldives.svg"
+  },
+  "Mali": {
+    "name": "Mali",
+    "fullName": "Mali – Republic of Mali",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mali.svg"
+  },
+  "Malta": {
+    "name": "Malta",
+    "fullName": "Malta – Republic of Malta",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Malta.svg"
+  },
+  "Marshall Islands": {
+    "name": "Marshall Islands",
+    "fullName": "Marshall Islands – Republic of the Marshall Islands",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Marshall_Islands.svg"
+  },
+  "Mauritania": {
+    "name": "Mauritania",
+    "fullName": "Mauritania – Islamic Republic of Mauritania",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mauritania.svg"
+  },
+  "Mauritius": {
+    "name": "Mauritius",
+    "fullName": "Mauritius – Republic of Mauritius",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mauritius.svg"
+  },
+  "Mexico": {
+    "name": "Mexico",
+    "fullName": "Mexico – United Mexican States",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mexico.svg"
+  },
+  "Micronesia": {
+    "name": "Micronesia",
+    "fullName": "Micronesia – Federated States of Micronesia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Federated_States_of_Micronesia.svg"
+  },
+  "Moldova": {
+    "name": "Moldova",
+    "fullName": "Moldova – Republic of Moldova",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Moldova.svg"
+  },
+  "Monaco": {
+    "name": "Monaco",
+    "fullName": "Monaco – Principality of Monaco",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Monaco.svg"
+  },
+  "Mongolia": {
+    "name": "Mongolia",
+    "fullName": "Mongolia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mongolia.svg"
+  },
+  "Montenegro": {
+    "name": "Montenegro",
+    "fullName": "Montenegro",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Montenegro.svg"
+  },
+  "Morocco": {
+    "name": "Morocco",
+    "fullName": "Morocco – Kingdom of Morocco",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Morocco.svg"
+  },
+  "Mozambique": {
+    "name": "Mozambique",
+    "fullName": "Mozambique – Republic of Mozambique",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Mozambique.svg"
+  },
+  "Myanmar": {
+    "name": "Myanmar",
+    "fullName": "Myanmar – Republic of the Union of Myanmar[ab]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Myanmar.svg"
+  },
+  "Namibia": {
+    "name": "Namibia",
+    "fullName": "Namibia – Republic of Namibia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Namibia.svg"
+  },
+  "Nauru": {
+    "name": "Nauru",
+    "fullName": "Nauru – Republic of Nauru",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Nauru.svg"
+  },
+  "Nepal": {
+    "name": "Nepal",
+    "fullName": "Nepal – Federal Democratic Republic of Nepal",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Nepal.svg"
+  },
+  "Netherlands": {
+    "name": "Netherlands",
+    "fullName": "Netherlands – Kingdom of the Netherlands",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Netherlands.svg"
+  },
+  "New Zealand": {
+    "name": "New Zealand",
+    "fullName": "New Zealand",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_New_Zealand.svg"
+  },
+  "Nicaragua": {
+    "name": "Nicaragua",
+    "fullName": "Nicaragua – Republic of Nicaragua",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Nicaragua.svg"
+  },
+  "Niger": {
+    "name": "Niger",
+    "fullName": "Niger – Republic of Niger",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Niger.svg"
+  },
+  "Nigeria": {
+    "name": "Nigeria",
+    "fullName": "Nigeria – Federal Republic of Nigeria",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Nigeria.svg"
+  },
+  "Macedonia": {
+    "name": "Macedonia",
+    "fullName": "North Macedonia – Republic of North Macedonia[ad]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_North_Macedonia.svg"
+  },
+  "Norway": {
+    "name": "Norway",
+    "fullName": "Norway – Kingdom of Norway",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Norway.svg"
+  },
+  "Oman": {
+    "name": "Oman",
+    "fullName": "Oman – Sultanate of Oman",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Oman.svg"
+  },
+  "Pakistan": {
+    "name": "Pakistan",
+    "fullName": "Pakistan – Islamic Republic of Pakistan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Pakistan.svg"
+  },
+  "Palau": {
+    "name": "Palau",
+    "fullName": "Palau – Republic of Palau",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Palau.svg"
+  },
+  "Palestine": {
+    "name": "Palestine",
+    "fullName": "Palestine – State of Palestine",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Palestine.svg"
+  },
+  "Panama": {
+    "name": "Panama",
+    "fullName": "Panama – Republic of Panama",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Panama.svg"
+  },
+  "Papua New Guinea": {
+    "name": "Papua New Guinea",
+    "fullName": "Papua New Guinea – Independent State of Papua New Guinea",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Papua_New_Guinea.svg"
+  },
+  "Paraguay": {
+    "name": "Paraguay",
+    "fullName": "Paraguay – Republic of Paraguay",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Paraguay.svg"
+  },
+  "Peru": {
+    "name": "Peru",
+    "fullName": "Peru – Republic of Peru",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Peru.svg"
+  },
+  "Philippines": {
+    "name": "Philippines",
+    "fullName": "Philippines – Republic of the Philippines",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Philippines.svg"
+  },
+  "Poland": {
+    "name": "Poland",
+    "fullName": "Poland – Republic of Poland",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Poland.svg"
+  },
+  "Portugal": {
+    "name": "Portugal",
+    "fullName": "Portugal – Portuguese Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Portugal.svg"
+  },
+  "Qatar": {
+    "name": "Qatar",
+    "fullName": "Qatar – State of Qatar",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Qatar.svg"
+  },
+  "Romania": {
+    "name": "Romania",
+    "fullName": "Romania",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Romania.svg"
+  },
+  "Russia": {
+    "name": "Russia",
+    "fullName": "Russia – Russian Federation",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Russia.svg"
+  },
+  "Rwanda": {
+    "name": "Rwanda",
+    "fullName": "Rwanda – Republic of Rwanda",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Rwanda.svg"
+  },
+  "Saint Kitts and Nevis": {
+    "name": "Saint Kitts and Nevis",
+    "fullName": "Saint Kitts and Nevis – Federation of Saint Christopher and Nevis",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Saint_Kitts_and_Nevis.svg"
+  },
+  "Saint Lucia": {
+    "name": "Saint Lucia",
+    "fullName": "Saint Lucia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Saint_Lucia.svg"
+  },
+  "Saint Vincent and the Grenadines": {
+    "name": "Saint Vincent and the Grenadines",
+    "fullName": "Saint Vincent and the Grenadines",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Saint_Vincent_and_the_Grenadines.svg"
+  },
+  "Samoa": {
+    "name": "Samoa",
+    "fullName": "Samoa – Independent State of Samoa",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Samoa.svg"
+  },
+  "San Marino": {
+    "name": "San Marino",
+    "fullName": "San Marino – Republic of San Marino",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_San_Marino.svg"
+  },
+  "São Tomé and Príncipe": {
+    "name": "São Tomé and Príncipe",
+    "fullName": "São Tomé and Príncipe – Democratic Republic of São Tomé and Príncipe",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Sao_Tome_and_Principe.svg"
+  },
+  "Saudi Arabia": {
+    "name": "Saudi Arabia",
+    "fullName": "Saudi Arabia – Kingdom of Saudi Arabia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Saudi_Arabia.svg"
+  },
+  "Senegal": {
+    "name": "Senegal",
+    "fullName": "Senegal – Republic of Senegal",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Senegal.svg"
+  },
+  "Serbia": {
+    "name": "Serbia",
+    "fullName": "Serbia – Republic of Serbia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Serbia.svg"
+  },
+  "Seychelles": {
+    "name": "Seychelles",
+    "fullName": "Seychelles – Republic of Seychelles",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Seychelles.svg"
+  },
+  "Sierra Leone": {
+    "name": "Sierra Leone",
+    "fullName": "Sierra Leone – Republic of Sierra Leone",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Sierra_Leone.svg"
+  },
+  "Singapore": {
+    "name": "Singapore",
+    "fullName": "Singapore – Republic of Singapore",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Singapore.svg"
+  },
+  "Slovakia": {
+    "name": "Slovakia",
+    "fullName": "Slovakia – Slovak Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Slovakia.svg"
+  },
+  "Slovenia": {
+    "name": "Slovenia",
+    "fullName": "Slovenia – Republic of Slovenia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Slovenia.svg"
+  },
+  "Solomon Islands": {
+    "name": "Solomon Islands",
+    "fullName": "Solomon Islands",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Solomon_Islands.svg"
+  },
+  "Somalia": {
+    "name": "Somalia",
+    "fullName": "Somalia – Federal Republic of Somalia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Somalia.svg"
+  },
+  "South Africa": {
+    "name": "South Africa",
+    "fullName": "South Africa – Republic of South Africa",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_South_Africa.svg"
+  },
+  "South Sudan": {
+    "name": "South Sudan",
+    "fullName": "South Sudan – Republic of South Sudan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_South_Sudan.svg"
+  },
+  "Spain": {
+    "name": "Spain",
+    "fullName": "Spain – Kingdom of Spain",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Spain.svg"
+  },
+  "Sri Lanka": {
+    "name": "Sri Lanka",
+    "fullName": "Sri Lanka – Democratic Socialist Republic of Sri Lanka[af]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Sri_Lanka.svg"
+  },
+  "Sudan": {
+    "name": "Sudan",
+    "fullName": "Sudan – Republic of the Sudan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Sudan.svg"
+  },
+  "Suriname": {
+    "name": "Suriname",
+    "fullName": "Suriname – Republic of Suriname",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Suriname.svg"
+  },
+  "Sweden": {
+    "name": "Sweden",
+    "fullName": "Sweden – Kingdom of Sweden",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Sweden.svg"
+  },
+  "Switzerland": {
+    "name": "Switzerland",
+    "fullName": "Switzerland – Swiss Confederation",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Switzerland.svg"
+  },
+  "Syria": {
+    "name": "Syria",
+    "fullName": "Syria – Syrian Arab Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Syria.svg"
+  },
+  "Taiwan": {
+    "name": "Taiwan",
+    "fullName": "Taiwan – Republic of China[l]",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_Republic_of_China.svg"
+  },
+  "Tajikistan": {
+    "name": "Tajikistan",
+    "fullName": "Tajikistan – Republic of Tajikistan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Tajikistan.svg"
+  },
+  "Tanzania": {
+    "name": "Tanzania",
+    "fullName": "Tanzania – United Republic of Tanzania",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Tanzania.svg"
+  },
+  "Thailand": {
+    "name": "Thailand",
+    "fullName": "Thailand – Kingdom of Thailand",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Thailand.svg"
+  },
+  "Togo": {
+    "name": "Togo",
+    "fullName": "Togo – Togolese Republic",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Togo.svg"
+  },
+  "Tonga": {
+    "name": "Tonga",
+    "fullName": "Tonga – Kingdom of Tonga",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Tonga.svg"
+  },
+  "Trinidad and Tobago": {
+    "name": "Trinidad and Tobago",
+    "fullName": "Trinidad and Tobago – Republic of Trinidad and Tobago",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Trinidad_and_Tobago.svg"
+  },
+  "Tunisia": {
+    "name": "Tunisia",
+    "fullName": "Tunisia – Republic of Tunisia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Tunisia.svg"
+  },
+  "Turkey": {
+    "name": "Turkey",
+    "fullName": "Turkey – Republic of Turkey",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Turkey.svg"
+  },
+  "Turkmenistan": {
+    "name": "Turkmenistan",
+    "fullName": "Turkmenistan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Turkmenistan.svg"
+  },
+  "Tuvalu": {
+    "name": "Tuvalu",
+    "fullName": "Tuvalu",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Tuvalu.svg"
+  },
+  "Uganda": {
+    "name": "Uganda",
+    "fullName": "Uganda – Republic of Uganda",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Uganda.svg"
+  },
+  "Ukraine": {
+    "name": "Ukraine",
+    "fullName": "Ukraine",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Ukraine.svg"
+  },
+  "United Arab Emirates": {
+    "name": "United Arab Emirates",
+    "fullName": "United Arab Emirates",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_United_Arab_Emirates.svg"
+  },
+  "United Kingdom": {
+    "name": "United Kingdom",
+    "fullName": "United Kingdom – United Kingdom of Great Britain and Northern Ireland",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_United_Kingdom.svg"
+  },
+  "United States": {
+    "name": "United States",
+    "fullName": "United States – United States of America",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_the_United_States.svg"
+  },
+  "Uruguay": {
+    "name": "Uruguay",
+    "fullName": "Uruguay – Oriental Republic of Uruguay",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Uruguay.svg"
+  },
+  "Uzbekistan": {
+    "name": "Uzbekistan",
+    "fullName": "Uzbekistan – Republic of Uzbekistan",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Uzbekistan.svg"
+  },
+  "Vanuatu": {
+    "name": "Vanuatu",
+    "fullName": "Vanuatu – Republic of Vanuatu",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Vanuatu.svg"
+  },
+  "Venezuela": {
+    "name": "Venezuela",
+    "fullName": "Venezuela – Bolivarian Republic of Venezuela",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Venezuela.svg"
+  },
+  "Vietnam": {
+    "name": "Vietnam",
+    "fullName": "Vietnam – Socialist Republic of Vietnam",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Vietnam.svg"
+  },
+  "Yemen": {
+    "name": "Yemen",
+    "fullName": "Yemen – Republic of Yemen",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Yemen.svg"
+  },
+  "Zambia": {
+    "name": "Zambia",
+    "fullName": "Zambia – Republic of Zambia",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Zambia.svg"
+  },
+  "Zimbabwe": {
+    "name": "Zimbabwe",
+    "fullName": "Zimbabwe – Republic of Zimbabwe",
+    "aliases": [],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": "Flag_of_Zimbabwe.svg"
+  }
+}

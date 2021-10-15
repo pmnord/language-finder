@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import React, { ChangeEvent, useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
-import languages from '../data/all-languages.json';
+import languages from '../data/languages.json';
 import Suggestion from './Suggestion';
 // ---------------------------------------------
 // Autosuggest Styles are located in globals.css
