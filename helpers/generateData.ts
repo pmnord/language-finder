@@ -1,6 +1,7 @@
 //@ts-ignore
 const fs = require('fs');
 const CSVToJSON = require('csvtojson');
+const chalk = require('chalk');
 
 interface Language {
   language: string;
@@ -51,7 +52,6 @@ const additionalLanguages = [
   CSVToJSON()
     .fromFile('./data/_language-country.csv')
     .then((entries) => {
-      console.log(entries);
       // {
       //   language: 'French',
       //   script: 'Français',
@@ -71,6 +71,8 @@ const additionalLanguages = [
 
       const languages: Record<string, Language> = {};
 
+      let entryCount = 0;
+
       entries.forEach(({ country, language, hyperlink, script }) => {
         const newLangEntry: Language = {
           language,
@@ -82,11 +84,13 @@ const additionalLanguages = [
 
         if (countries[country]) {
           countries[country].languages.push(newLangEntry);
+          entryCount++;
         } else {
           for (const countryEntry of countriesArray) {
             if (countryEntry.aliases.includes(country)) {
               countries[countryEntry.name] &&
                 countries[countryEntry.name].languages.push(newLangEntry);
+              entryCount++;
               break;
             }
           }
@@ -110,6 +114,29 @@ const additionalLanguages = [
             hyperlink: lang.hyperlink,
           };
           languages[lang.language] = newLangEntry;
+        }
+      }
+
+      // logging
+      console.log(`Populated ${chalk.cyan(top.length)} languages in top.json`);
+      console.log(
+        `Populated ${chalk.cyan(
+          Object.keys(languages).length
+        )} languages in languages.json`
+      );
+      console.log(
+        `Populated ${chalk.cyan(
+          entryCount
+        )} language-country relationship entries in countries.json`
+      );
+
+      for (const country of Object.values(countries)) {
+        if (country.languages.length === 0) {
+          console.log(
+            `${chalk.red(
+              country.name
+            )} has no languages. Please check the data.`
+          );
         }
       }
 

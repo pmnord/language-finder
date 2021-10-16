@@ -353,7 +353,7 @@
   "Republic of Congo": {
     "name": "Republic of Congo",
     "fullName": "Congo, Republic of the[q]",
-    "aliases": [],
+    "aliases": ["Congo"],
     "continents": [],
     "languages": [],
     "type": "country",
@@ -560,7 +560,7 @@
   "The Gambia": {
     "name": "The Gambia",
     "fullName": "Gambia, The – Republic of The Gambia[18]",
-    "aliases": [],
+    "aliases": ["Gambia"],
     "continents": [],
     "languages": [],
     "type": "country",
@@ -758,7 +758,7 @@
   "Ivory Coast": {
     "name": "Ivory Coast",
     "fullName": "Ivory Coast – Republic of Côte d'Ivoire[aa]",
-    "aliases": [],
+    "aliases": ["Cote d'Ivoire"],
     "continents": [],
     "languages": [],
     "type": "country",
@@ -1559,7 +1559,7 @@
   "Taiwan": {
     "name": "Taiwan",
     "fullName": "Taiwan – Republic of China[l]",
-    "aliases": [],
+    "aliases": ["Taiwan, R.O.C."],
     "continents": [],
     "languages": [],
     "type": "country",
