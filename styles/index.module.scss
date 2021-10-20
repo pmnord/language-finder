@@ -41,6 +41,21 @@
   }
 }
 
+.searchInputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 1rem;
+  background-color: var(--color-lightgray);
+  border-radius: 4px;
+
+  & svg {
+    height: 2.5rem;
+    margin-right: 0.5rem;
+  }
+}
+
 .grid {
   display: flex;
   align-items: center;

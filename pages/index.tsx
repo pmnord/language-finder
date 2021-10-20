@@ -5,6 +5,7 @@ import countries from '../data/countries.json';
 import Link from 'next/link';
 import AutoSuggest from '../components/AutoSuggest';
 import CommonLanguagesBanner from '../components/CommonLanguages';
+import Search from '../components/icons/Search';
 
 export default function Home() {
   return (
@@ -21,7 +22,10 @@ export default function Home() {
 
         <CommonLanguagesBanner />
 
-        <AutoSuggest />
+        <div className={styles.searchInputContainer}>
+          <Search />
+          <AutoSuggest />
+        </div>
 
         <div className={styles.flagsContainer}>
           {Object.keys(countries).map((countryName) => {

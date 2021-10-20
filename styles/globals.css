@@ -20,6 +20,7 @@ html {
 :root {
   --color-primary  : hsla(140,60,85,1);
   --color-secondary: hsla(240,60,85,0.8);
+  --color-lightgray: #f8f8f8;
 }
 .grid                      { display: grid }
 .grid-autoflow             { grid-auto-flow: column; grid-auto-columns: auto }
@@ -58,7 +59,6 @@ html {
 
 .react-autosuggest__container {
   position: relative;
-  margin: 3rem 0;
 }
 
 .react-autosuggest__input {

@@ -127,7 +127,7 @@ const additionalLanguages = [
       console.log(
         `Populated ${chalk.cyan(
           entryCount
-        )} language-country relationship entries in countries.json`
+        )} language-country relationships in countries.json`
       );
 
       for (const country of Object.values(countries)) {
