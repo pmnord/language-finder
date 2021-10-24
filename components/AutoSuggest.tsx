@@ -39,7 +39,7 @@ const getSuggestions = (value) => {
   languagesWithScripts
     .filter(
       (language) =>
-        language.script.toLowerCase().slice(0, inputLength) === inputValue
+        language.name.toLowerCase().slice(0, inputLength) === inputValue
     )
     .forEach((language) => matches.push(language));
 
