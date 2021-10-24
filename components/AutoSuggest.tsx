@@ -11,6 +11,10 @@ import Suggestion from './Suggestion';
 const COUNTRY_NAMES = Object.keys(countries);
 const LANGUAGE_NAMES = Object.keys(languages);
 
+const languagesWithScripts: Array<Language> = Object.values(languages)
+  .filter((language) => language.script.length > 0)
+  .map((language) => ({ ...language, name: language.script, script: '' }));
+
 const getSuggestions = (value) => {
   if (value === undefined) {
     value = '';
@@ -31,6 +35,13 @@ const getSuggestions = (value) => {
   ).forEach((name) => {
     matches.push(languages[name]);
   });
+
+  languagesWithScripts
+    .filter(
+      (language) =>
+        language.script.toLowerCase().slice(0, inputLength) === inputValue
+    )
+    .forEach((language) => matches.push(language));
 
   return matches;
 };

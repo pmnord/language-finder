@@ -7,13 +7,13 @@ interface Language {
   language: string;
   name: string;
   script: string;
-  type: 'language';
+  type: string;
   hyperlink: string;
 }
 
 interface Country {
   name: string;
-  type: 'country';
+  type: string;
   fullName: string;
   aliases: string[];
   continents: string[];

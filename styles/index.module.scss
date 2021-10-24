@@ -47,8 +47,14 @@
   align-items: center;
   margin: 3rem 0;
   padding: 1rem;
-  background-color: var(--color-lightgray);
+  background-color: var(--color-paper);
+  box-shadow: var(--elevation-1);
   border-radius: 4px;
+
+  & input:hover,
+  input:focus {
+    outline: 1px solid #777;
+  }
 
   & svg {
     height: 2.5rem;

@@ -29,8 +29,11 @@
 
     li {
       font-size: 1.6rem;
-      a {
-        text-decoration: none;
+
+      @media screen and (min-width: 600px) {
+        a {
+          text-decoration: none;
+        }
 
         &:hover {
           text-decoration: underline;
