@@ -29,16 +29,6 @@
 
     li {
       font-size: 1.6rem;
-
-      @media screen and (min-width: 600px) {
-        a {
-          text-decoration: none;
-        }
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
 
     * + * {
