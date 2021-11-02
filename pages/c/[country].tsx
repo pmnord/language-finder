@@ -8,6 +8,7 @@ import Link from 'next/link';
 interface Language {
   language: string;
   hyperlink: string;
+  script: string;
 }
 
 interface Country {
@@ -52,7 +53,10 @@ const CountryPage = (): JSX.Element => {
             country.languages.map((language) => (
               <li key={language.language}>
                 <Link href={language.hyperlink}>
-                  <a>{language.language}</a>
+                  <a>
+                    {language.script.length > 0 && `${language.script} / `}
+                    {language.language}
+                  </a>
                 </Link>
               </li>
             ))}
