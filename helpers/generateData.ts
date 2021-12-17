@@ -100,6 +100,13 @@ const additionalLanguages = [
           top.push(newLangEntry);
         } else if (!languages[language]) {
           languages[language] = newLangEntry;
+        } else if (languages[language].script !== script) {
+          // Include languages with the same name but multiple scripts (Punjabi),
+          // renaming already existing language in object
+          const prev = { ...languages[language] };
+          delete languages[language];
+          languages[`${prev.language} (${prev.script})`] = prev;
+          languages[`${language} (${script})`] = newLangEntry;
         }
       });
 
