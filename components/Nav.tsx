@@ -10,9 +10,9 @@ const Nav = (): JSX.Element => {
         <Link href='/'>
           <a>
             <Image
-              height='170'
-              width='1060'
-              src='/header.jpg'
+              width={1440}
+              height={500}
+              src='/jesus-hd.jpg'
               alt='Learn More About Jesus Christ'
             />
           </a>

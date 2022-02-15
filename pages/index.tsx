@@ -17,7 +17,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>
-          Watch The Film <em>JESUS</em> In Your Language
+          Watch The Film <span style={{ color: '#ef3340' }}>JESUS</span> In Your
+          Language
         </h1>
 
         <CommonLanguagesBanner />
