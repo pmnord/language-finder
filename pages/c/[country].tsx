@@ -1,9 +1,9 @@
-import React from 'react';
-import { useRouter } from 'next/router';
-import styles from '../../styles/Country.module.scss';
 import Head from 'next/head';
-import countries from '../../data/countries.json';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React from 'react';
+import countries from '../../data/countries.json';
+import styles from '../../styles/Country.module.scss';
 
 interface Language {
   language: string;
@@ -54,8 +54,11 @@ const CountryPage = (): JSX.Element => {
               <li key={language.language}>
                 <Link href={language.hyperlink}>
                   <a>
-                    {language.script.length > 0 && `${language.script} / `}
                     {language.language}
+                    <br />
+                    {language.script.length > 0 &&
+                      language.script.toLowerCase() !== 'english' &&
+                      `${language.script}`}
                   </a>
                 </Link>
               </li>
