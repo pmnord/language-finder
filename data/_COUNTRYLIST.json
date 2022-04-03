@@ -1,4 +1,22 @@
 {
+  "Refugee": {
+    "name": "Refugee",
+    "fullName": "Refugee",
+    "aliases": ["_REFUGEE"],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": ""
+  },
+  "J-Immigrants": {
+    "name": "J-Immigrants",
+    "fullName": "J-Immigrants",
+    "aliases": ["_J-IMMIGRANTS"],
+    "continents": [],
+    "languages": [],
+    "type": "country",
+    "flagSvg": ""
+  },
   "Afghanistan": {
     "name": "Afghanistan",
     "fullName": "Afghanistan – Islamic Republic of Afghanistan",

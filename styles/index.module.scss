@@ -110,11 +110,9 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-  .flag {
-    height: 2.7rem;
+  .countryContainer {
+    .flag {
+      height: 3.3rem;
+    }
   }
 }

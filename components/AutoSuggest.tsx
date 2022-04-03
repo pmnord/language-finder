@@ -3,12 +3,15 @@ import React, { ChangeEvent, useState } from 'react';
 import Autosuggest from 'react-autosuggest';
 import countries from '../data/countries.json';
 import languages from '../data/languages.json';
+import isValidCountry from '../helpers/isValidCountry';
 import Suggestion from './Suggestion';
 // ---------------------------------------------
 // Autosuggest Styles are located in globals.css
 // ---------------------------------------------
 
-const COUNTRY_NAMES = Object.keys(countries);
+const COUNTRY_NAMES = Object.keys(countries).filter((name) =>
+  isValidCountry(countries[name])
+);
 const LANGUAGE_NAMES = Object.keys(languages);
 
 const languagesWithScripts: Array<Language> = Object.values(languages)

@@ -39,15 +39,23 @@ const CountryPage = (): JSX.Element => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <img
-        className={styles.flag}
-        src={`/flags/${country.flagSvg}`}
-        alt={country.fullName}
-        title={country.fullName}
-      />
-      <h1>{country.name}</h1>
+      {country.flagSvg !== '' && (
+        <img
+          className={styles.flag}
+          src={`/flags/${country.flagSvg}`}
+          alt={country.fullName}
+          title={country.fullName}
+        />
+      )}
+      {['Refugee', 'J-Immigrants'].includes(country.name) === false ? (
+        <>
+          <h1>{country.name}</h1>
+          <h2>Select your language</h2>
+        </>
+      ) : (
+        <h1>Select your language</h1>
+      )}
       <div className={styles.languagesContainer}>
-        <h2>Select your language below</h2>
         <ul>
           {country.languages &&
             country.languages.map((language) => (

@@ -1,11 +1,12 @@
 // import classes from '*.module.css';
 import Head from 'next/head';
-import styles from '../styles/index.module.scss';
-import countries from '../data/countries.json';
 import Link from 'next/link';
 import AutoSuggest from '../components/AutoSuggest';
 import CommonLanguagesBanner from '../components/CommonLanguages';
 import Search from '../components/icons/Search';
+import countries from '../data/countries.json';
+import isValidCountry from '../helpers/isValidCountry';
+import styles from '../styles/index.module.scss';
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
           {Object.keys(countries).map((countryName) => {
             const country = countries[countryName];
 
-            if (country.languages.length === 0) return null;
+            if (!isValidCountry(country)) return null;
 
             return (
               <Link
