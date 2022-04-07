@@ -119,3 +119,8 @@ html {
 .react-autosuggest__suggestion--highlighted {
   background-color: #ddd;
 }
+
+div.react-autosuggest__suggestions-container {
+  max-height: 800px;
+  overflow: auto;
+}
