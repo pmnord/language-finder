@@ -71,6 +71,9 @@ const CountryPage = (): JSX.Element => {
                 </Link>
               </li>
             ))}
+          <li aria-hidden>
+            <br />
+          </li>
         </ul>
       </div>
       <div className={styles.backLinkContainer}>
