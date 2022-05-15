@@ -121,6 +121,7 @@ html {
 }
 
 div.react-autosuggest__suggestions-container {
-  max-height: 800px;
+  max-height: 400px;
+  width: 100%;
   overflow: auto;
 }
