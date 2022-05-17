@@ -1,6 +1,6 @@
+import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import React from 'react';
 import countries from '../../data/countries.json';
 import styles from '../../styles/Country.module.scss';
@@ -20,11 +20,11 @@ interface Country {
   continents: Array<string>;
 }
 
-const CountryPage = (): JSX.Element => {
-  const router = useRouter();
-  let { country: countryName } = router.query;
+const CountryPage = ({ countryName }): JSX.Element => {
+  // const router = useRouter();
+  // let { country: countryName } = router.query;
 
-  if (Array.isArray(countryName)) countryName = countryName[0];
+  // if (Array.isArray(countryName)) countryName = countryName[0];
 
   countryName = decodeURI(countryName);
 
@@ -83,6 +83,25 @@ const CountryPage = (): JSX.Element => {
       </div>
     </div>
   );
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  return {
+    props: {
+      countryName: params.country,
+    },
+  };
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    fallback: 'blocking',
+    paths: Object.keys(countries).map((countryName) => ({
+      params: {
+        country: countryName,
+      },
+    })),
+  };
 };
 
 export default CountryPage;
