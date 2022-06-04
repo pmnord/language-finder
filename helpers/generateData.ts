@@ -152,3 +152,44 @@ const additionalLanguages = [
       fs.writeFileSync('./data/top.json', JSON.stringify(top));
     });
 })();
+
+// Generate language page data
+(async () => {
+  try {
+    const jsonArray: {
+      language: string;
+      script: string;
+      videoEmbed: string;
+      videoCaption: string;
+      bibleLink: string;
+      bibleText: string;
+      fullFilmLink: string;
+      questionsLink: string;
+      country: string;
+      readingLanguage: string;
+    }[] = await CSVToJSON().fromFile('./data/_language-pages.csv');
+
+    const languagePages = jsonArray.reduce((acc, cur) => {
+      const urlName = encodeURI(cur.language);
+
+      acc[urlName] = {
+        urlName,
+        ...jsonArray,
+      };
+
+      return acc;
+    }, {});
+
+    fs.writeFileSync(
+      './data/languagePages.json',
+      JSON.stringify(languagePages)
+    );
+    console.log(
+      `Populated data for ${chalk.cyan(
+        Object.keys(languagePages).length
+      )} language pages in languagePages.json`
+    );
+  } catch (error) {
+    console.log(error);
+  }
+})();
