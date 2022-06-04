@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
@@ -106,7 +106,9 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async ({ params: { slug } }) => {
+export const getServerSideProps: GetServerSideProps = async ({
+  params: { slug },
+}) => {
   if (Array.isArray(slug)) slug = slug[0];
 
   // The slug is automatically being decoded from URI,
@@ -119,17 +121,6 @@ export const getStaticProps: GetStaticProps = async ({ params: { slug } }) => {
     props: {
       data,
     },
-  };
-};
-
-export const getStaticPaths: GetStaticPaths = async () => {
-  return {
-    fallback: 'blocking',
-    paths: Object.keys(languagePagesData).map((slug) => ({
-      params: {
-        slug,
-      },
-    })),
   };
 };
 

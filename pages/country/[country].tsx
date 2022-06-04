@@ -1,4 +1,4 @@
-import { GetStaticPaths, GetStaticProps } from 'next';
+import { GetServerSideProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
@@ -85,7 +85,7 @@ const CountryPage = ({ countryName }): JSX.Element => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetServerSideProps = async ({ params }) => {
   return {
     props: {
       countryName: params.country,

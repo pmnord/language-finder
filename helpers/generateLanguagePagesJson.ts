@@ -1,7 +1,5 @@
 //@ts-ignore
 const fs = require('fs');
-const CSVToJSON = require('csvtojson');
-const chalk = require('chalk');
 
 (async () => {
   const entries = await CSVToJSON().fromFile('./data/csv/language-pages.csv');
