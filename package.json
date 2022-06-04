@@ -6,6 +6,7 @@
     "build": "next build",
     "dev": "next dev -p 3000",
     "generate": "ts-node ./helpers/generateData.ts",
+    "generate:language-pages-json": "ts-node ./helpers/generateLanguagePagesJson.ts",
     "start": "next start"
   },
   "dependencies": {

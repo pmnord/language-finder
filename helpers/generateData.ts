@@ -50,7 +50,7 @@ const additionalLanguages = [
 
 (() => {
   CSVToJSON()
-    .fromFile('./data/_language-country.csv')
+    .fromFile('./data/csv/_language-country.csv')
     .then((entries) => {
       // {
       //   language: 'French',
