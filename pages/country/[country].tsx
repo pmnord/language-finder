@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import countries from '../../data/countries.json';
-import styles from '../../styles/Country.module.scss';
+import styles from '../../styles/CountryPage.module.scss';
 
 interface Language {
   language: string;

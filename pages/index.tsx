@@ -4,6 +4,7 @@ import Link from 'next/link';
 import AutoSuggest from '../components/AutoSuggest';
 import CommonLanguagesBanner from '../components/CommonLanguages';
 import Search from '../components/icons/Search';
+import Nav from '../components/Nav';
 import countries from '../data/countries.json';
 import isValidCountry from '../helpers/isValidCountry';
 import styles from '../styles/index.module.scss';
@@ -15,6 +16,8 @@ export default function Home() {
         <title>Watch the film JESUS in your language</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      <Nav />
 
       <main className={styles.main}>
         <h1>

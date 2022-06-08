@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
 import languagePagesData from '../../data/json/language-pages.json';
-import styles from '../../styles/VideoPage.module.scss';
+import styles from '../../styles/LanguagePage.module.scss';
 
 interface LanguagePageData {
   language: string;
@@ -54,7 +54,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
 
       <h1>{language}</h1>
 
-      {script && <h2>{script}</h2>}
+      {script && <h2 className={styles.scriptTitle}>{script}</h2>}
 
       <figure>
         <div
@@ -62,7 +62,6 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
           dangerouslySetInnerHTML={{
             __html: data.videoEmbedCode,
           }}
-          style={{ width: '600px' }}
         />
         <figcaption>{data.videoCaption}</figcaption>
       </figure>

@@ -2,8 +2,9 @@ import { GetServerSideProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import React from 'react';
+import Nav from '../../components/Nav';
 import countries from '../../data/countries.json';
-import styles from '../../styles/Country.module.scss';
+import styles from '../../styles/CountryPage.module.scss';
 
 interface Language {
   language: string;
@@ -38,6 +39,8 @@ const CountryPage = ({ countryName }): JSX.Element => {
         <title>{country.name} - Watch the film JESUS in your language</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
+
+      <Nav />
 
       {country.flagSvg !== '' && (
         <img
