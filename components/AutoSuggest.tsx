@@ -1,10 +1,10 @@
-import { useRouter } from 'next/router';
-import React, { ChangeEvent, useState } from 'react';
-import Autosuggest from 'react-autosuggest';
-import countries from '../data/countries.json';
-import languages from '../data/languages.json';
-import isValidCountry from '../helpers/isValidCountry';
-import Suggestion from './Suggestion';
+import { useRouter } from "next/router";
+import { ChangeEvent, useState } from "react";
+import Autosuggest from "react-autosuggest";
+import countries from "../data/countries.json";
+import languages from "../data/languages.json";
+import isValidCountry from "../helpers/isValidCountry";
+import Suggestion from "./Suggestion";
 // ---------------------------------------------
 // Autosuggest Styles are located in globals.css
 // ---------------------------------------------
@@ -16,11 +16,11 @@ const LANGUAGE_NAMES = Object.keys(languages);
 
 const languagesWithScripts: Array<Language> = Object.values(languages)
   .filter((language) => language.script.length > 0)
-  .map((language) => ({ ...language, name: language.script, script: '' }));
+  .map((language) => ({ ...language, name: language.script, script: "" }));
 
 const getSuggestions = (value) => {
   if (value === undefined) {
-    value = '';
+    value = "";
   }
   const inputValue = value.trim().toLowerCase();
   const inputLength = inputValue.length;
@@ -56,14 +56,14 @@ const renderSuggestion = (suggestion) => {
 };
 
 const AutoSuggest = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const router = useRouter();
 
   const onChange = (_event: ChangeEvent, { newValue }) => {
-    if (typeof newValue === 'string') {
+    if (typeof newValue === "string") {
       setValue(newValue);
-    } else if (typeof newValue === 'object') {
+    } else if (typeof newValue === "object") {
       setValue(newValue.name);
     }
   };
@@ -82,9 +82,11 @@ const AutoSuggest = () => {
   function handleSuggestionSelected(_event: any, { suggestionValue }: any) {
     setValue(suggestionValue.name);
 
-    if (suggestionValue.type === 'country') {
-      return router.push(`/c/${encodeURIComponent(suggestionValue.name)}`);
-    } else if (suggestionValue.type === 'language') {
+    if (suggestionValue.type === "country") {
+      return router.push(
+        `/country/${encodeURIComponent(suggestionValue.name)}`
+      );
+    } else if (suggestionValue.type === "language") {
       return router.push(suggestionValue.hyperlink);
     }
   }
@@ -98,7 +100,7 @@ const AutoSuggest = () => {
       getSuggestionValue={getSuggestionValue}
       renderSuggestion={renderSuggestion}
       inputProps={{
-        placeholder: 'Search by Country or Language',
+        placeholder: "Search by Country or Language",
         value,
         onChange,
       }}

@@ -6,7 +6,7 @@
     "build": "next build",
     "dev": "next dev -p 3000",
     "generate": "ts-node ./helpers/generateData.ts",
-    "generate:language-pages-json": "ts-node ./helpers/generateLanguagePagesJson.ts",
+    "generate:language-pages": "ts-node ./helpers/generateLanguagePagesJson.ts",
     "start": "next start"
   },
   "dependencies": {
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/node": "^14.14.37",
     "@types/react": "^17.0.3",
+    "autoprefixer": "^10.4.7",
     "chalk": "^2.4.2",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -30,6 +31,10 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "tailwindcss": "^3.1.2",
     "ts-node": "^10.3.0",
     "typescript": "^4.4.4"
   }

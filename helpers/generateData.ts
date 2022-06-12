@@ -1,7 +1,7 @@
 //@ts-ignore
-const fs = require('fs');
-const CSVToJSON = require('csvtojson');
-const chalk = require('chalk');
+const fs = require("fs");
+const CSVToJSON = require("csvtojson");
+const chalk = require("chalk");
 
 interface Language {
   language: string;
@@ -23,34 +23,36 @@ interface Country {
 
 const additionalLanguages = [
   {
-    language: 'Lesser Antillean Creole French',
-    script: '',
+    language: "Lesser Antillean Creole French",
+    script: "",
     hyperlink:
-      'https://mylanguage.net.au/watch_online/dom00/JESUS/1_4472-jf6112-0-0',
+      "https://mylanguage.net.au/watch_online/dom00/JESUS/1_4472-jf6112-0-0",
   },
   {
-    language: 'Chamorro',
-    script: '',
+    language: "Chamorro",
+    script: "",
     hyperlink:
-      'https://mylanguage.net.au/watch_online/cjd00/JESUS/1_5379-jf6112-0-0',
+      "https://mylanguage.net.au/watch_online/cjd00/JESUS/1_5379-jf6112-0-0",
   },
   {
-    language: 'Wayampi, Oiapoque',
-    script: '',
+    language: "Wayampi, Oiapoque",
+    script: "",
     hyperlink:
-      'https://mylanguage.net.au/watch_online/Way99/JESUS/1_1795-jf6112-0-0',
+      "https://mylanguage.net.au/watch_online/Way99/JESUS/1_1795-jf6112-0-0",
   },
   {
-    language: 'Papiamentu',
-    script: '',
+    language: "Papiamentu",
+    script: "",
     hyperlink:
-      'https://mylanguage.net.au/watch_online/pae00/JESUS/1_9131-jf6112-0-0',
+      "https://mylanguage.net.au/watch_online/pae00/JESUS/1_9131-jf6112-0-0",
   },
 ];
 
+const myEncodeURI = (string: string) => encodeURI(string.replaceAll("/", "-"));
+
 (() => {
   CSVToJSON()
-    .fromFile('./data/csv/_language-country.csv')
+    .fromFile("./data/csv/_language-country.csv")
     .then((entries) => {
       // {
       //   language: 'French',
@@ -64,7 +66,7 @@ const additionalLanguages = [
       const countries: Record<
         string,
         Country
-      > = require('../data/_COUNTRYLIST.json');
+      > = require("../data/_COUNTRYLIST.json");
 
       // for alias lookup within entries.forEach()
       const countriesArray = Object.values(countries);
@@ -78,7 +80,7 @@ const additionalLanguages = [
           language,
           name: language,
           script,
-          type: 'language',
+          type: "language",
           hyperlink,
         };
 
@@ -96,7 +98,7 @@ const additionalLanguages = [
           }
         }
 
-        if (country === '_TOP') {
+        if (country === "_TOP") {
           top.push(newLangEntry);
         } else if (!languages[language]) {
           languages[language] = newLangEntry;
@@ -117,7 +119,7 @@ const additionalLanguages = [
             language: lang.language,
             name: lang.language,
             script: lang.script,
-            type: 'language',
+            type: "language",
             hyperlink: lang.hyperlink,
           };
           languages[lang.language] = newLangEntry;
@@ -147,49 +149,68 @@ const additionalLanguages = [
         }
       }
 
-      fs.writeFileSync('./data/languages.json', JSON.stringify(languages));
-      fs.writeFileSync('./data/countries.json', JSON.stringify(countries));
-      fs.writeFileSync('./data/top.json', JSON.stringify(top));
+      fs.writeFileSync("./data/languages.json", JSON.stringify(languages));
+      fs.writeFileSync("./data/countries.json", JSON.stringify(countries));
+      fs.writeFileSync("./data/top.json", JSON.stringify(top));
     });
 })();
 
+// (async () => {
+//   try {
+//     const jsonArray: {
+//       language: string;
+//       script: string;
+//       videoEmbed: string;
+//       videoCaption: string;
+//       bibleLink: string;
+//       bibleText: string;
+//       fullFilmLink: string;
+//       questionsLink: string;
+//       country: string;
+//       readingLanguage: string;
+//     }[] = await CSVToJSON().fromFile("./data/_language-pages.csv");
+
+//     const languagePages = jsonArray.reduce((acc, cur) => {
+//       const urlName = myEncodeURI(cur.language);
+
+//       acc[urlName] = {
+//         urlName,
+//         ...jsonArray,
+//       };
+
+//       return acc;
+//     }, {});
+
+//     fs.writeFileSync(
+//       "./data/languagePages.json",
+//       JSON.stringify(languagePages)
+//     );
+//     console.log(
+//       `Populated data for ${chalk.cyan(
+//         Object.keys(languagePages).length
+//       )} language pages in languagePages.json`
+//     );
+//   } catch (error) {
+//     console.log(error);
+//   }
+// })();
+
 // Generate language page data
 (async () => {
-  try {
-    const jsonArray: {
-      language: string;
-      script: string;
-      videoEmbed: string;
-      videoCaption: string;
-      bibleLink: string;
-      bibleText: string;
-      fullFilmLink: string;
-      questionsLink: string;
-      country: string;
-      readingLanguage: string;
-    }[] = await CSVToJSON().fromFile('./data/_language-pages.csv');
+  const entries = await CSVToJSON().fromFile("./data/csv/_language-pages.csv");
 
-    const languagePages = jsonArray.reduce((acc, cur) => {
-      const urlName = encodeURI(cur.language);
+  const result = entries.reduce((acc, entry) => {
+    entry.slug = myEncodeURI(entry.language);
+    acc[entry.slug] = entry;
 
-      acc[urlName] = {
-        urlName,
-        ...jsonArray,
-      };
+    return acc;
+  }, {});
 
-      return acc;
-    }, {});
+  fs.writeFileSync("./data/language-pages.json", JSON.stringify(result));
 
-    fs.writeFileSync(
-      './data/languagePages.json',
-      JSON.stringify(languagePages)
-    );
-    console.log(
-      `Populated data for ${chalk.cyan(
-        Object.keys(languagePages).length
-      )} language pages in languagePages.json`
-    );
-  } catch (error) {
-    console.log(error);
-  }
+  console.log(
+    `Populated ${chalk.cyan(
+      entries.length
+    )} language page entries in language-pages.json`
+  );
 })();
