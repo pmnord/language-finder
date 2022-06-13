@@ -2,7 +2,7 @@ import { GetServerSideProps } from "next";
 
 const CountryPage = () => null;
 
-export const getStaticProps: GetServerSideProps = async ({ params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const slug = params.country;
 
   return {
