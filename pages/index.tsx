@@ -40,8 +40,8 @@ export default function Home() {
           ))}
         </div>
 
-        <div className={styles.searchInputContainer}>
-          <SearchIcon />
+        <div className="my-12 flex items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
+          <SearchIcon className="mr-2 h-10" />
           <AutoSuggest />
         </div>
 

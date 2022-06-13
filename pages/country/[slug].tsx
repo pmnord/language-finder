@@ -21,10 +21,8 @@ interface Country {
   continents: Array<string>;
 }
 
-const CountryPage: React.FunctionComponent<{ countryName: string }> = ({
-  countryName,
-}) => {
-  countryName = decodeURI(countryName);
+const CountryPage: React.FunctionComponent<{ slug: string }> = ({ slug }) => {
+  const countryName = decodeURI(slug);
 
   const country: Country = countries[countryName];
 
@@ -107,7 +105,12 @@ const CountryPage: React.FunctionComponent<{ countryName: string }> = ({
 
         <footer className="my-10">
           <Link href="/">
-            <a className="no-underline">↩&nbsp;&nbsp;Back to Country List</a>
+            <a className="flex items-center justify-center text-lg no-underline">
+              <span aria-hidden className="text-2xl">
+                ↩&nbsp;
+              </span>
+              Back to Country List
+            </a>
           </Link>
         </footer>
       </div>
@@ -118,7 +121,7 @@ const CountryPage: React.FunctionComponent<{ countryName: string }> = ({
 export const getStaticProps: GetServerSideProps = async ({ params }) => {
   return {
     props: {
-      countryName: params.country,
+      slug: params.slug,
     },
   };
 };
@@ -126,9 +129,9 @@ export const getStaticProps: GetServerSideProps = async ({ params }) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     fallback: "blocking",
-    paths: Object.keys(countries).map((countryName) => ({
+    paths: Object.keys(countries).map((slug) => ({
       params: {
-        country: countryName,
+        slug,
       },
     })),
   };

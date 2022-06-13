@@ -132,7 +132,12 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
 
       <footer className="mb-8 text-center">
         <Link href="/">
-          <a className="no-underline">↩&nbsp;&nbsp;Back to Country List</a>
+          <a className="flex items-center justify-center text-lg no-underline">
+            <span aria-hidden className="text-2xl">
+              ↩&nbsp;
+            </span>
+            Back to Country List
+          </a>
         </Link>
       </footer>
     </>
