@@ -53,7 +53,7 @@ export default function Home() {
                   <a className="text-black no-underline hover:underline">
                     <div className="flex flex-col items-center justify-center sm:m-2">
                       <img
-                        className="m-2 h-14 sm:h-24"
+                        className="m-2 h-14 shadow-xl sm:h-24"
                         src={`/flags/${country.flagSvg}`}
                         alt={countryName}
                         title={country.fullName}
