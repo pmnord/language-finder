@@ -9,7 +9,7 @@ import isValidCountry from "../helpers/isValidCountry";
 
 export default function Home() {
   return (
-    <div id="top" className="min-h-screen max-w-6xl mx-auto px-2">
+    <div id="top" className="mx-auto min-h-screen max-w-6xl px-2">
       <header className="my-2 mx-auto max-w-5xl">
         <Image
           className="rounded-md"
@@ -21,17 +21,14 @@ export default function Home() {
       </header>
 
       <main>
-        <h1 className="text-center text-5xl font-normal my-6 leading-snug">
+        <h1 className="my-6 text-center text-5xl font-normal leading-snug">
           Watch The Film <span style={{ color: "#ef3340" }}>JESUS</span> In Your
           Language
         </h1>
 
         <div className="flex flex-wrap justify-center bg-white p-4">
           {commonLanguages.map((language) => (
-            <span
-              key={language.language}
-              className="m-4 text-2xl leading-none"
-            >
+            <span key={language.language} className="m-4 text-2xl leading-none">
               <Link href={language.hyperlink}>
                 <a>{language.script}</a>
               </Link>
@@ -39,7 +36,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="w-fit mx-auto my-12 flex items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
+        <div className="mx-auto my-12 flex w-fit items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
           <SearchIcon className="mr-2 h-10" />
           <AutoSuggest />
         </div>
@@ -56,7 +53,7 @@ export default function Home() {
                   <a className="text-black no-underline hover:underline">
                     <div className="flex flex-col items-center justify-center sm:m-2">
                       <img
-                        className="h-14 sm:h-24 shadow-lg m-2"
+                        className="m-2 h-14 sm:h-24"
                         src={`/flags/${country.flagSvg}`}
                         alt={countryName}
                         title={country.fullName}
