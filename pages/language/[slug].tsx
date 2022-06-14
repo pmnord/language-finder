@@ -49,6 +49,32 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
   const title = `${language} - Watch the film JESUS in your language`;
 
   const url = `https://freejesusfilm.netlify.app/language/${slug}`;
+  
+  const handleFacebookShare = () => {
+    const config: { [key: string]: string | number } = {
+      height:400,
+      width:600,
+      location: 'no',
+      toolbar: 'no',
+      status: 'no',
+      directories: 'no',
+      menubar: 'no',
+      scrollbars: 'yes',
+      resizable: 'no',
+      centerscreen: 'yes',
+      chrome: 'yes',
+    };
+
+    const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+
+    window.open(
+      facebookShareUrl, 
+      "",
+      Object.keys(config)
+      .map(key => `${key}=${config[key]}`)
+      .join(', '),
+    );
+  }
 
   return (
     <>
@@ -57,6 +83,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
         <link rel="canonical" href={url} />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
+        <meta property="og:image" content="/site-image.jpg" />
       </Head>
 
       <main
@@ -75,7 +102,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
                 __html: data.videoEmbedCode,
               }}
             />
-
+            
             {/* <svg viewBox="0 0 64 64" width="64" height="64">
               <rect
                 width="64"
@@ -96,7 +123,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
             </figcaption>
           </figure>
         </section>
-
+        
         <section className="px-2 text-xl">
           <ul style={{ listStyle: "none", textAlign: "center", padding: 0 }}>
             <li style={listItemStyle}>
@@ -126,6 +153,19 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
             </li>
           </ul>
         </section>
+
+        <section>
+          <button onClick={handleFacebookShare} className="inline-flex items-center text-sm bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow">
+            <svg viewBox="0 0 64 64" width="32" height="32" className="-ml-2">
+              <path
+                d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
+                fill="#2374e1"
+              />
+            </svg>
+            <span>Share to Facebook</span>
+          </button>
+        </section>
+
       </main>
 
       <Divider />
