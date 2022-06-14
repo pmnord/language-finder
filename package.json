@@ -10,12 +10,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "csvtojson": "^2.0.10",
     "next": "^11.1.2",
     "react": "17.0.2",
     "react-autosuggest": "^10.1.0",
     "react-dom": "17.0.2",
-    "require-context": "^1.1.0",
     "sharp": "^0.29.1",
     "xss": "^1.0.12"
   },
@@ -25,6 +23,7 @@
     "@types/tailwindcss": "^3.0.10",
     "autoprefixer": "^10.4.7",
     "chalk": "^2.4.2",
+    "csvtojson": "^2.0.10",
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.11",
