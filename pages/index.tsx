@@ -6,11 +6,10 @@ import SearchIcon from "../components/SearchIcon";
 import countries from "../data/countries.json";
 import commonLanguages from "../data/top.json";
 import isValidCountry from "../helpers/isValidCountry";
-import styles from "../styles/index.module.scss";
 
 export default function Home() {
   return (
-    <div id="top" className={styles.container}>
+    <div id="top" className="min-h-screen max-w-6xl mx-auto px-2">
       <header className="my-2 mx-auto max-w-5xl">
         <Image
           className="rounded-md"
@@ -21,17 +20,17 @@ export default function Home() {
         />
       </header>
 
-      <main className={styles.main}>
-        <h1 className="my-6 font-bold leading-snug">
+      <main>
+        <h1 className="text-center text-5xl font-normal my-6 leading-snug">
           Watch The Film <span style={{ color: "#ef3340" }}>JESUS</span> In Your
           Language
         </h1>
 
-        <div className="flex flex-wrap justify-center bg-white">
+        <div className="flex flex-wrap justify-center bg-white p-4">
           {commonLanguages.map((language) => (
             <span
               key={language.language}
-              className="m-3.5 text-2xl leading-none"
+              className="m-4 text-2xl leading-none"
             >
               <Link href={language.hyperlink}>
                 <a>{language.script}</a>
@@ -40,7 +39,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="my-12 flex items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
+        <div className="w-fit mx-auto my-12 flex items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
           <SearchIcon className="mr-2 h-10" />
           <AutoSuggest />
         </div>
@@ -54,10 +53,10 @@ export default function Home() {
             return (
               <li key={country.name}>
                 <Link href={`/country/${encodeURIComponent(countryName)}`}>
-                  <a className={styles.countryLink}>
+                  <a className="text-black no-underline hover:underline">
                     <div className="flex flex-col items-center justify-center sm:m-2">
                       <img
-                        className={styles.flag}
+                        className="h-14 sm:h-24 shadow-lg m-2"
                         src={`/flags/${country.flagSvg}`}
                         alt={countryName}
                         title={country.fullName}
@@ -74,7 +73,7 @@ export default function Home() {
 
       <Divider />
 
-      <footer className="mb-8 flex w-3/4 justify-center">
+      <footer className="mb-8 flex w-full justify-center">
         <a href="#top" className="flex items-end text-xl no-underline">
           <span className="text-3xl" aria-hidden>
             ↑&nbsp;
