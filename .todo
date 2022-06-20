@@ -1,0 +1,3 @@
+☐ Add share button support for mobile using the Web Share API
+  https://css-tricks.com/how-to-use-the-web-share-api/
+  ☐ Add the next-useragent package to determine is a user is on a mobile device 
