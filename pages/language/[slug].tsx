@@ -89,6 +89,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
         <link rel="canonical" href={url} />
         <meta property="og:title" content={title} />
         <meta property="og:url" content={url} />
+        <meta property="og:type" content="website" />
         <meta property="og:image" content="/site-image.jpg" />
       </Head>
 
