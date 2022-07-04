@@ -5,16 +5,15 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev -p 3000",
-    "generate": "ts-node ./helpers/generateData.ts",
-    "generate:language-pages": "ts-node ./helpers/generateLanguagePagesJson.ts",
+    "datagen": "ts-node ./helpers/generateData.ts",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^11.1.2",
+    "next": "^12.2.0",
     "react": "17.0.2",
     "react-autosuggest": "^10.1.0",
     "react-dom": "17.0.2",
-    "sharp": "^0.29.1",
+    "sharp": "^0.30.7",
     "xss": "^1.0.12"
   },
   "devDependencies": {
