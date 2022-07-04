@@ -16,6 +16,9 @@ interface LanguagePageData {
   fullFilmLink: string;
   fullFilmText: string;
   questionsLink: string;
+  questionsText: string;
+  optionalLink: string;
+  optionalText: string;
   country: string;
   readingLanguage: string;
   slug: string;
@@ -41,6 +44,9 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
     fullFilmLink,
     fullFilmText,
     questionsLink,
+    questionsText,
+    optionalLink,
+    optionalText,
     country,
     readingLanguage,
     slug,
@@ -49,32 +55,32 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
   const title = `${language} - Watch the film JESUS in your language`;
 
   const url = `https://freejesusfilm.netlify.app/language/${slug}`;
-  
+
   const handleFacebookShare = () => {
     const config: { [key: string]: string | number } = {
-      height:400,
-      width:600,
-      location: 'no',
-      toolbar: 'no',
-      status: 'no',
-      directories: 'no',
-      menubar: 'no',
-      scrollbars: 'yes',
-      resizable: 'no',
-      centerscreen: 'yes',
-      chrome: 'yes',
+      height: 400,
+      width: 600,
+      location: "no",
+      toolbar: "no",
+      status: "no",
+      directories: "no",
+      menubar: "no",
+      scrollbars: "yes",
+      resizable: "no",
+      centerscreen: "yes",
+      chrome: "yes",
     };
 
     const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
 
     window.open(
-      facebookShareUrl, 
+      facebookShareUrl,
       "",
       Object.keys(config)
-      .map(key => `${key}=${config[key]}`)
-      .join(', '),
+        .map((key) => `${key}=${config[key]}`)
+        .join(", ")
     );
-  }
+  };
 
   return (
     <>
@@ -87,12 +93,12 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
       </Head>
 
       <main
-        className="my-0 mx-auto mt-12 flex max-w-5xl flex-col items-center px-0 py-2 text-center text-xl"
+        className="my-0 mx-auto mt-12 flex max-w-5xl flex-col items-center px-0 py-2 text-center"
         style={{ lineBreak: "anywhere" }}
       >
-        <h1 className="mb-1 text-4xl">{language}</h1>
+        <h1 className="mb-3 text-4xl">{language}</h1>
 
-        {script && <h2 className="text-2xl">{script}</h2>}
+        {script && <h2 className="text-3xl">{script}</h2>}
 
         <section className="my-4 w-full">
           <figure className="mx-auto w-fit">
@@ -102,7 +108,7 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
                 __html: data.videoEmbedCode,
               }}
             />
-            
+
             {/* <svg viewBox="0 0 64 64" width="64" height="64">
               <rect
                 width="64"
@@ -118,12 +124,12 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
               />
             </svg> */}
 
-            <figcaption className="-mt-5 px-4 text-sm text-gray-600">
+            <figcaption className="-mt-5 px-4 text-base text-gray-600">
               {data.videoCaption}
             </figcaption>
           </figure>
         </section>
-        
+
         <section className="px-2 text-xl">
           <ul style={{ listStyle: "none", textAlign: "center", padding: 0 }}>
             <li style={listItemStyle}>
@@ -144,18 +150,32 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
             </li>
             <li style={listItemStyle}>
               <label htmlFor="questions-link">
-                Questions?
+                {questionsText}
                 <br />
               </label>
               <Link href={questionsLink}>
                 <a id="questions-link">{questionsLink}</a>
               </Link>
             </li>
+            {optionalLink !== "" && (
+              <li style={listItemStyle}>
+                <label htmlFor="optional-link">
+                  {optionalText}
+                  <br />
+                </label>
+                <Link href={optionalLink}>
+                  <a id="optional-link">{optionalLink}</a>
+                </Link>
+              </li>
+            )}
           </ul>
         </section>
 
         <section>
-          <button onClick={handleFacebookShare} className="inline-flex items-center text-sm bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-2 border border-gray-400 rounded shadow">
+          <button
+            onClick={handleFacebookShare}
+            className="inline-flex items-center rounded border border-gray-400 bg-white py-1 px-2 text-sm font-semibold text-gray-800 shadow hover:bg-gray-100"
+          >
             <svg viewBox="0 0 64 64" width="32" height="32" className="-ml-2">
               <path
                 d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
@@ -165,14 +185,13 @@ const LanguagePage: React.FunctionComponent<Props> = ({ data }) => {
             <span>Share to Facebook</span>
           </button>
         </section>
-
       </main>
 
       <Divider />
 
       <footer className="mb-8 text-center">
         <Link href="/">
-          <a className="w-fit mx-auto flex items-center justify-center text-lg no-underline">
+          <a className="mx-auto flex w-fit items-center justify-center text-lg no-underline">
             <span aria-hidden className="text-2xl">
               ↩&nbsp;
             </span>
