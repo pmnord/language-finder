@@ -36,7 +36,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="mx-auto my-12 flex w-fit items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-400">
+        <div className="mx-auto my-12 flex w-fit items-center justify-center rounded-md bg-white p-4 drop-shadow-xl">
           <SearchIcon className="mr-2 h-10" />
           <AutoSuggest />
         </div>
@@ -53,7 +53,7 @@ export default function Home() {
                   <a className="text-black no-underline hover:underline">
                     <div className="flex flex-col items-center justify-center sm:m-2">
                       <img
-                        className="m-2 h-14 shadow-xl sm:h-24"
+                        className="m-2 h-14 drop-shadow-2xl sm:h-24"
                         src={`/flags/${country.flagSvg}`}
                         alt={countryName}
                         title={country.fullName}
