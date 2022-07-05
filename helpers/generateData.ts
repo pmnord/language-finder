@@ -48,8 +48,6 @@ const additionalLanguages = [
   },
 ];
 
-const myEncodeURI = (string: string) => encodeURI(string.replaceAll("/", "-"));
-
 (() => {
   CSVToJSON()
     .fromFile("./data/csv/_language-country.csv")
@@ -171,7 +169,7 @@ const myEncodeURI = (string: string) => encodeURI(string.replaceAll("/", "-"));
 //     }[] = await CSVToJSON().fromFile("./data/_language-pages.csv");
 
 //     const languagePages = jsonArray.reduce((acc, cur) => {
-//       const urlName = myEncodeURI(cur.language);
+//       const urlName = encodeURI(cur.language);
 
 //       acc[urlName] = {
 //         urlName,
@@ -200,11 +198,7 @@ const myEncodeURI = (string: string) => encodeURI(string.replaceAll("/", "-"));
   const entries = await CSVToJSON().fromFile("./data/csv/_language-pages.csv");
 
   const result = entries.reduce((acc, entry) => {
-    if (entry.language.includes("/")) {
-      entry.language = entry.language.replaceAll("/", "-");
-    }
-
-    entry.slug = myEncodeURI(entry.language);
+    entry.slug = encodeURI(entry.language);
 
     acc[entry.slug] = entry;
 
