@@ -200,7 +200,12 @@ const myEncodeURI = (string: string) => encodeURI(string.replaceAll("/", "-"));
   const entries = await CSVToJSON().fromFile("./data/csv/_language-pages.csv");
 
   const result = entries.reduce((acc, entry) => {
+    if (entry.language.includes("/")) {
+      entry.language = entry.language.replaceAll("/", "-");
+    }
+
     entry.slug = myEncodeURI(entry.language);
+
     acc[entry.slug] = entry;
 
     return acc;
