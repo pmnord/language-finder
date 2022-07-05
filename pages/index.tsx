@@ -52,7 +52,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mx-auto my-12 flex w-fit items-center justify-center rounded-md bg-white p-4 drop-shadow-xl">
+          <div className="mx-auto my-12 flex w-fit items-center justify-center rounded-md bg-white p-4 shadow-lg shadow-neutral-300">
             <SearchIcon className="mr-2 h-10" />
             <AutoSuggest />
           </div>
